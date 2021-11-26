@@ -48,18 +48,32 @@ Next, let's discuss how we can communicate our instructions\commands for a compu
 
 ## How do we communicate with computers
 
-There's a couple of ways we can communicate with computers:
-- Using a command console
-  - A command console is an application on a computer where you can issue such commands as:
-    - Creating or deleteing a folder and\or files.
-    - Executing software
-    - Communicate with other computers
-- Using programming languages
-  - There are various program languagesthat can be used to create web, mobile and desktop applications that will help you communicate with your computer to execute commands such as. 
+1. Using a command console
+2. Using a programming languages
+3. Using thrid party software
+
+Let's start with command consoles
+
+### Command Consoles
+
+A command console is an application on you computer where you can issue complete tasks.
+
+A command console can be used to communciate with a computer.
+
+You can use command consoles to perform the following commands:
+- Creating or deleteing a folder and\or files.
+- Executing software
+- Communicate with other computers
+
+This is what a command console looks like on a PC.
+![Command Window](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/ComputerCommand.png)
+
+### What are some common commands that we can execute using a command console?
+
+Next, lets discuss **programming languages**
+- Program languages can be used to create web, mobile and desktop applications that will help you communicate with your computer to execute commands such as. 
     - Python is a program language. You can create a desktop application using Python that will help you send emails from your computer.
     - Java is another program language. You can create a mobile application that allow you to take pictures 
-
-![Command Window](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/ComputerCommand.png)
 
 ## What is Python and how can it be use
 ### Download and Install Python
