@@ -71,11 +71,39 @@ This is what a command console looks like on a PC.
 ### What are some common commands that we can execute using a command console?
 
 Next, lets discuss **programming languages**
-- Program languages can be used to create web, mobile and desktop applications that will help you communicate with your computer to execute commands such as. 
-    - Python is a program language. You can create a desktop application using Python that will help you send emails from your computer.
-    - Java is another program language. You can create a mobile application that allow you to take pictures 
+
+What are programming lanagues?
+![Programming Languages](https://gowithcode.com/wp-content/uploads/2021/04/top-programming-languages.jpg)
+
+As you can see in the picture above, there's a bunch of lanauges out there.
+
+You can think of programming lanagues as a way for us to talk to computers. Similar to how we use English to talk to each other, programming lanagues can be used in teh same way.
+
+Programming languages can be used give instructions\commands for the computer to execute. 
+
+For example, you can use programming langauges to do:
+- Create websites, and create desktop and mobile applications.
+- Create desktop and online games for systems such as XBox, PlayStation and more...
+- Creating and\or deleting files and folders.
+- Install or Unistall Software.
+- Send emails or send texts and more....
+
+Now, not all programming lanagues are made equal. Some langauges can be used to create various apllications, while other programming lanagues are designed to one or two things specifically.
+![ProgrammingLanagueUses](https://i.pinimg.com/originals/eb/17/3e/eb173e345290c58823232e966d185a3e.jpg)
+
+In this course we will focus on the Python programming language. 
+
+How is a python a programming language?
+![Python](https://media.threatpost.com/wp-content/uploads/sites/103/2021/06/22143409/python3-e1624386861238.jpg)
+
+It's not!!! I'm not talking about the snake called Python, I'm talking about about a programming language named Python.
+
+![PythonLogo](https://ourcodeworld.com/public-media/articles/articleocw-5c65fbda1ea05.jpg)
+
 
 ## What is Python and how can it be use
+
+Python allows you to create desktop, web and mobile applications. Python can be used to create games, send emails, create websites and more.....
 ### Download and Install Python
 ### How to look for help
 
