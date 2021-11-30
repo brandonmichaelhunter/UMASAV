@@ -1,4 +1,4 @@
-## How do we communicate with computers
+# How do we communicate with computers
 
 1. Using a Command console (or Windows Command console)
 2. Using a programming languages
