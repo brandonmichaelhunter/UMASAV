@@ -51,4 +51,6 @@ Let's review.....
 - When you type in commands into the command console and hit the enter key, you are communicating with the computer by giving the computer a task\command to complete.
 - Some of the commands that you can execute are: systeminfo, tasklist, title, and color.
 
-[Programming Languages](Let's discuss **programming languages)
+We learned that the command console is an application. How are applications created? They're created using programming languages.
+
+[Let's talk about programming languages !!!](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Programming_Languages.md)
