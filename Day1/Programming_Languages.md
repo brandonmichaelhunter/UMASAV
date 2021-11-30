@@ -5,17 +5,20 @@ As you can see in the picture above, there's a bunch of lanauges out there.
 
 You can think of programming lanagues as a way for us to talk to computers. Similar to how we use English to talk to each other, we can use programming lanagues to talk computers as well.
 
-Programming languages can be used give instructions\commands for the computer to execute. 
+We can use programming languages to:
+- Give computers instructions or commands to perform.
+- Create programs for computers to run, like Xbox and Playstation games.
+- Create websites and mobile apps.
 
-Most Programming languages were created using the English language. This makes it readable for you and I to create programs.
+Most programming languages were created using the English language. This makes it readable for you and I to create programs.
 
-What does a program language look like?
+## What does a program language look like?
 
-Well programming languges differ based on the syntax.
+Programming languges differ based on their syntax and how it create excutable programs.
 
-What is syntax? Glad that you asked.
+Let's start with syntax..
 
-Its the arrangement of words and phrases to create well-formed sentences in a language. 
+Syntax is an arrangement of words and phrases to create well-formed sentences in a language. 
 
 For example: 
 
@@ -45,9 +48,7 @@ The Python's syntax for creating a function is: type + name + parameter(s) + ins
 - What is parameter(s)? **A** and **B**
 - What is instructions? **return A+B*
 
-So how does computer's know how to read my program? 
-
-https://www.youtube.com/watch?v=QXjU9qTsYCc
+###Ok, so how does a computer know how to run my program?
 
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=QXjU9qTsYCc)
 
