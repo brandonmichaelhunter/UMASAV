@@ -34,3 +34,4 @@ In this course you will learn the following:
 
 Any Questions?
 
+[**Let's start talking about computer science**]()
