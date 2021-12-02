@@ -25,11 +25,13 @@ In this course you will learn the following:
 ## Here are the rules of this course:
 - Respect for your fellow mates and me. What does that mean:
   - Do not interrupt other people trying to learn.
+  - Give everyone a chance to speak.
   - Raise your hand if you have a question and/or comment.
   - No fighting and no busting on each other.
-  - Give other people the chance to speak.
-  - Do not waste my time. My time is just important as yours.
-- There are no dumb questions. Feel free to ask any question relating to this course. All I ask is that you think about your question first before you ask it.
+  - Do not waste my time. My time is just as important as yours.
+- There are no dumb questions. 
+  - Feel free to ask any question relating to this course. 
+  - All I ask is that you think about your question first before you ask it.
 - Be on time. If you're late, then its up to you to catch up.
 
 Any Questions?
