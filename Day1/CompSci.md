@@ -1,5 +1,11 @@
 # What is Computer Science
+Computer science, the study of computers and computing, including their theoretical and algorithmic foundations, hardware and software, and their uses for processing information. 
 
+The discipline of computer science includes the study of algorithms and data structures, computer and network design, modeling data and information processes, and artificial intelligence. 
+
+Computer science draws some of its foundations from mathematics and engineering and therefore incorporates techniques from areas such as queueing theory, probability and statistics, and electronic circuit design. 
+
+Computer science also makes heavy use of hypothesis testing and experimentation during the conceptualization, design, measurement, and refinement of new algorithms, information structures, and computer architectures.
 ## What are commands? 
 Merriam-Webster defines command as 
 - to give (someone) an order: to tell (someone) to do something in a forceful and often offical way or 
