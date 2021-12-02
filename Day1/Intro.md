@@ -34,4 +34,4 @@ In this course you will learn the following:
 
 Any Questions?
 
-[**Let's start talking about computer science**]()
+[**Let's start talking about computer science**](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/CompSci.md)
