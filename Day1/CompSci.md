@@ -1,55 +1,57 @@
 # What is Computer Science
 "Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.
 
-Principal areas of study within Computer Science include artificial intelligence, computer systems and networks, security, database systems, human computer interaction, vision and graphics, numerical analysis, **programming languages**, **software engineering**, bioinformatics and theory of computing.
+Principal areas of study within Computer Science include artificial intelligence(facial recognition, perdictions), computer systems and networks (internet & communication), security (Cyber Security), database systems, human computer interaction (Siri), vision and graphics (games), numerical analysis, **programming languages**, **software engineering**, bioinformatics and theory of computing." (Dept of Computer Science at University of Marlyand) 
 
-Although knowing how to program is essential to the study of computer science, it is only one element of the field. Computer scientists design and analyze algorithms to solve programs and study the performance of computer hardware and software. 
+In this course we will briefly talk about computers, ways we can communicate with computers, what is software\programs and how we can use programming languages to create software\programs\apps and cover briefly some software engineering topics along the way. 
 
-The problems that computer scientists encounter range from the abstract-- determining what problems can be solved with computers and the complexity of the algorithms that solve them – to the tangible – designing applications that perform well on handheld devices, that are easy to use, and that uphold security measures." (Dept of Computer Science at University of Marlyand) 
-
-In this course we will not cover every aspect of Computer Science, but we will focus on a little bit on computers,then programming languages and then discuss some software engineering topics. 
+Let's talk about Computers
 
 ## What are computers?
-Its machine which are made up of hardware and software components.
 
-A computer can be a desktop computer, your laptops, a tablet, and your cell phone.
+- A computer is an electronic device that manipulates information, or data. 
+- It has the ability to store, retrieve, and process data. 
+- You may already know that you can use a computer to type documents, send email, play games, and browse the Web.
+- A computer is made up of hardware and software.
+- A computer can be a desktop computer, your laptops, a tablet, and your cell phone.
 
-You can use computers to visit websites, send email, perform calculations, read documents, play games and more....
 
-### Let's talk about the computer's hardware and software components
+### So what is hardware and what is software?
 
-Hardware represents the physical components that are needed to run a computer.
-
-Here are some common hardware components and their purpose inside of a computer:
-- Memory: short term storage. Temporary stores data used by programs\software.
-- CPU (Central Processing Unit): processes commands given by end users and\or software.
-- Motherboard: Runs the machine
-- Video Card: Provides the graphics for a computer
+Hardware represents the physical components that are needed to run a computer, such as:
+- Memory: Used to temporarily store tasks and data used by app(or software\programs). Think of as short term storage.
+- CPU (Central Processing Unit): processes commandtasks given by users and\or software.
+- Motherboard: Its backbone that ties the computer's components together at one spot and allows them to talk to each other.
+- Graphis Card and Integrated Graphics: Processes visual data such as movies, video games.
 - NIC (Network Interface Card): Provides internet for a computer
 - Hard Drives (HHD or SSD): Stores files, programs for long term storage.
+- Monitor - provides a display for your apps\software\programs.
 
-Software represents a program(s) running on a computer. 
+Software is a set of instructions, data or programs used to operate computers and execute specific tasks. 
+Software is made up of source code (or **commands**\instructions), written using a **programming language**, and then compiled into a program for end users to consume.
 
-Software is made up of source code (or **commands**\instructions), written using a **programming language**, and compiled into a program for end users to consume.
-
-Here are some examples of common programs (or software) that you will find on a computer:
+Here are some examples of common software\programs\apps (or software) that you will find on a computer:
 - Microsoft Word, Excel, PowerPoint: used to created documents
 - Email Client: used to send emails
 - Computer games: used to play games on a computer :)
 - Command consoles: used to execute **commands** on a computer.
 
+Notice how I mentioned **commands** twice. Let's talk about **Commands**.
+
 ## What are commands? 
 Merriam-Webster defines command as 
 - to give (someone) an order: to tell (someone) to do something in a forceful and often offical way or 
-- to have authority and control over (a group of people, such as soliders) or
-- **to give orders**
+- to have authority and control over (a group of people, such as soliders)  or
+- **to give orders** to **execute** as task, job,etc....
 
 Some examples of commands are:
 - Clean your room.
 - Take the trash out.
 - Complete your assignments before tomorrow.
 
-Theses are examples command, where one person **gives orders** for another person to follow or **execute**.
+For example: A commands is where one person **gives orders** for another person to follow or **execute**.
+
+Here again.....**execute** is mentioned twice.
 
 What is execute?
 - To do or perform (an action or movement that requires skill)
