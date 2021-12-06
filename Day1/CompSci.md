@@ -13,28 +13,40 @@ Let's talk about Computers
 - It has the ability to store, retrieve, and process data. 
 - You may already know that you can use a computer to type documents, send email, play games, and browse the Web.
 - A computer is made up of hardware and software.
-- A computer can be a desktop computer, your laptops, a tablet, and your cell phone.
-
+- A computer can be a desktop computer, your laptops, a tablet, your cell phone and your smart watches..
+![Computers](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Computers.jpg)
 
 ### So what is hardware and what is software?
 
-Hardware represents the physical components that are needed to run a computer, such as:
-- Memory: Used to temporarily store tasks and data used by app(or software\programs). Think of as short term storage.
+#### Hardware represents the physical components that are needed to run a computer, such as:
+- Memory:Used to temporarily store tasks and data used by app(or software\programs). Think of as short term storage.
+![Memory](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Memory.jpg)
 - CPU (Central Processing Unit): processes commandtasks given by users and\or software.
+![CPU](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/CPU.jpg)
 - Motherboard: Its backbone that ties the computer's components together at one spot and allows them to talk to each other.
+![Motherboard](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Motherboard.png)
 - Graphis Card and Integrated Graphics: Processes visual data such as movies, video games.
+![GraphicsCard](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Graphics%20Card.jpg)
 - NIC (Network Interface Card): Provides internet for a computer
+![NIC](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/NIC.png)
 - Hard Drives (HHD or SSD): Stores files, programs for long term storage.
+![HardDrives](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/HardDrives.jpg)
 - Monitor - provides a display for your apps\software\programs.
+![Monitor](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Monitor.jpg)
 
-Software is a set of instructions, data or programs used to operate computers and execute specific tasks. 
+#### Software is a set of instructions, data or programs used to operate computers and execute specific tasks. 
 Software is made up of source code (or **commands**\instructions), written using a **programming language**, and then compiled into a program for end users to consume.
 
 Here are some examples of common software\programs\apps (or software) that you will find on a computer:
 - Microsoft Word, Excel, PowerPoint: used to created documents
-- Email Client: used to send emails
+![Office365](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/MSFTOfficeSoftware.png)
+- Outlook, Gmail: used to send emails
+
+![Outlook](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Outlook.png)
 - Computer games: used to play games on a computer :)
+![VideoGames](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/VideoGames.jpg)
 - Command consoles: used to execute **commands** on a computer.
+![CommandConsoles](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/ComputerCommand.png)
 
 Notice how I mentioned **commands** twice. Let's talk about **Commands**.
 
