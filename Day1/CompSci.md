@@ -10,43 +10,43 @@ Let's talk about Computers
 ## What are computers?
 
 - A computer is an electronic device that manipulates information, or data. 
-- It has the ability to store, retrieve, and process data. 
-- You may already know that you can use a computer to type documents, send email, play games, and browse the Web.
 - A computer is made up of hardware and software.
-- A computer can be a desktop computer, your laptops, a tablet, your cell phone and your smart watches..
-![Computers](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Computers.jpg)
+- It has the ability to store, retrieve, and process data. 
+- Computers can be to type documents, send email, play games, and browse the Web.
+- Computers can be a desktop computer, a laptops, a tablet, a cell phone, a smart watch or a game console like Playstation or Xbox.
+[<img src="./Computers.jpg" height="200" width="300">](Computers.jpg)
 
-### So what is hardware and what is software?
+## So what is hardware and what is software?
 
-#### Hardware represents the physical components that are needed to run a computer, such as:
-- Memory:Used to temporarily store tasks and data used by app(or software\programs). Think of as short term storage.
-![Memory](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Memory.jpg)
-- CPU (Central Processing Unit): processes commandtasks given by users and\or software.
-![CPU](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/CPU.jpg)
-- Motherboard: Its backbone that ties the computer's components together at one spot and allows them to talk to each other.
-![Motherboard](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Motherboard.png)
-- Graphis Card and Integrated Graphics: Processes visual data such as movies, video games.
-![GraphicsCard](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Graphics%20Card.jpg)
-- NIC (Network Interface Card): Provides internet for a computer
-![NIC](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/NIC.png)
-- Hard Drives (HHD or SSD): Stores files, programs for long term storage.
-![HardDrives](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/HardDrives.jpg)
-- Monitor - provides a display for your apps\software\programs.
-![Monitor](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Monitor.jpg)
+#### **Hardware represents the physical components that are needed to run a computer, such as**:
+- **`Memory`**:Used to temporarily store tasks and data used by app(or software\programs). Think of as short term storage.
+- **`CPU (Central Processing Unit)`**: processes command\tasks given by users and\or software.
+- **`Motherboard`**: Its backbone that ties the computer's components together at one spot and allows them to talk to each other.
+- **`Graphics Card and Integrated Graphics`**: Processes visual data such as movies, video games.
+- **`NIC (Network Interface Card)`**: Provides internet for a computer
+- **`Hard Drives (HHD or SSD)`**: Stores files, programs for long term storage.
+- **`Monitor`**: provides a display for your apps\software\programs.
+
+
+
+| Memory        | CPU           | Motherboard  | Graphics Cards | NIC | Hard Drives | Monitors |
+|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|[<img src="./Memory.jpg" height="100" width="400">](./Memory.jpg)|[<img src="./CPU.jpg" height="100" width="400">](./CPU.jpg)|[<img src="./Motherboard.png" height="100" width="400">](./Motherboard.png)|[<img src="./Graphics%20Card.jpg" height="100" width="400">](./Graphics%20Card.jpg)|[<img src="./NIC.png" height="100" width="400">](./NIC.png)|[<img src="./HardDrives.jpg" height="100" width="400">](./HardDrives.jpg)|[<img src="./Monitor.jpg" height="100" width="400">](./Monitor.jpg)|
+
 
 #### Software is a set of instructions, data or programs used to operate computers and execute specific tasks. 
 Software is made up of source code (or **commands**\instructions), written using a **programming language**, and then compiled into a program for end users to consume.
 
 Here are some examples of common software\programs\apps (or software) that you will find on a computer:
 - Microsoft Word, Excel, PowerPoint: used to created documents
-![Office365](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/MSFTOfficeSoftware.png)
+![Office365](./MSFTOfficeSoftware.png)
 - Outlook, Gmail: used to send emails
 
-![Outlook](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Outlook.png)
+![Outlook](./Outlook.png)
 - Computer games: used to play games on a computer :)
-![VideoGames](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/VideoGames.jpg)
+![VideoGames](./VideoGames.jpg)
 - Command consoles: used to execute **commands** on a computer.
-![CommandConsoles](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/ComputerCommand.png)
+![CommandConsoles](./ComputerCommand.png)
 
 Notice how I mentioned **commands** twice. Let's talk about **Commands**.
 
@@ -77,7 +77,7 @@ IPhones are equiped with software that end users can use to **execute** specific
 
 ### What is Siri?
 Apple IPhones has built-in voice-controlled personal assistant called Siri. You can ask her questions, tell her to show you something or issue her **commands** for her to **execute** on your behalf, hands-free.
-![Apple IPhone](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/IPhone_Siri.jpg)
+![Apple IPhone](./IPhone_Siri.jpg)
 
 Let's demostrate Siri: 
 
@@ -94,5 +94,5 @@ You, humands can command a computer to do what you want it to do. We can uses di
 
 You provide the instructions to the computer and the computer will **execute** your **command**.
 
-Next, [let's discuss how we can communicate our instructions\commands for a computer to execute](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Communicate_With_Computers.md)
+Next, [let's discuss how we can communicate our instructions\commands for a computer to execute](./Communicate_With_Computers.md)
 
