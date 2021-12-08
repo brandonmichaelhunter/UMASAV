@@ -9,23 +9,25 @@ Let's talk about Computers
 
 ## What are computers?
 
-- A computer is an electronic device that manipulates information, or data. 
-- A computer is made up of hardware and software.
+- A computer is an electronic device that manipulates information, or data using a combination of hardware and software.
 - It has the ability to store, retrieve, and process data. 
 - Computers can be to type documents, send email, play games, and browse the Web.
 - Computers can be a desktop computer, a laptops, a tablet, a cell phone, a smart watch or a game console like Playstation or Xbox.
 [<img src="./Computers.jpg" height="200" width="300">](Computers.jpg)
 
+Hardware and software are used togeather to provide you with a system where you can save documents, play games, send email and more. 
+
+Let's talk about hardware and software...
 ## So what is hardware and what is software?
 
 #### **Hardware represents the physical components that are needed to run a computer, such as**:
-- **`Memory`**:Used to temporarily store tasks and data used by app(or software\programs). Think of as short term storage.
-- **`CPU (Central Processing Unit)`**: processes command\tasks given by users and\or software.
-- **`Motherboard`**: Its backbone that ties the computer's components together at one spot and allows them to talk to each other.
+- **`Memory`**: Used to temporarily store tasks and data used by app(or software\programs). Think of as short term storage for data, documents, images, etc....
+- **`CPU (Central Processing Unit)`**: Processes command\tasks given by users and\or software.
+- **`Motherboard`**: Its represents the backbone that ties the computer's components together at one spot and allows them to talk to each other.
 - **`Graphics Card and Integrated Graphics`**: Processes visual data such as movies, video games.
 - **`NIC (Network Interface Card)`**: Provides internet for a computer
 - **`Hard Drives (HHD or SSD)`**: Stores files, programs for long term storage.
-- **`Monitor`**: provides a display for your apps\software\programs.
+- **`Monitor`**: Provides a display for your apps\software\programs.
 
 
 
@@ -39,16 +41,25 @@ Software is made up of source code (or **commands**\instructions), written using
 
 Here are some examples of common software\programs\apps (or software) that you will find on a computer:
 - Microsoft Word, Excel, PowerPoint: used to created documents
-![Office365](./MSFTOfficeSoftware.png)
 - Outlook, Gmail: used to send emails
-
-![Outlook](./Outlook.png)
 - Computer games: used to play games on a computer :)
-![VideoGames](./VideoGames.jpg)
 - Command consoles: used to execute **commands** on a computer.
-![CommandConsoles](./ComputerCommand.png)
 
-Notice how I mentioned **commands** twice. Let's talk about **Commands**.
+| Office 365    | Outlook and Gmail | Video Games  | Command Console |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|[<img src="./MSFTOfficeSoftware.png" height="110" width="300">](./MSFTOfficeSoftware.png)|[<img src="./Outlook.png" height="110" width="300">](./Outlook.png)|[<img src="./VideoGames.jpg" height="110" width="300">](./VideoGames.jpg)|[<img src="./ComputerCommand.png" height="110" width="300">](./ComputerCommand.png)|
+
+Let's recap:
+- What are computers?
+- What is hardware?
+- What is software?
+
+So.....in order for you play games, send emails, create documents you need to tell the computer to do it. 
+
+When you press buttons on a game controller or you're using a keyboard to type notes or send emails, in the background you're given the computer **`commands`** to execute.
+
+
+Let's talk about **Commands**.
 
 ## What are commands? 
 Merriam-Webster defines command as 
