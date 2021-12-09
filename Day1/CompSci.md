@@ -65,18 +65,20 @@ Let's talk about **Commands**.
 Merriam-Webster defines command as 
 - to give (someone) an order: to tell (someone) to do something in a forceful and often offical way or 
 - to have authority and control over (a group of people, such as soliders)  or
-- **to give orders** to **execute** as task, job,etc....
+- **`to give orders`** to **`execute`** as task, job,etc....
 
-Some examples of commands are:
-- Clean your room.
-- Take the trash out.
-- Complete your assignments before tomorrow.
+When we think about commands, what are some examples that come to your mind:
+- A parent\gaurdian telling you `Clean your room` or `Take the trash out` or `finish your homework`
 
-For example: A commands is where one person **gives orders** for another person to follow or **execute**.
+For each command listed above (or we can think of it as a task) you either have the required skills to complete task or you have the ability ask questions on how to complete (or `execute`) the task. 
 
-Here again.....**execute** is mentioned twice.
+Computers work the same way. 
 
-What is execute?
+You give a command to a computer and it will `execute` your command, like sending emails or 
+
+The computer might ask you how to complete (or `execute`) your request, similar to how your request and purchase food using DoorDash or UberEats.
+
+So what does execute mean?
 - To do or perform (an action or movement that requires skill)
 
 For example:
