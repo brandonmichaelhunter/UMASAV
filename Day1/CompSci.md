@@ -20,34 +20,42 @@ Hardware and software are used togeather to provide you with a system where you 
 Let's talk about hardware and software...
 ## So what is hardware and what is software?
 
-#### **Hardware represents the physical components that are needed to run a computer, such as**:
-- **`Memory`**: Used to temporarily store tasks and data used by app(or software\programs). Think of as short term storage for data, documents, images, etc....
-- **`CPU (Central Processing Unit)`**: Processes command\tasks given by users and\or software.
-- **`Motherboard`**: Its represents the backbone that ties the computer's components together at one spot and allows them to talk to each other.
-- **`Graphics Card and Integrated Graphics`**: Processes visual data such as movies, video games.
-- **`NIC (Network Interface Card)`**: Provides internet for a computer
-- **`Hard Drives (HHD or SSD)`**: Stores files, programs for long term storage.
-- **`Monitor`**: Provides a display for your apps\software\programs.
+### **`Hardware represents the physical components that are needed to run a computer, such as`**:
+
+| Hardware Components |
+-------------
+|**`Memory`**: Used to temporarily store tasks and data used by app(or software\programs). Think of as short term storage for data, documents, images, etc....[<img src="./Memory.jpg" height="200" width="600">](./Memory.jpg)|
+|**`CPU (Central Processing Unit)`**: Processes command\tasks given by users and\or software.[<img src="./CPU.jpg" height="200" width="400">](./CPU.jpg)|
+|**`Motherboard`**: Its represents the backbone that ties the computer's components together at one spot and allows them to talk to each other.
+[<img src="./Motherboard.png" height="200" width="400">](./Motherboard.png)|
+| **`Graphics Card and Integrated Graphics`**: Processes visual data such as movies, video games.
+[<img src="./Graphics%20Card.jpg" height="200" width="400">](./Graphics%20Card.jpg)|
+| **`NIC (Network Interface Card)`**: Provides internet for a computer.
+[<img src="./NIC.png" height="200" width="400">](./NIC.png)|
+| **`Hard Drives (HHD or SSD)`**: Stores files, programs for long term storage.
+[<img src="./HardDrives.jpg" height="200" width="300">](./HardDrives.jpg)|
+| **`Monitor`**: Provides a display for your apps\software\programs.
+[<img src="./Monitor.jpg" height="150" width="300">](./Monitor.jpg)|
+| **`Power Supply`**: Provides power to your machine.
+[<img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5622/5622834_sd.jpg;maxHeight=640;maxWidth=550" height="150" width="200">](./Monitor.jpg)|
 
 
 
-| Memory        | CPU           | Motherboard  | Graphics Cards | NIC | Hard Drives | Monitors |
-|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-|[<img src="./Memory.jpg" height="100" width="400">](./Memory.jpg)|[<img src="./CPU.jpg" height="100" width="400">](./CPU.jpg)|[<img src="./Motherboard.png" height="100" width="400">](./Motherboard.png)|[<img src="./Graphics%20Card.jpg" height="100" width="400">](./Graphics%20Card.jpg)|[<img src="./NIC.png" height="100" width="400">](./NIC.png)|[<img src="./HardDrives.jpg" height="100" width="400">](./HardDrives.jpg)|[<img src="./Monitor.jpg" height="100" width="400">](./Monitor.jpg)|
-
-
-#### Software is a set of instructions, data or programs used to operate computers and execute specific tasks. 
+### **`Software is a set of instructions, data or programs used to operate computers and execute specific tasks`**. 
 Software is made up of source code (or **commands**\instructions), written using a **programming language**, and then compiled into a program for end users to consume.
 
 Here are some examples of common software\programs\apps (or software) that you will find on a computer:
-- Microsoft Word, Excel, PowerPoint: used to created documents
-- Outlook, Gmail: used to send emails
-- Computer games: used to play games on a computer :)
-- Command consoles: used to execute **commands** on a computer.
 
-| Office 365    | Outlook and Gmail | Video Games  | Command Console |
-|:-------------:|:-------------:|:-------------:|:-------------:|
-|[<img src="./MSFTOfficeSoftware.png" height="110" width="300">](./MSFTOfficeSoftware.png)|[<img src="./Outlook.png" height="110" width="300">](./Outlook.png)|[<img src="./VideoGames.jpg" height="110" width="300">](./VideoGames.jpg)|[<img src="./ComputerCommand.png" height="110" width="300">](./ComputerCommand.png)|
+| Software Components |
+-------------
+|Office 365 - Microsoft Word, Excel, PowerPoint: used to created documents
+[<img src="./MSFTOfficeSoftware.png" height="100" width="200">](./MSFTOfficeSoftware.png)|
+| Email - Outlook, Gmail: used to send emails
+[<img src="./Outlook.png" height="200" width="300">](./Outlook.png)||
+| Video Games - Computer games: used to play games on a computer :)
+[<img src="./VideoGames.jpg" height="250" width="400">](./VideoGames.jpg)|
+| Command Console - Command consoles: used to execute **commands** on a computer.
+[<img src="./ComputerCommand.png" height="300" width="400">](./ComputerCommand.png)|
 
 Let's recap:
 - What are computers?
@@ -76,36 +84,60 @@ Computers work the same way.
 
 You give a command to a computer and it will `execute` your command, like sending emails or 
 
-The computer might ask you how to complete (or `execute`) your request, similar to how your request and purchase food using DoorDash or UberEats.
+You might tell your computer how to complete (or `execute`) your request, similar to how you tell a printer how to print a page.
 
 So what does execute mean?
 - To do or perform (an action or movement that requires skill)
+
+In the case with computers, the computer uses software which either contains the specific skils needed to execute your task or has the capbility to learn a skill set that is required to execute your task.
 
 For example:
 
 Who knows what is an IPhone?
 The IPhone is a smartphone made by Apple that combines a **computer**, IPod(transition into ITunes), digital camera and cellular phone into one device with a touchshreen interface.
 
-IPhones are equiped with software that end users can use to **execute** specific **commands** on their phone, like make a phone call, send emails or ask Siri questions.....
+IPhones are equiped with software that end users can use to **execute** specific **commands** on your phone. For example you can use an IPhone to make a call, play games, send text or emails or ask `Siri` a question.....
 
 ### What is Siri?
-Apple IPhones has built-in voice-controlled personal assistant called Siri. You can ask her questions, tell her to show you something or issue her **commands** for her to **execute** on your behalf, hands-free.
-![Apple IPhone](./IPhone_Siri.jpg)
+- Siri is a built-in voice-controlled personal assistant that is installed on your IPhone. 
+- Siri is software program.
+- You can ask Siri questions such as whats the time, whats the weather like, who won the ball game last night, or to make a phone call.
+
+When you ask Siri a question, you're actually giving the computer, in this case an IPhone, a `command` to `execute`. 
+
+Siri has the skilsets to answer most of your questions because Siri was designed and trained to listen and understand questions or requests provided by you, and to return either a direct\relable answer or complete a task. 
+
+In cases where Siri may not understand your question\request, Siri will ask you to repeat your question\request or it may say that it does not understand your question\request.
+
+Siri also has the capbility to learn from you based on your phone activities. 
+
+Such activities include adding new contacts, adding new music or games. 
+
+As you complete these acitvities, Siri is learning more and more about you through your phone activity which in return will make Siri better to answering your questions and to complete your requets.
+
+[<img src="./IPhone_Siri.jpg" height="200" width="400">](./IPhone_Siri.jpg)
 
 Let's demostrate Siri: 
 
-Ask Siri who won the world series this year? Share with the class.
+`[DEMO Siri - ask Siri who won the world series this year? Share with the class.]`
 
 **How does Siri know who won the world series?**
 
-Siri is trained to learn about you through the data on your phone and its trained to stay updated with the information on the web. 
+Every day Siri is trained to crawl data on the web.
 
-Siri has the **required skills** to **execute** almost any **commands** you ask.
+So any events, news or general information on the web, Siri gather data and store in a location where it retrieve it to answer your questions.
 
-*Computers, Execute, Commands....Whats the point?*
-You, humands can command a computer to do what you want it to do. We can uses different programs, like Siri, to **execute commands** that we need completed.
+## Let's recap
+- A computer is a electronic device that manipulates data
+- A computer is made up of hardware and software conmponents.
+- Hardware represents the physical components that allow computer to function.
+- Sofware is program that a computer uses to accept commands and to execute tasks.
+- Some example of computers are Laptops, tables, cell phones and game concoles.
+- Commands, are orders or instructions that required a computer to execute. Are one way we can communicate with computers.
+- Execute is the ability to perform an action that require skills to complete an action. This is handle mostly throught software
+- Siri is a built in voice command and personal assistant for end uers to ask questions or to complete requests.
 
-You provide the instructions to the computer and the computer will **execute** your **command**.
+So now that we have a high level understanding of how computers work and its components, let's dive into tools that we can use to communicate with a computer.
 
-Next, [let's discuss how we can communicate our instructions\commands for a computer to execute](./Communicate_With_Computers.md)
+[Communicate with Computers](./Communicate_With_Computers.md)
 
