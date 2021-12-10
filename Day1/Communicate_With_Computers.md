@@ -1,28 +1,66 @@
 # How do we communicate with computers
+Communication with a computer involves 4 components that work togeather to provide you with a result, such sending emails, playing games and writing to a document.
 
-1. Using a Command console (or Windows Command console)
-2. Using a programming languages
-3. Using thrid party software
+Here are the 4 components:
+[<img src='./ComputerProcessData.jpeg' height='300' width='600' />](./ComputerProcessData.jpeg)
+- Input:  Converts physical input to binary information.
+- Memory: Stores information
+- CPU: Center Processing Unit calculates information.
+- Ouput: Converts information to physical output.
 
-Let's start with command consoles
+Let's see how the four componets work togeather
 
-### Windows Command Consoles
+## Example
+- Computers can take many different types of inputs, such as a keyboard, touch pad of a laptop, power button, cameras, microphone, GPS (Global Positional Systems), touch pad of a phone, sensors on a car, thermostat, or a drone.
+- When a key is pressed on a keyboard, let's say the letter B, then the keyboard converts the letter B into a number.
+- That number is sent as binary, ones and zeros, into a computer.
+- Then the CPU calculcates how to display the 'B' pixel by pixel. 
+- The CPU requests step by step instructions from memory on how draw the letter B.
+- CPU execute these instructions and stores the results into memory.
+- Finally the pixel information is sent in binary to the screen.
+- The screen is a output device, like a computer monitor,converts the binary data into the tiny lights and colors that you see on a screen.
 
-A command console is an application that is installed on your computer which you can use to execute commands that you give to it.
+Now we know how computers works, like talk about tools that we can use to process your inputs that produces a desire output.
 
-A command console can be used to communciate with a computer.
+## Programs
+A program (or software program) is commonly defined as a set of instructions, or a set of modules or procedures, that allow for a certain type of computer operation. The term is also often used interchangeably with terms like “software application” and “software product.”
 
-If a user wants to execute a command, the user will type in the command into the console screen and then hit the 'Enter' key. Once the 'Enter' key is clicked, then the command is sent to the computer and the computer will execute your command.
+Here are some examples of a program:
+1. A command console
+2. We can use third party software like RemoteDesktop or Putty which are used to connect to different computer than yours.
 
-You can use command consoles to perform the following commands:
-- Creating or deleteing a folder and\or files.
-- Executing software
-- Communicate with other computers
+Let's look at command consoles
 
-This is what a command console looks like on a PC.
-![Command Window](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/ComputerCommand.png)
+### Command Consoles
 
-### What are some common commands that we can execute using a command console?
+A command console is pre-installed application that can be run on your computer to execute commands.
+
+A command consoles are used perform specific tasks based on the command you provid.
+
+What are command consoles used for?
+
+Command consoles are used for:
+- Creating or changing files or folders.
+- Gathering information about your computer such as OS info, gathering network information such as IP address or find out which Wifi your connected.
+- Identify what connections are currently running on your machine.
+- Running other programs
+- Applying software updates.
+
+Command console process data just any other program or actvity such pressing a keyboard:
+- The command console takes input from a user.
+- The data from the input is stored in memory and then processed by CPU
+- Once cpu process is complete, the data is sent to the output for xthe end user to see the results.
+
+This is a picture of a command window.
+
+[<img src='./ComputerCommand.png' width='600' height='400' />](./ComputerCommand.png)
+
+Here's how you can execute a command using the command console:
+- Click on the console screen.
+- Type in your command
+- Hit the enter key
+- Oberserved the results.
+### Provided below are some comman commands that can execute using the command console.
 
 | Commands | Description | Example |
 |----------|-------------|---------|
@@ -46,11 +84,23 @@ Here are color codes that you can use with the **color** command
 | 6 (Yellow) | E (Light Yellow)| color 6 E |
 | 7 (White) | F (Bright White)| color 7 F |
 
-Let's review.....
-- A command console is an application that is installed on your computer which you can execute commands that you give to it.
-- When you type in commands into the command console and hit the enter key, you are communicating with the computer by giving the computer a task\command to complete.
-- Some of the commands that you can execute are: systeminfo, tasklist, title, and color.
+## Lets Recap
+- A computer processes information using 4 components togeather to produce an output. The components are Input, Memory, CPU and Output.
+    - Inputs converts physical input to binary information. An example of an input are keybaords, cameras, drones or even a touch pad on a laptop.
+    - Memory: Stores information
+    - CPU: Center Processing Unit calculates information.
+    - Ouput: Converts information to physical output.
+- A program (or software program) is defined as a `set of instructions, or a set of modules or procedures, that allow for a certain type of computer operation`.
+    - An example of program is a Command console.
+- A Command consoles is a pre-installed application that you can use to execute tasks on a computers.
+    -  Common commands that you can perform using a command console are:  
+        - Manage files and folders
+        - Run other programs
+        - Gather information about your computer. 
 
-We learned that the command console is an application. How are applications created? They're created using programming languages.
 
-[Let's talk about programming languages !!!](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Programming_Languages.md)
+Next we're going to look into programming languages. Programming languages are used to build programs, create mobile apps and websites. A programming language are the `set of instructions or modules or procedures that allow for a certain type of computer operation`. 
+
+### Let's take a 10 minute break to stretch, go to the bathroom or to get something to each.
+
+[Next up...Programming Languages](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Programming_Languages.md)
