@@ -99,7 +99,7 @@ Here are color codes that you can use with the **color** command
         - Gather information about your computer. 
 
 
-Next we're going to look into programming languages. Programming languages are used to build programs, create mobile apps and websites. A programming language are the `set of instructions or modules or procedures that allow for a certain type of computer operation`. 
+Next we're going to look at programming languages. Programming languages are used to build programs, create mobile apps and websites. A programming language are the `set of instructions or modules or procedures that allow for a certain type of computer operation`. 
 
 ### Let's take a 10 minute break to stretch, go to the bathroom or to get something to each.
 

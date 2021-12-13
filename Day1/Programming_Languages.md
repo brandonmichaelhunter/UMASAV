@@ -3,19 +3,38 @@
 
 As you can see in the picture above, there's a bunch of lanauges out there.
 
-You can think of programming lanagues as a way for us to talk and work with computers. 
+## Let's break down what is programming and what is a program language
 
+`Programming` is giving a set of instructions to a computer to execute. 
 
-We can use programming languages:
-- To create online games, mobile games and desktop games.
-- To create a website for posting information to the public, such has events or notices or blogs
-- To create applications that will track a user's step count, or heart rate or track their run or walk.
-- To digitize forms and documents and display them on a website: such as Google Classroom.
-  - Google Classroom has a suite of tools that allow teachers to create and track assignments and tests for students and then for students, they can complete assignments and tests assigned to them.. 
-  - Also Google Classroom has a fourm page where teachers, students and parents can post questions about assignments and tests.
+We can think about programming as this....
 
-(# TODO - REVIEW SECITON BELOW)
-## What does a program language look like? 
+Who remembers getting a lego set as a gift? I'm talking about the big ones, with tons of lego pieces and multiple pages of instructions on how to build it.
+
+[<img src='./LegoImage.jpeg' width='300' height='200' />](./LegoImage.jpeg)
+
+- If you’ve ever build a lego set using the build instructions, you can think of yourself as the computer and the instructions author as a programmer. 
+- The instructions author provides you with a set of instructions which you read and then follow. 
+- The more complex the instructions, the more complex the result!”
+
+`Programming languages` are the tools we use to write instructions for computers to follow. 
+
+- Computers “think” in binary — strings of 1s and 0s. 
+[<img src='./binarycode.jpeg' width='200' height='200' />](./binarycode.jpeg)
+- Programming languages allow us to translate the 1s and 0s into something that humans can understand and write. 
+
+-A programming language is made up of a series of symbols that serves as a bridge that allow humans to translate our thoughts into instructions computers can understand.
+
+[Click here to read more about programming languages](https://www.codecademy.com/resources/blog/programming-languages/)
+
+Let's see what we can do with programming languages:
+- You can create online, mobile and desktop games.
+- You can create a website for posting information online like a blog or a fourmn
+- You can create an applications for your business to help track sales, inventory and process online orders.
+- You can also create online tools for education, like Google Classroom. Google Classroom virtualize the learning experience for teachers and students to manage and work on assignments online.
+
+So these are just a couple of things you can create using programming languages.
+## What does a program language look like? [Next]
 
 Programming languges differ based on their syntax and how it create excutable programs.
 
