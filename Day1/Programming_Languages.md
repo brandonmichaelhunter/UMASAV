@@ -3,16 +3,19 @@
 
 As you can see in the picture above, there's a bunch of lanauges out there.
 
-You can think of programming lanagues as a way for us to talk to computers. Similar to how we use English to talk to each other, we can use programming lanagues to talk computers as well.
+You can think of programming lanagues as a way for us to talk and work with computers. 
 
-We can use programming languages to:
-- Give computers instructions or commands to perform.
-- Create programs for computers to run, like Xbox and Playstation games.
-- Create websites and mobile apps.
 
-Most programming languages were created using the English language. This makes it readable for you and I to create programs.
+We can use programming languages:
+- To create online games, mobile games and desktop games.
+- To create a website for posting information to the public, such has events or notices or blogs
+- To create applications that will track a user's step count, or heart rate or track their run or walk.
+- To digitize forms and documents and display them on a website: such as Google Classroom.
+  - Google Classroom has a suite of tools that allow teachers to create and track assignments and tests for students and then for students, they can complete assignments and tests assigned to them.. 
+  - Also Google Classroom has a fourm page where teachers, students and parents can post questions about assignments and tests.
 
-## What does a program language look like?
+(# TODO - REVIEW SECITON BELOW)
+## What does a program language look like? 
 
 Programming languges differ based on their syntax and how it create excutable programs.
 
