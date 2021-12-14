@@ -3,7 +3,9 @@
 
 As you can see in the picture above, there's a bunch of lanauges out there.
 
-## Let's break down what is programming and what is a program language
+## Let's break down what is programming and what is a program language and why we should learn programming
+
+### What is programming ?
 
 `Programming` is giving a set of instructions to a computer to execute. 
 
@@ -17,6 +19,7 @@ Who remembers getting a lego set as a gift? I'm talking about the big ones, with
 - The instructions author provides you with a set of instructions which you read and then follow. 
 - The more complex the instructions, the more complex the result!”
 
+### What is a programming language ?
 `Programming languages` are the tools we use to write instructions for computers to follow. 
 
 - Computers “think” in binary — strings of 1s and 0s. 
@@ -31,27 +34,32 @@ Let's see what we can do with programming languages:
 - You can create online, mobile and desktop games.
 - You can create a website for posting information online like a blog or a fourmn
 - You can create an applications for your business to help track sales, inventory and process online orders.
-- You can also create online tools for education, like Google Classroom. Google Classroom virtualize the learning experience for teachers and students to manage and work on assignments online.
+- You can also create online tools for education, like Google Classroom. Google Classroom virtualize the learning experience by offering teachers and students a space create, complete and collobrate on class assignments.
 
-So these are just a couple of things you can create using programming languages.
-## What does a program language look like? [Next]
+### Why should we learning programming?
 
-Programming languges differ based on their syntax and how it create excutable programs.
+The reason why I enjoy programming because it motivates me to learn and I like the idea of creating programs to control a computer.
 
-Let's start with syntax..
+#### Let's look at othe reasons why we should learn programming...
+- Programming develops creative thinking. (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe)
+- Programming Provides Life-Changing Experiences (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe)
+- Programmers solve a problem by breaking it down into workable pieces to understand it better. When you start learning to program, you develop the habit of working your way out in a very structured format. You analyze the problem and start thinking logically and this gives rise to more creative solutions you’ve ever given. (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe))
+- "Whether you want to uncover the secrets of the universe, or you just want to pursue a career in the 21st century, basic computer programming is an essential skill to learn." - Stephen Hawking
+- "Everybody in this country should learn how to program a computer… because it teaches you how to think." - Steve Jobs
 
-Syntax is an arrangement of words and phrases to create well-formed sentences in a language. 
+Next let's discuss the building blocks of a programming language?
+## What does a program language look like? 
 
-For example: 
+- Programming languges differ based on their purpose, some have the ability to create programs on your machine while others are used to retrieve data, but all programming languages are made up of the same components:
+  - `Syntax`: are the rules for how a sentence is constructed. In programming is the rules for how each instructions is written
+  - `Semantics`: Semantics is the actual meaning of statements.
+In a programming language, Semantics is the effect the instructions have(logic).
+  - `Data Types`: A Data Type is a classification of data we want to store in memory. Data Types can vary from one language to another. But the type of data we would like to store is common across all languages.
+  - `Terms`: When it comes to a programming language there are these terms(buzzwords) you may come across in your learning journey. Some commonly used terms are Variables, Expressions, Statements, Functions, Classes and many more. You don’t need to worry if you feel any difficulties, use this Dictionary👇 as a resource.
+  - `Data Structures`: A data structure is how we can store, access, organize and manage the data we have created in a computer.
+  - `Algorithms`: An algorithm is a step-by-step procedure to solve any computational problem. And when it comes to Computer Science, there are a bunch of algorithms which are must to know ones.
 
-For the english language the most basic syntax follows a subject + verb + direct object. 
-
-- **'Jillian hit the ball.'**
-- What is the subject ? The person or thing being discussed, which is **Jillian**
-- What is the verb ? The action-giver, which is **hit**
-- What id direct object? The receiving the action of the verb, which is **ball**
-
-The same goes for programming languages, we need to understand the programming language's syntax in order to talk to computers.
+Let's break down each component in the code examples below:
 
 For example:
 
@@ -59,7 +67,7 @@ For example:
 def AddTwoNumbers(A, B):
     return A+B
 ```
-
+[PICK UP FRIOM HERE]
 In this example we are using the programming language **Python**, written as code, to create a function (or a section of a code that performs a specific task.) that will add two numbers. 
 
 So let's break down the syntax.....
