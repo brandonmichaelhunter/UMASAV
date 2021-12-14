@@ -51,13 +51,52 @@ Next let's discuss the building blocks of a programming language?
 ## What does a program language look like? 
 
 - Programming languges differ based on their purpose, some have the ability to create programs on your machine while others are used to retrieve data, but all programming languages are made up of the same components:
-  - `Syntax`: are the rules for how a sentence is constructed. In programming is the rules for how each instructions is written
-  - `Semantics`: Semantics is the actual meaning of statements.
-In a programming language, Semantics is the effect the instructions have(logic).
-  - `Data Types`: A Data Type is a classification of data we want to store in memory. Data Types can vary from one language to another. But the type of data we would like to store is common across all languages.
-  - `Terms`: When it comes to a programming language there are these terms(buzzwords) you may come across in your learning journey. Some commonly used terms are Variables, Expressions, Statements, Functions, Classes and many more. You don’t need to worry if you feel any difficulties, use this Dictionary👇 as a resource.
-  - `Data Structures`: A data structure is how we can store, access, organize and manage the data we have created in a computer.
-  - `Algorithms`: An algorithm is a step-by-step procedure to solve any computational problem. And when it comes to Computer Science, there are a bunch of algorithms which are must to know ones.
+  - `Syntax` defines the rules for how each instruction is written
+  - `Semantics`defines the effect\meaning the instructions have(logic).
+  - `Data Types` defines the classification of data we want to store in memory. Data Types vary from one language to antoher, but the type of data we want to store it in are common across all languages.
+  - `Terms` are commonly used buzzwords we use to describe a piece of code, such as Paramters, Variables, Expressions, Statements, Functions, Classes and many more. 
+  - `Data Structures`: A data structure is how we can store, access, organize and manage the data we have created in a computer, like lists, arrays, etc...
+  - `Algorithms`: An algorithm is a step-by-step procedure to solve any computational problem, for example Fibonacci Sequence - this is a sequence of numbers and the next number is found by adding the two numbers before it. 
+
+### Let's break down the building blocks of a programming language using the code below.
+Provided below is the `Fibonacci Sequence` written using the Python programming language.
+
+- In Python the rule (syntax) for creating functions is: <Keyword> + <Function Name> + <(<parameters>) + `:`. Using the code example below:
+  - <Keyword> is `def' this tells the programmer and python that this statement represents a function.
+  - <Function Name> is `Fibonacci` represents the name of the function that a client or consumer will call.
+  - <(parameters>)> represents the required inputs needed to call this function. So when a program  wants to call this function, its required to provide value in order to get the results.
+  - `:` represents the end of the function name defintion.
+- So now we need to understand the `semantics` here: 'def Fibonacci(n):` represents a function that accepts an input value from the consumer or client, more specifically `def Fibonacci(n):` is function contains instructions that will output (or return) the nth Fibonacci number. The code below also provides the logic to generate the desire output.
+- So if a program calls this function with a value of 9, then it would output the number is 34. 
+```python
+# Function for nth Fibonacci number
+def Fibonacci(n):
+
+	# Check if input is 0 then it will
+	# print incorrect input
+	if n < 0:
+		print("Incorrect input")
+
+	# Check if n is 0
+	# then it will return 0
+	elif n == 0:
+		return 0
+
+	# Check if n is 1,2
+	# it will return 1
+	elif n == 1 or n == 2:
+		return 1
+
+	else:
+		return Fibonacci(n-1) + Fibonacci(n-2)
+
+# Driver Program
+print(Fibonacci(9))
+
+# This code is contributed by Saket Modi
+# then corrected and improved by Himanshu Kanojiya
+
+```
 
 Let's break down each component in the code examples below:
 
