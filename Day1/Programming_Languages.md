@@ -42,25 +42,52 @@ Let's see what we can do with programming languages:
 
 The reason why I enjoy programming because it motivates me to learn and I like the idea of creating programs to control a computer.
 
-#### Let's look at othe reasons why we should learn programming...
+### Let's look at othe reasons why we should learn programming...
 - Programming develops creative thinking. (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe)
 - Programming Provides Life-Changing Experiences (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe)
 - Programmers solve a problem by breaking it down into workable pieces to understand it better. When you start learning to program, you develop the habit of working your way out in a very structured format. You analyze the problem and start thinking logically and this gives rise to more creative solutions you’ve ever given. (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe))
 - "Whether you want to uncover the secrets of the universe, or you just want to pursue a career in the 21st century, basic computer programming is an essential skill to learn." - Stephen Hawking
 - "Everybody in this country should learn how to program a computer… because it teaches you how to think." - Steve Jobs
 
-Next let's discuss the building blocks of a programming language?
-## What does a program language look like? 
+Next let's discuss the building blocks of a programming language.
+## What are the 'building blocks' of programming languages ? 
 
-- Programming languges differ based on their purpose, some have the ability to create programs to run on your machine while others are used to retrieve data, but for most programming languages they're built using the concepts below:
-  - `Syntax` defines the rules for how each instruction is written
-  - `Semantics`defines the effect\meaning the instructions have(logic).
-Parameters  - `Data Types` defines the classification of data we want to store in memory. Data Types vary from one language to antoher, but the type of data we want to store it in are common across all languages.
-  - `Terms` are commonly used buzzwords we use to describe a piece of code, such as Paramters, Variables, Expressions, Statements, Functions, Classes and many more. 
-  - `Data Structures`: A data structure is how we can store, access, organize and manage the data we have created in a computer, like lists, arrays, etc...
-  - `Algorithms`: An algorithm is a step-by-step procedure to solve any computational problem, for example Fibonacci Sequence - this is a sequence of numbers and the next number is found by adding the two numbers before it. 
+- Programming languges differ based on their purpose, how to we write source and their meaning and structures they use. 
+- Some have the ability to create programs while others are used to manage data.
+- But for all programming languages they consist and they're build upon the following concepts:
+  - `Syntax:` 
+    - Defines the rules for how each instruction is written. 
+    - Basically this tells us the rules we have to use to write source code in a particular programming language.
+  - `Semantics:` 
+    - Defines the effect\meaning the instructions have(logic). 
+    - This defines the understanding of your source code.  
+  - `Data Types:` 
+    - Defines the classification of data we want to store in memory. 
+    - Data Types vary from one language to antoher, but the type of data we want to store it in are common across all languages.
+    - For example:
+      - Objects  
+        - 1 or B, Brandon are all consider objects. 
+        - Objects is anything that is visable or tangible and is relatively stable in form. 
+        - In the world of progrmming, the instructions\source contains objects. We can use objects to data for any type.
+      - Integers, Floats, Decimal, Double
+        - These are data types that accept numeric value like 1, or 1.0 or 0.000234 or $123.34
+        - Each data type varies in size and can be used different ways. For example: we can Decimals in financial applications to ensure a high level of accuracy or Floats in scientific applications or Doubles and Integers are used to store whole and decimal numbers which are used mostly in all applications.
+      - Character and Strings
+        - These are data types that are represented as texts, liie 'B' or 'Brandon' or '1' or '0.0000123'.
+        - Do you see the difference?
+  - `Terms:` 
+    - These are commonly used buzzwords we use to describe a piece of code, such as Paramters, Keywords Variables, Expressions, Statements, Functions, Classes and many more. 
+    - These are if/else, while loops, greater or less signs ('>' or '<'), plus and minus signs ('+' or '-') and many more., 
+    - We will discuss this later on in the course. 
+  - `Data Structures:` 
+    - A data structure is how we can store, access, organize and manage the data we have created in a computer, like lists, arrays, etc...
+    - You can think of data structures as a table. With tables you can store data within a table, you can organize the data by sorting the data and you can access data by referring to its row and\or column positions.
+    - Just think of data structures as a collection to store data.
+  - `Algorithms:` 
+    - An algorithm is a step-by-step procedure to solve any computational problem. 
+    - For example Fibonacci Sequence - this is a sequence of numbers and the next number is found by adding the two numbers before it. 
 
-### Let's show how these concepts are using the example source code below.
+### Let's see how some of these concepts are used in the example source code provided below.
 
 Provided below is source code that adds two numbers togeather. The source code is written Python. Python is a programming used to create desktop, web and mobile applications. We will talk about Python in the next section.
 
@@ -68,16 +95,18 @@ Provided below is source code that adds two numbers togeather. The source code i
   - defines the `syntax` on how you create functions in Python.
   - The `semantics` tells Python that this an function that accepts two parameters. Parameters are inputs you provide to a function. We'll talk about this more in the following sections.
   - The `terms` used here are `functions` and `parameters`. 
-    - `functions` are reusable collection of instructions that will `execute` when called upon.
-    - `parameters` are inputsyou provided to a function.
+    - `functions` are reusable collection of instructions that will `execute` when called upon. 
+    - `def` is a keyword, which its a special reserved word tha the target programming languages uses to define objects. In code below `def` defines a function in Python.
+    - `parameters` are inputs you provided to a function.
 - `return A+B`
   - defines the syntax to add two values togeather return it back to the caller. Who is the caller in this case? `print(AddTwoNumbers(10,9))` 
   - The `semantics` tells Python to add the value of A and B and return the value back to the caller.
   - The `terms` used here are `expressions`, where the `A+B` tells Python to add two values and then `return` the call value to the caller.
 - So what does `print(AddTwoNumbers(10,9))` tells Python to do?
   - Call the `AddTwoNumbers` function and 
-  - Pass in two `parameters` A and B and 
+  - Pass in two `parameters` A and B, and 
   - `print` our the results to the screen.
+- `QUESTION - What are the data types of the two parameters passed into the AddTwoNumber function?`
 ```python
 # Function for adding two numbers
 def AddTwoNumbers(A, B): # <= defines a function.
@@ -86,6 +115,11 @@ def AddTwoNumbers(A, B): # <= defines a function.
 # prints the results to the screen
 print(AddTwoNumbers(10,9))
 ```
+## Lets take a 5 minute break
+
+## Lets talk about how to programs, meaning are program created and executed. [CONTINUE HERE]
+Now there are many more concepts that we will cover later on in this course, but I want you to undersatnd the basic building blocks of a programming language, but they don't change from one language to another.
+
 # TODO
 - Talk about how to execute your program on a computer.
 - Explain how source code is translated into binary
