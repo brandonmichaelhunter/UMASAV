@@ -1,38 +1,81 @@
 # What are programming lanagues?
-![Programming Languages](https://gowithcode.com/wp-content/uploads/2021/04/top-programming-languages.jpg)
+[<img src='./images/top-programming-languages.jpeg' width='800' height='400' />](/images/top-programming-languages.jpeg)
 
 As you can see in the picture above, there's a bunch of lanauges out there.
 
-## Let's break down what is programming and what is a program language and why we should learn programming
+ Let's talk about the `who`, `what`, `where` and `how` of `programming`
 
-### What is programming ?
+## `What` is programming ?
 
-`Programming` is giving a set of instructions to a computer to execute. 
+`Programming` is giving a set of instructions for a computer to execute. 
 
 We can think about programming like this....
 
 Who remembers getting a lego set as a gift? I'm talking about the big ones, with tons of lego pieces and multiple pages of instructions on how to build it.
 
-[<img src='./LegoImage.jpeg' width='300' height='200' />](./LegoImage.jpeg)
+[<img src='./images/LegoImage.jpeg' width='300' height='200' />](/images/LegoImage.jpeg)
 
 - If you’ve ever build a lego set using the build instructions, you can think of yourself as the computer and the instructions the author or programmer. 
 - The instructions provides you with a set of instructions which you (as the computer) read and then follow. 
 - The more complex the instructions, the more complex the result!”
 
-### What is a programming language ?
-`Programming languages` are the tools we use to write instructions for computers to follow. 
+## `Who` can do programming?
+## Anyone......
+Really anyone can learn how to program. As long as your curious, have the ability to 'think out of the box' and can solve problems, then you have the tools to program. 
 
-- Computers “think” in binary — strings of 1s and 0s. 
- 
-   [<img src='./binarycode.jpeg' width='250' height='250' />](./binarycode.jpeg)
-- Programming languages allow us to translate the 1s and 0s into something that humans can understand and write. 
+You probably are know some of the programming concepts because they were tought to you in your Math classes. 
+
+## `Where` can you do programming?
+
+Programming can be done on a computer, a tablet, or even your cell phones. Both the Apple and Google Play stores have apps you can install on your smart phone that will allow you to program on your phone.
+
+For larger size applications or software, like games, websites, mobile apps, you'll need a computer with larger size resources, than you typically would have on your tablet and cell phone.
+For example:
+
+- SoloLearn (avaliable in both Apple and Google Play stores.) and Pythonista 3 (avaliable only in the Apple store) are apps where you can start learning to program through your phone.
+
+  [<img src='./images/SoloLearn.png' width='520' height='190' />](/images/SoloLearn.png)
+
+  [<img src='./images/sololearn_googleplay.png
+  ' width='550' height='190' />](/images/SoloLearn.png)
+
+  [<img src='./images/Pythonista_3.png' width='520' height='190' />](/images/SoloLearn.png)
+
+
+
+
+## `How` do we get started with programming ?
+
+ To get started programming you will need the following items:
+
+
+ - A computer with a text editor application..
+   - A text editor is an application where you can type text into and save your work onto your computer. An example of a text editor is Notepad. Notepad is a text editor application that is installed when you install Windows onto your machine. 
+
+      [<img src='./images/notepad.jpeg' width='100' height='100' />](./images/notepad.jpeg)
+
+      Notepad is not just the only text editor out there. There's other text editor applications that comes with more tools and features that makes programming much easier. These specific type of text editors are called IDE or Intergrated Development Environments. 
+      
+      We will talk more about IDE later on in this course, but just remember that you can use Notepad to start programming.
+- Then the last thing you need to choose is a `programming language`. Programming languages are installed through a package a which includes tools and other programs that will allow you to start programming and create your own programs. Let's discuss programming languages....
+### What is a programming language ?
+- A `Programming language` is set of instructions that a user writes to a file and computer reads and execute the instructions within your file.
+
+- Programming languages are written in English.
 
 - A programming language is made up of a series of statements that serves as a bridge that allow humans to translate our thoughts into instructions computers can understand.
-- The actual instructions can be created using any document editor like notepad, Word, but when you save file, you must save using the proper file extension so you can execute your instructions. In software world, we call these instructions `source code`. We'll talk more about this later, just know the instructions that are written to a file is source code.
+- The actual instructions can be created using any document editor like notepad, Word, but when you save file, you must save using the proper file extension so you can execute your instructions. In software world, we call these instructions `source code`. We'll talk more about this later, just know the instructions that are written to a file is called source code.
 
 [Click here to read more about programming languages](https://www.codecademy.com/resources/blog/programming-languages/)
 
-Let's see what we can do with programming languages:
+- Not all programming are the same. Each programming language follows a different set of rules as far how to program in that specific language, but they all use a common set of logic and control\data structures that you've learned in Alegbra. Such as functions, variables, arrays, tables, loops, math operators like '+', '-', '/' and more...
+- In addition to the fact that not all programming languages are the same, they all have serve  purposes. For example:
+  - SQL or Structure Query Language is a programming language that is used to get data from a database. What is a database? A database is a collection of tables that contains data. SQL is used to retrieve data from a table(s) within a database.
+  - Python is a programming language that is used to create desktop, web and mobile application.
+
+[STOP HERE]
+
+There's some programming languages that are used for one or two specific purposes while there's programming languages that used for multiple things....Such as:
 - You can create online, mobile and desktop games.
 - You can create a website for posting information online like a blog or a fourmn
 - You can create an applications for your business to help track sales, inventory and process online orders.
@@ -120,6 +163,11 @@ print(AddTwoNumbers(10,9))
 ## Lets talk about how to programs, meaning are program created and executed. [CONTINUE HERE]
 Now there are many more concepts that we will cover later on in this course, but I want you to undersatnd the basic building blocks of a programming language, but they don't change from one language to another.
 
+
+- Computers “think” in binary — strings of 1s and 0s. 
+ 
+   [<img src='./images/binarycode.jpeg' width='250' height='250' />](./images/binarycode.jpeg)
+- Programming languages allow us to translate the 1s and 0s into something that humans can understand and write. 
 # TODO
 - Talk about how to execute your program on a computer.
 - Explain how source code is translated into binary

@@ -13,7 +13,7 @@ Let's talk about Computers
 - It has the ability to store, retrieve, and process data. 
 - Computers can be to type documents, send email, play games, and browse the Web.
 - Computers can be a desktop computer, a laptops, a tablet, a cell phone, a smart watch or a game console like Playstation or Xbox.
-[<img src="./Computers.jpg" height="200" width="300">](Computers.jpg)
+[<img src="./images/Computers.jpg" height="200" width="300">](Computers.jpg)
 
 Hardware and software are used togeather to provide you with a system where you can save documents, play games, send email and more. 
 
@@ -24,18 +24,19 @@ Let's talk about hardware and software...
 
 | Hardware Components |
 -------------
-|**`Memory`**: Used to temporarily store tasks and data used by app(or software\programs). Think of as short term storage for data, documents, images, etc....[<img src="./Memory.jpg" height="200" width="600">](./Memory.jpg)|
-|**`CPU (Central Processing Unit)`**: Processes command\tasks given by users and\or software.[<img src="./CPU.jpg" height="200" width="400">](./CPU.jpg)|
+|**`Memory`**: Used to temporarily store tasks and data used by app(or software\programs). Think of as short term storage for data, documents, images, etc....[<img src="./images/Memory.jpg" height="200" width="600">](./Memory.jpg)|
+|**`CPU (Central Processing Unit)`**: Processes command\tasks given by users and\or software.
+[<img src="./images/CPU.jpg" height="200" width="400">](./CPU.jpg)|
 |**`Motherboard`**: Its represents the backbone that ties the computer's components together at one spot and allows them to talk to each other.
-[<img src="./Motherboard.png" height="200" width="400">](./Motherboard.png)|
+[<img src="./images/Motherboard.png" height="200" width="400">](./Motherboard.png)|
 | **`Graphics Card and Integrated Graphics`**: Processes visual data such as movies, video games.
-[<img src="./Graphics%20Card.jpg" height="200" width="400">](./Graphics%20Card.jpg)|
+[<img src="./images/Graphics%20Card.jpg" height="200" width="400">](./Graphics%20Card.jpg)|
 | **`NIC (Network Interface Card)`**: Provides internet for a computer.
-[<img src="./NIC.png" height="200" width="400">](./NIC.png)|
+[<img src="./images/NIC.png" height="200" width="400">](./NIC.png)|
 | **`Hard Drives (HHD or SSD)`**: Stores files, programs for long term storage.
-[<img src="./HardDrives.jpg" height="200" width="300">](./HardDrives.jpg)|
+[<img src="./images/HardDrives.jpg" height="200" width="300">](./HardDrives.jpg)|
 | **`Monitor`**: Provides a display for your apps\software\programs.
-[<img src="./Monitor.jpg" height="150" width="300">](./Monitor.jpg)|
+[<img src="./images/Monitor.jpg" height="150" width="300">](./Monitor.jpg)|
 | **`Power Supply`**: Provides power to your machine.
 [<img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5622/5622834_sd.jpg;maxHeight=640;maxWidth=550" height="150" width="200">](./Monitor.jpg)|
 
@@ -49,13 +50,13 @@ Here are some examples of common software\programs\apps (or software) that you w
 | Software Components |
 -------------
 |Office 365 - Microsoft Word, Excel, PowerPoint: used to created documents
-[<img src="./MSFTOfficeSoftware.png" height="100" width="200">](./MSFTOfficeSoftware.png)|
+[<img src="./images/MSFTOfficeSoftware.png" height="100" width="200">](./MSFTOfficeSoftware.png)|
 | Email - Outlook, Gmail: used to send emails
-[<img src="./Outlook.png" height="200" width="300">](./Outlook.png)||
+[<img src="./images/Outlook.png" height="200" width="300">](./Outlook.png)||
 | Video Games - Computer games: used to play games on a computer :)
-[<img src="./VideoGames.jpg" height="250" width="400">](./VideoGames.jpg)|
+[<img src="./images/VideoGames.jpg" height="250" width="400">](./VideoGames.jpg)|
 | Command Console - Command consoles: used to execute **commands** on a computer.
-[<img src="./ComputerCommand.png" height="300" width="400">](./ComputerCommand.png)|
+[<img src="./images/ComputerCommand.png" height="300" width="400">](./ComputerCommand.png)|
 
 Let's recap:
 - What are computers?
@@ -115,7 +116,7 @@ Such activities include adding new contacts, adding new music or games.
 
 As you complete these acitvities, Siri is learning more and more about you through your phone activity which in return will make Siri better to answering your questions and to complete your requets.
 
-[<img src="./IPhone_Siri.jpg" height="200" width="400">](./IPhone_Siri.jpg)
+[<img src="./images/IPhone_Siri.jpg" height="200" width="400">](./IPhone_Siri.jpg)
 
 Let's demostrate Siri: 
 

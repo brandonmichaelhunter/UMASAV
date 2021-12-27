@@ -2,7 +2,7 @@
 Communication with a computer involves 4 components that work togeather to provide you with a result, such sending emails, playing games and writing to a document.
 
 Here are the 4 components:
-[<img src='./ComputerProcessData.jpeg' height='300' width='600' />](./ComputerProcessData.jpeg)
+[<img src='./images/ComputerProcessData.jpeg' height='300' width='600' />](./ComputerProcessData.jpeg)
 - Input:  Converts physical input to binary information.
 - Memory: Stores information
 - CPU: Center Processing Unit calculates information.
@@ -53,7 +53,7 @@ Command console process data just any other program or actvity such pressing a k
 
 This is a picture of a command window.
 
-[<img src='./ComputerCommand.png' width='600' height='400' />](./ComputerCommand.png)
+[<img src='./images/ComputerCommand.png' width='600' height='400' />](./ComputerCommand.png)
 
 Here's how you can execute a command using the command console:
 - Click on the console screen.
@@ -92,11 +92,11 @@ Here are color codes that you can use with the **color** command
     - Ouput: Converts information to physical output.
 - A program (or software program) is defined as a `set of instructions, or a set of modules or procedures, that allow for a certain type of computer operation`.
     - An example of program is a Command console.
-- A Command consoles is a pre-installed application that you can use to execute tasks on a computers.
-    -  Common commands that you can perform using a command console are:  
-        - Manage files and folders
-        - Run other programs
-        - Gather information about your computer. 
+    - A Command consoles is a pre-installed application that you can use to execute tasks on a computers.
+        -  Common commands that you can perform using a command console are:  
+            - Manage files and folders
+            - Run other programs
+            - Gather information about your computer. 
 
 
 Next we're going to look at programming languages. Programming languages are used to build programs, create mobile apps and websites. A programming language are the `set of instructions or modules or procedures that allow for a certain type of computer operation`. 
