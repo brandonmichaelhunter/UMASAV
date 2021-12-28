@@ -87,17 +87,21 @@ For example:
 - The actual instructions can be created using any document editor like notepad, Word, but when you save file, you must save using the proper file extension so you can execute your instructions. In software world, we call these instructions `source code`. We'll talk more about this later, just know the instructions that are written to a file is called source code. [Click here to read more about programming languages](https://www.codecademy.com/resources/blog/programming-languages/)
 
 - Not all programming languages are created the equal. 
-- Each programming language follows a different set of rules as far how to program in that specific language, but programming languages can be use togeather to create applications. 
-- Also some programming languages are designed for one specific purpose, while other programming languages are used for multiple purposes. For example: 
-  - SQL (or Structured Query Language) is database programming language which is used to manage databases. A database is application for storing data. 
-  - Python is a programming language that is used create desktop and web applications  
-- But all programming languages uses a common set of logic and control and data structures that you probably learn in some of you math classes. Such as functions, variables, arrays, tables, operations like '+', '-', '/' and more.
+- A programming language has its own set of rules on how to code in that specific language, but all langauges uses a common set of arithmetic operators, control structures and data structures that probably has used in your math classes, such functions, tables, matrixes, '+', '-', '/', '<=', '>=' and more......
+- Most applications are built using one or more programming languages. Why?
+- Each programming language were designed to solve a particular problem(s) and they can also be used togeather to create biggera and better applications. Most of the websites you use today uses a multituide of languages, some are listed in the image below. 
+
+  [<img src='./images/ProgramLanguageUses.png' width='500' height='425' />](./images/notepad.jpeg)
 
 Next let's discuss the building blocks of a programming language.
-[STOP HERE]
-## What are the 'building blocks' of programming languages ? 
 
-- Programming languges differ based on their purpose, how to we write source and their meaning and structures they use. 
+## The `building blocks` of a programming languages ? 
+
+[Start From Here - read the articles below and include them into this section.]
+
+https://betterprogramming.pub/building-blocks-programming-language-fundamentals-481ff296b477
+
+https://engineerworkshop.com/blog/building-blocks-of-programming-languages/
 - Some have the ability to create programs while others are used to manage data.
 - But for all programming languages they consist and they're build upon the following concepts:
   - `Syntax:` 
@@ -162,6 +166,7 @@ print(AddTwoNumbers(10,9))
 ```
 ## Lets take a 5 minute break
 
+## Or a better title is How are programs created and executed from our source code.
 ## Lets talk about how to programs, meaning are program created and executed. [CONTINUE HERE]
 Now there are many more concepts that we will cover later on in this course, but I want you to undersatnd the basic building blocks of a programming language, but they don't change from one language to another.
 
