@@ -101,33 +101,114 @@ Next let's discuss the building blocks of a programming language.
 
 https://betterprogramming.pub/building-blocks-programming-language-fundamentals-481ff296b477
 
-https://engineerworkshop.com/blog/building-blocks-of-programming-languages/
-- Some have the ability to create programs while others are used to manage data.
-- But for all programming languages they consist and they're build upon the following concepts:
-  - `Syntax:` 
-    - Defines the rules for how each instruction is written. 
-    - Basically this tells us the rules we have to use to write source code in a particular programming language.
-  - `Semantics:` 
+What do you mean by building blocks? Let's think about the English language.
+- The English language consists of nonus, verbs, adverbs, adjective, pronouns, prepositions, conjunctions and interjuctions. These are called 'Parts of Speech'. We use these elements in order to write a complete and comprehensive sentences.
+- Programming languages has its own 'Parts of Speech' concept which we will call `building block elements`. These `building block elements` are a common set elements that are typically apart of any sucessful programming language.
+- These elements includes:
+  - `Syntax`: 
+    - This tells us the rules of how to write code in a specific language. 
+    - Similar to writing sentences in the English, we must have the following: 
+      - A sentence must begin with a captial letter and end with a punctuation mark.
+      - A sentence must contain a subject, a predicate and complete thought.
+    - The same is true for a programming language. The syntax for a programming language is part of the documentation that comes with any programming language. 
+  - `Semantics`: 
     - Defines the effect\meaning the instructions have(logic). 
     - This defines the understanding of your source code.  
-  - `Data Types:` 
-    - Defines the classification of data we want to store in memory. 
-    - Data Types vary from one language to antoher, but the type of data we want to store it in are common across all languages.
-    - For example:
-      - Objects  
-        - 1 or B, Brandon are all consider objects. 
-        - Objects is anything that is visable or tangible and is relatively stable in form. 
-        - In the world of progrmming, the instructions\source contains objects. We can use objects to data for any type.
-      - Integers, Floats, Decimal, Double
-        - These are data types that accept numeric value like 1, or 1.0 or 0.000234 or $123.34
-        - Each data type varies in size and can be used different ways. For example: we can Decimals in financial applications to ensure a high level of accuracy or Floats in scientific applications or Doubles and Integers are used to store whole and decimal numbers which are used mostly in all applications.
-      - Character and Strings
-        - These are data types that are represented as texts, liie 'B' or 'Brandon' or '1' or '0.0000123'.
-        - Do you see the difference?
-  - `Terms:` 
+  - `Data Types`: 
+    - Defines the classification of data we want to store in memory.
+    - We can think of data types as a way to define a number or text in a programming language. 
+      - For example: 
+        - We can define `1` as an integer data type because it represents a number. 
+        - We can define `3.4` as a decimal data type because it represents a number with a decimal.
+        - We can define `test` as a string data type because it represents text.
+        - There's more data types outside of intergers, decimal and strings, which we will learn later on.
+        - Now there's one more data type we need to know  and its important to know...This special data type is called `object`. 
+        - An `object` data type is a 'catch all' for all data types. All data types inherit from an object data type. Intergers, Decimal, String are the children of an `object` data type, they inherit all the *qualities* or characteristics of an object data type.
+  - `Terms:`
     - These are commonly used buzzwords we use to describe a piece of code, such as Paramters, Keywords Variables, Expressions, Statements, Functions, Classes and many more. 
-    - These are if/else, while loops, greater or less signs ('>' or '<'), plus and minus signs ('+' or '-') and many more., 
-    - We will discuss this later on in the course. 
+    - `Literals`:
+      - Is a programming is a piece of text that represents a fixed value in source code. Examples of literals:
+      ```python
+      123    # an interger literal
+      1.23   # a floating point literal
+      'test' # a string literal 
+      # a boolean literal - Boolean is a data type that defines two values: True or False
+      x = True  
+      a = { x: 1, y: 2} # an object literal.
+      ```
+    - `Operators`:
+      - Its a symbol that tells the compiler (or interpreter) to perform a mathematical, logical, relational or other operation as defined in the language specification.
+      - For example:
+        - Common operators: 
+          - arithmetic: +(plus), - (minus), *( multiply), / (divide)
+          - assignment: = (equals)
+          - logic: !(NOT), && (AND), || (OR)
+          - equality testing: ==, !=
+          - function call: ()
+          - increment / decrement: ++, --
+          - member selection: .
+          - order relations: <(less than), <= (less than or equal), > (greater than), >= (greater than or equal)
+        - An operator can also be a word. For example `sizeof` is an operator in the C language  which returns  the storage created for a given data type.
+        - An operator that takes one argument is called *unary operator*. For example: 
+        ```python
+            a++ # unary operator
+        ```
+        - An operator that takes two arguments is called a *binary operator*. For example: 
+        ```python
+          a+b # a binary operator
+        ```
+    - `Statements`:
+      - Is a unit of executable code that does not return a value. 
+      - Statements may contain a mixture of variables, operators, literals and other keywords (keywords are words that serve one specific purpose and cannot be used in any other way defined by the programming language).
+      - For example:
+      ``` python
+      # Simple statements
+      a = 10 # variable a
+      b = 9 # variable b
+      a = b # We are assigning the value of variable b to the value of variable a. In case we are overridding the value. 
+      # Return statement
+      return a # returns the value of variable a.
+      # if statements
+      if(a < b) return c:
+      # loop statements
+      for a in numbers { 
+        print(a) 
+      }
+      # switch statements
+      fruit = 'Banana'
+      if fruit == 'Mango': 
+          print("letter is Mango") 
+      elif fruit == "Grapes": 
+          print("letter is Grapes") 
+      elif fruit == "Banana": 
+          print("fruit is Banana") 
+      else: 
+          print("fruit isn't Banana, Mango or Grapes") 
+      ```
+    - `Expressions`:
+      - A unit of executable code that returns a value.
+      - Examples are:
+      ```python
+        1 + 2 # uses the binary operator to return the value 3
+        a * b # uses the '*' operator and returning a multiplied by b
+        !a    # uses the unary operator and returns a boolean value (false)
+        # Expressions and statements can be combined
+        a = b + c # this statement says take the binary operator '+' and add the value of variable 'b' and 'c' and then assign the value to variable 'a' 
+        # b + c is an expression
+        # a = b + c is a statement.
+      ```
+    - `Operator Precedence and Associativity`:
+      - Is the set of rules that determines in what order operators are applied within a complex expression.
+      ``` python
+      (2 -1 ? 0 : 1) == 0 # this expression and statement says:
+      # 1. subtract '1' from 2'
+      # 2. '?/ represents the if statement. If 2-1 is equal to '0' (defined by '== 0).
+      # If 2-1 is equal to 0, then return '0' else return '1'
+      ```
+      [Start Here]
+    - `Functions`:
+    - `Class`:
+    - `Strucs`:
   - `Data Structures:` 
     - A data structure is how we can store, access, organize and manage the data we have created in a computer, like lists, arrays, etc...
     - You can think of data structures as a table. With tables you can store data within a table, you can organize the data by sorting the data and you can access data by referring to its row and\or column positions.
