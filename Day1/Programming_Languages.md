@@ -7,7 +7,8 @@ As you can see in the picture above, there's a bunch of lanauges out there.
 
 ## `What` is programming ?
 
-`Programming` is giving a set of instructions for a computer to execute. 
+ 
+`Programming` is the mental process of thinking up instructions to give to a machine (like a computer).
 
 We can think about programming like this....
 
@@ -15,9 +16,25 @@ Who remembers getting a lego set as a gift? I'm talking about the big ones, with
 
 [<img src='./images/LegoImage.jpeg' width='300' height='200' />](/images/LegoImage.jpeg)
 
-- If you’ve ever build a lego set using the build instructions, you can think of yourself as the computer and the instructions the author or programmer. 
-- The instructions provides you with a set of instructions which you (as the computer) read and then follow. 
+- If you’ve ever build a lego set using the build instructions, you can think of yourself as the computer and the manual are written by the author(or programmer). 
+- The author's manual provides you with a set of instructions which you (as the computer) read, and then build based on those instructions.. 
 - The more complex the instructions, the more complex the result!”
+
+### Why should we learning programming?
+
+- The reason why I enjoy programming because I like the idea of creating programs to control a computer and it helps support my family and provide my kids the opporutnties I never had.
+
+- **Programming can be used to solved problems.** 
+  - We can use programming to create applications to: 
+    - Automate sending reminders when to take medication.
+    - To create facial recongiztion software to find criminals going through public spaces.
+    - Automate sending out report cards to parents directly, instead of waiting them their kids. 
+
+- Programming develops creative thinking. (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe)
+- Programming Provides Life-Changing Experiences (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe)
+- Programmers solve a problem by breaking it down into workable pieces to understand it better. When you start learning to program, you develop the habit of working your way out in a very structured format. You analyze the problem and start thinking logically and this gives rise to more creative solutions you’ve ever given. (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe))
+- "Whether you want to uncover the secrets of the universe, or you just want to pursue a career in the 21st century, basic computer programming is an essential skill to learn." - Stephen Hawking
+- "Everybody in this country should learn how to program a computer… because it teaches you how to think." - Steve Jobs
 
 ## `Who` can do programming?
 ## Anyone......
@@ -57,42 +74,27 @@ For example:
       Notepad is not just the only text editor out there. There's other text editor applications that comes with more tools and features that makes programming much easier. These specific type of text editors are called IDE or Intergrated Development Environments. 
       
       We will talk more about IDE later on in this course, but just remember that you can use Notepad to start programming.
-- Then the last thing you need to choose is a `programming language`. Programming languages are installed through a package a which includes tools and other programs that will allow you to start programming and create your own programs. Let's discuss programming languages....
+- Then the last thing you need to choose is a `programming language`. Programming languages are installed through an executable a which includes tools and other programs that will allow you to start programming and create your own programs. Next lets discuss what is a programming language.
+
 ### What is a programming language ?
-- A `Programming language` is set of instructions that a user writes to a file and computer reads and execute the instructions within your file.
+
+- So we defined programming as the mental process of thinking up instructions to give to a machine to execute.
+
+- A 'programming language' (or coding) is the process of transforming those ideas into a written language that a computer can understand.
 
 - Programming languages are written in English.
 
-- A programming language is made up of a series of statements that serves as a bridge that allow humans to translate our thoughts into instructions computers can understand.
-- The actual instructions can be created using any document editor like notepad, Word, but when you save file, you must save using the proper file extension so you can execute your instructions. In software world, we call these instructions `source code`. We'll talk more about this later, just know the instructions that are written to a file is called source code.
+- The actual instructions can be created using any document editor like notepad, Word, but when you save file, you must save using the proper file extension so you can execute your instructions. In software world, we call these instructions `source code`. We'll talk more about this later, just know the instructions that are written to a file is called source code. [Click here to read more about programming languages](https://www.codecademy.com/resources/blog/programming-languages/)
 
-[Click here to read more about programming languages](https://www.codecademy.com/resources/blog/programming-languages/)
-
-- Not all programming are the same. Each programming language follows a different set of rules as far how to program in that specific language, but they all use a common set of logic and control\data structures that you've learned in Alegbra. Such as functions, variables, arrays, tables, loops, math operators like '+', '-', '/' and more...
-- In addition to the fact that not all programming languages are the same, they all have serve  purposes. For example:
-  - SQL or Structure Query Language is a programming language that is used to get data from a database. What is a database? A database is a collection of tables that contains data. SQL is used to retrieve data from a table(s) within a database.
-  - Python is a programming language that is used to create desktop, web and mobile application.
-
-[STOP HERE]
-
-There's some programming languages that are used for one or two specific purposes while there's programming languages that used for multiple things....Such as:
-- You can create online, mobile and desktop games.
-- You can create a website for posting information online like a blog or a fourmn
-- You can create an applications for your business to help track sales, inventory and process online orders.
-- You can also create online tools for education, like Google Classroom. Google Classroom virtualize the learning experience by offering teachers and students a space create, complete and collobrate on class assignments.
-
-### Why should we learning programming?
-
-The reason why I enjoy programming because it motivates me to learn and I like the idea of creating programs to control a computer.
-
-### Let's look at othe reasons why we should learn programming...
-- Programming develops creative thinking. (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe)
-- Programming Provides Life-Changing Experiences (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe)
-- Programmers solve a problem by breaking it down into workable pieces to understand it better. When you start learning to program, you develop the habit of working your way out in a very structured format. You analyze the problem and start thinking logically and this gives rise to more creative solutions you’ve ever given. (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe))
-- "Whether you want to uncover the secrets of the universe, or you just want to pursue a career in the 21st century, basic computer programming is an essential skill to learn." - Stephen Hawking
-- "Everybody in this country should learn how to program a computer… because it teaches you how to think." - Steve Jobs
+- Not all programming languages are created the equal. 
+- Each programming language follows a different set of rules as far how to program in that specific language, but programming languages can be use togeather to create applications. 
+- Also some programming languages are designed for one specific purpose, while other programming languages are used for multiple purposes. For example: 
+  - SQL (or Structured Query Language) is database programming language which is used to manage databases. A database is application for storing data. 
+  - Python is a programming language that is used create desktop and web applications  
+- But all programming languages uses a common set of logic and control and data structures that you probably learn in some of you math classes. Such as functions, variables, arrays, tables, operations like '+', '-', '/' and more.
 
 Next let's discuss the building blocks of a programming language.
+[STOP HERE]
 ## What are the 'building blocks' of programming languages ? 
 
 - Programming languges differ based on their purpose, how to we write source and their meaning and structures they use. 
