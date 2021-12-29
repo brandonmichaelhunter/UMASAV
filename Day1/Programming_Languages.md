@@ -103,8 +103,15 @@ https://betterprogramming.pub/building-blocks-programming-language-fundamentals-
 
 What do you mean by building blocks? Let's think about the English language.
 - The English language consists of nonus, verbs, adverbs, adjective, pronouns, prepositions, conjunctions and interjuctions. These are called 'Parts of Speech'. We use these elements in order to write a complete and comprehensive sentences.
-- Programming languages has its own 'Parts of Speech' concept which we will call `building block elements`. These `building block elements` are a common set elements that are typically apart of any sucessful programming language.
-- These elements includes:
+- Most programming languages has its own 'Parts of Speech' concept which we will call `building block elements`. 
+- These `building block elements` is a blueprint to building sucessfull programming languages. In addition we will also talk about object oriented programming concepts because Python is an object oriented programming language. 
+  - An object oriented programming is a programming model that organizes software design around data or objects rather than functions and logic. There's manu more programming models such as:
+    - `Functional programming` - used alot in the data science field.
+    - `Structured or module programming` - used for building web and mobile apps.
+    - `Imperative programming` - focuses on function rather than models. Used in IOT (internet of things), robotic projects.
+    - `Declarative programming` - involves statements on what the task or desired outcomes is. Used alot in automation and machine learning tasks.
+    - `Logical programming` - used in artifical intelligence projects.
+- Lets dive into the `building block elements`:
   - `Syntax`: 
     - This tells us the rules of how to write code in a specific language. 
     - Similar to writing sentences in the English, we must have the following: 
@@ -205,7 +212,7 @@ What do you mean by building blocks? Let's think about the English language.
       # 2. '?/ represents the if statement. If 2-1 is equal to '0' (defined by '== 0).
       # If 2-1 is equal to 0, then return '0' else return '1'
       ```
-    - `Functions`:
+    - `Functions\Methods`:
       - Its a reusable block of code that performs a specific task.
       - Example:
       ``` python
@@ -214,107 +221,101 @@ What do you mean by building blocks? Let's think about the English language.
         def AddTwoNumbers(A, B): 
             return A+B
         print(AddTwoNumbers(1,2)) # print() is also a function that display data to a screen.
-
       ```
+    - `Properties or Attributes`:
+      - Represents the characteristics of an object. 
+      - An object can be car, person, house, etc.....The properties (or attributes) represents the color of the house or the model of the car or age of a person. These are details that describes the details about the object. 
     - `Class`:
       - Is a blueprint for that defines the properties and functions common to all objects of a certain kind.
-      - We can think a class like a car
+      - We can think a class like a Human
       ``` python
-       class Car:
+       class Human:
          # These are properties of a car object or the characteristics of a car. 
-         bodyColor: str
-         Miles: int
-         modelName: str
-         vendorName: str
-         wheelSize: str
-         gasTankSize: int
-         Speed: int
-         IsWipersOn: bool
-         IsCarOn:bool
-         TurnCarRight: bool
-         TurnCarLeft: bool
-         def __init__(self, Vendor, Model, WheelSize, BodyColor, GasTankSize): # this is called a constructor
-             # A constructor is a special function.
-             # This function is called when you create an instance of an object. 
-             # We can use the constructor to initalize or prepare the object to be used.
-             self.bodyColor = BodyColor
-             self.modelName = Model
-             self.vendorName = Vendor
+         name: str
+         email: str
+         address: str
+         age: int
+         def __init__(self, Name, Email, Address, Age): # this is called a constructor
+             # A constructor is a special function that prepares the object to be used within your code. Its called when you're ready to create object in your code.
+             self.name = Name
+             self.email = Email
+             self.address = Address
              self.wheelSize = WheelSize
+             self.age = Age
 
 
-         def StartCarEngine():
-             # This function when called with start the car engine.
-             self.IsCarOn = True
-             return self.IsCarOn 
+         def VerifyIdentity(Name, Address, Age):
+             # This function verifies the identity of the person.
+             if(self.name == Name && self.address == Address && self.age == Age):
+                return True
+             else:
+                return False
          
-         def ShutOffCarEngine():
-             self.IsCarOn = False
-             return self.IsCarOn
+         def SendEmail(Email):
+             # This function sends an email based on the email value provided.
+             SendEmailFromGoogle(Email)
+             return True
 
-         def TurnOnWindshieldWipers():
-              # This function has instructions to turn on the car's windshield wiper 
-              self.IsWipersOn = True
-              return self.IsWipersOn
-          
-         def TurnOffWinshieldWipers():
-             # This function has instructions to turn off the car's windshield wiper.
-             self.IsWipersOn = False
-             return self.IsWipersOn
-
-         def MakeTurn(self, TurnDirection):
-             if(TurnDirection == 'Right'):
-                self.TurnCarRight = True
-                self.TurnCarLeft = False
-             elif (TurnDirection == 'Left'):
-                   self.TurnCarLeft = True
-                   self.TurnCarRight = False
-
-        # Here is how to create a the Car object in memory
-        newCar = Car() # this statement will create a new Car object in memory and call the __init__(self): function.
+        # Here is how to create a Human object in memory.
+        # When the Human object is created, the __init__() method is called to prepare the object to be used.
+        newHuman = Human('Brandon Hunter','bhunter@gmail.com', '5555 Apple Drive, Oil City, MA 29123', 40 ) 
+        IsSamePerson = newHuman.VerifyIdentity('Brandon Black','',34)
+        if(IsSamePerson == True):
+           print("Hi Brandon")
+        else:
+           print("You're not Brandon")
              
       ```
-    - `Strucs`:
+
   - `Data Structures:` 
-    - A data structure is how we can store, access, organize and manage the data we have created in a computer, like lists, arrays, etc...
-    - You can think of data structures as a table. With tables you can store data within a table, you can organize the data by sorting the data and you can access data by referring to its row and\or column positions.
-    - Just think of data structures as a collection to store data.
+    - Data structures are objects where we can store, organize and retrieve data. Examples are lists, arrays, matries, tables,etc....
+    ``` python
+    # this is an example of a list in Python
+    fruits = ["apple", "banana", "cherry"]
+    print(fruits[0]) # prints 'apple'
+
+    # this is an example of a dictionary. It stores data in a key:value paris.
+    car = { "brand": "Ford", "model": "Mustang", "year": 1964 }
+    print(car["brand"]) # prints 'Ford'
+    ```
+   
   - `Algorithms:` 
-    - An algorithm is a step-by-step procedure to solve any computational problem. 
-    - For example Fibonacci Sequence - this is a sequence of numbers and the next number is found by adding the two numbers before it. 
+    - An algorithm is a step-by-step procedure to solve any computational problem. For example Fibonacci Sequence is a sequence of numbers and the next number is found by adding the two numbers before it. 
+    ``` python
+    # Program to display the Fibonacci sequence up to n-th term
+    nterms = int(input("How many terms? "))
 
-### Let's see how some of these concepts are used in the example source code provided below.
+    # first two terms
+    n1, n2 = 0, 1
+    count = 0
 
-Provided below is source code that adds two numbers togeather. The source code is written Python. Python is a programming used to create desktop, web and mobile applications. We will talk about Python in the next section.
-
-- `def AddTwoNumbes(A,B):` 
-  - defines the `syntax` on how you create functions in Python.
-  - The `semantics` tells Python that this an function that accepts two parameters. Parameters are inputs you provide to a function. We'll talk about this more in the following sections.
-  - The `terms` used here are `functions` and `parameters`. 
-    - `functions` are reusable collection of instructions that will `execute` when called upon. 
-    - `def` is a keyword, which its a special reserved word tha the target programming languages uses to define objects. In code below `def` defines a function in Python.
-    - `parameters` are inputs you provided to a function.
-- `return A+B`
-  - defines the syntax to add two values togeather return it back to the caller. Who is the caller in this case? `print(AddTwoNumbers(10,9))` 
-  - The `semantics` tells Python to add the value of A and B and return the value back to the caller.
-  - The `terms` used here are `expressions`, where the `A+B` tells Python to add two values and then `return` the call value to the caller.
-- So what does `print(AddTwoNumbers(10,9))` tells Python to do?
-  - Call the `AddTwoNumbers` function and 
-  - Pass in two `parameters` A and B, and 
-  - `print` our the results to the screen.
-- `QUESTION - What are the data types of the two parameters passed into the AddTwoNumber function?`
-```python
-# Function for adding two numbers
-def AddTwoNumbers(A, B): # <= defines a function.
-	  return A + B # <= defines an operation and instructions
-
-# prints the results to the screen
-print(AddTwoNumbers(10,9))
-```
+    # check if the number of terms is valid
+    if nterms <= 0:
+       print("Please enter a positive integer")
+    # if there is only one term, return n1
+    elif nterms == 1:
+         print("Fibonacci sequence upto",nterms,":")
+         print(n1)
+    # generate fibonacci sequence
+    else:
+        print("Fibonacci sequence:")
+        while count < nterms:
+              print(n1)
+              nth = n1 + n2
+              # update values
+              n1 = n2
+              n2 = nth
+              count += 1
+    ```
+  - `Compilers`:
+     - A compiler is a computer program that translate your source code into a machine-readable language for the computer to execute.
+     - Basically its a translator.
+     - Remember in the previous section computers speak in 1's and 0's or binrary? In order for you to run your code or create a program to run on your computer, we need a translator to translate your instructions or source code into a language that computer understands so that it can execute your instructions. We'll talk more about this in the next section.
 ## Lets take a 5 minute break
 
+[START FROM HERE]
 ## Or a better title is How are programs created and executed from our source code.
-## Lets talk about how to programs, meaning are program created and executed. [CONTINUE HERE]
+## Lets talk about how to programs, meaning are program created and executed. 
 Now there are many more concepts that we will cover later on in this course, but I want you to undersatnd the basic building blocks of a programming language, but they don't change from one language to another.
 
 
