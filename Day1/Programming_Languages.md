@@ -205,9 +205,30 @@ What do you mean by building blocks? Let's think about the English language.
       # 2. '?/ represents the if statement. If 2-1 is equal to '0' (defined by '== 0).
       # If 2-1 is equal to 0, then return '0' else return '1'
       ```
-      [Start Here]
     - `Functions`:
+      - Its a reusable block of code that performs a specific task.
+      - Example:
+      ``` python
+        # AddTwoNumbers is a block of code that will add two numbers and return it to its caller.
+        # This is one of the ways how functions are defined in Python.
+        def AddTwoNumbers(A, B): 
+            return A+B
+        print(AddTwoNumbers(1,2)) # print() is also a function that display data to a screen.
+
+      ```
     - `Class`:
+      - Is a blueprint for that defines the properties and functions  common to all objects of a certain kind.
+      - We can think a class like a  car
+[PICK UP FROM HERE]
+      ``` python
+       class Car:
+         # properties 
+         BodyColor: str
+         Miles: int
+         ModelName: str
+         WheelSize: str
+
+      ```
     - `Strucs`:
   - `Data Structures:` 
     - A data structure is how we can store, access, organize and manage the data we have created in a computer, like lists, arrays, etc...
