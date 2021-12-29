@@ -217,17 +217,62 @@ What do you mean by building blocks? Let's think about the English language.
 
       ```
     - `Class`:
-      - Is a blueprint for that defines the properties and functions  common to all objects of a certain kind.
-      - We can think a class like a  car
-[PICK UP FROM HERE]
+      - Is a blueprint for that defines the properties and functions common to all objects of a certain kind.
+      - We can think a class like a car
       ``` python
        class Car:
-         # properties 
-         BodyColor: str
+         # These are properties of a car object or the characteristics of a car. 
+         bodyColor: str
          Miles: int
-         ModelName: str
-         WheelSize: str
+         modelName: str
+         vendorName: str
+         wheelSize: str
+         gasTankSize: int
+         Speed: int
+         IsWipersOn: bool
+         IsCarOn:bool
+         TurnCarRight: bool
+         TurnCarLeft: bool
+         def __init__(self, Vendor, Model, WheelSize, BodyColor, GasTankSize): # this is called a constructor
+             # A constructor is a special function.
+             # This function is called when you create an instance of an object. 
+             # We can use the constructor to initalize or prepare the object to be used.
+             self.bodyColor = BodyColor
+             self.modelName = Model
+             self.vendorName = Vendor
+             self.wheelSize = WheelSize
 
+
+         def StartCarEngine():
+             # This function when called with start the car engine.
+             self.IsCarOn = True
+             return self.IsCarOn 
+         
+         def ShutOffCarEngine():
+             self.IsCarOn = False
+             return self.IsCarOn
+
+         def TurnOnWindshieldWipers():
+              # This function has instructions to turn on the car's windshield wiper 
+              self.IsWipersOn = True
+              return self.IsWipersOn
+          
+         def TurnOffWinshieldWipers():
+             # This function has instructions to turn off the car's windshield wiper.
+             self.IsWipersOn = False
+             return self.IsWipersOn
+
+         def MakeTurn(self, TurnDirection):
+             if(TurnDirection == 'Right'):
+                self.TurnCarRight = True
+                self.TurnCarLeft = False
+             elif (TurnDirection == 'Left'):
+                   self.TurnCarLeft = True
+                   self.TurnCarRight = False
+
+        # Here is how to create a the Car object in memory
+        newCar = Car() # this statement will create a new Car object in memory and call the __init__(self): function.
+             
       ```
     - `Strucs`:
   - `Data Structures:` 
