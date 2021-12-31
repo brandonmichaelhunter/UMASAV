@@ -3,7 +3,7 @@ Communication with a computer involves 4 components that work togeather to provi
 
 Here are the 4 components:
 [<img src='./images/ComputerProcessData.jpeg' height='300' width='600' />](./ComputerProcessData.jpeg)
-- Input:  Converts physical input to binary information.
+- Input:  Converts physical input to binary information (or binary code).
 - Memory: Stores information
 - CPU: Center Processing Unit calculates information.
 - Ouput: Converts information to physical output.

@@ -38,7 +38,7 @@ Who remembers getting a lego set as a gift? I'm talking about the big ones, with
 
 ## `Who` can do programming?
 ## Anyone......
-Really anyone can learn how to program. As long as your curious, have the ability to 'think out of the box' and can solve problems, then you have the tools to program. 
+Really anyone can learn how to program. As long as you're curious, have the ability to 'think out of the box' and can solve problems, then you have the tools to program. 
 
 You probably are know some of the programming concepts because they were tought to you in your Math classes. 
 
@@ -82,7 +82,7 @@ For example:
 
 - A 'programming language' (or coding) is the process of transforming those ideas into a written language that a computer can understand.
 
-- Programming languages are written in English.
+- Programming languages are written in English (or you can think of it as `human readable code`. I'll share later why this is important later).
 
 - The actual instructions can be created using any document editor like notepad, Word, but when you save file, you must save using the proper file extension so you can execute your instructions. In software world, we call these instructions `source code`. We'll talk more about this later, just know the instructions that are written to a file is called source code. [Click here to read more about programming languages](https://www.codecademy.com/resources/blog/programming-languages/)
 
@@ -310,13 +310,16 @@ What do you mean by building blocks? Let's think about the English language.
   - `Compilers`:
      - A compiler is a computer program that translate your source code into a machine-readable language for the computer to execute.
      - Basically its a translator.
-     - Remember in the previous section computers speak in 1's and 0's or binrary? In order for you to run your code or create a program to run on your computer, we need a translator to translate your instructions or source code into a language that computer understands so that it can execute your instructions. We'll talk more about this in the next section.
-## Lets take a 5 minute break
+     - Remember in the previous section computers speak in 1's and 0's or binrary. In order for you to run your code on your computer, we need a translator to translate your instructions (or source code) into a language that a computer understands in order for the computer to execute your instructions (or source code). After our break we will look into how programs are created and how can they run on computers.
+## Lets take a 10 minute break
 
-[START FROM HERE]
-## Or a better title is How are programs created and executed from our source code.
-## Lets talk about how to programs, meaning are program created and executed. 
-Now there are many more concepts that we will cover later on in this course, but I want you to undersatnd the basic building blocks of a programming language, but they don't change from one language to another.
+## How are programs created
+
+### `Compilers (Interpers)`
+- Compiler is a program. Its a program that translate `human readable code` into a `machine readable code` for the computer to execute.
+- Computers don't understand how to read `human readable code`. Computer understands 1's and 0's or binary code. Let's take a look at what binary looks like:
+
+[Demo via online example - [Pick up from here]]
 
 
 - Computers “think” in binary — strings of 1s and 0s. 
