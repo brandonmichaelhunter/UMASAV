@@ -49,6 +49,8 @@ Here are some examples of common software\programs\apps (or software) that you w
 
 | Software Components |
 -------------
+| Operating Systems: Windows, Linux or MacOS\IOS
+[<img src="./images/operating_systems.jpeg" height="100" width="200">](./MSFTOfficeSoftware.png)|
 |Office 365 - Microsoft Word, Excel, PowerPoint: used to created documents
 [<img src="./images/MSFTOfficeSoftware.png" height="100" width="200">](./MSFTOfficeSoftware.png)|
 | Email - Outlook, Gmail: used to send emails

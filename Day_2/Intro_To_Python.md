@@ -1,9 +1,10 @@
 # What are programming lanagues?
 [<img src='./images/top-programming-languages.jpeg' width='800' height='400' />](/images/top-programming-languages.jpeg)
 
-As you can see in the picture above, there's a bunch of lanauges out there.
+There's a bunch of programming languages to choose from. The one we're going to focus on this course is Python. 
 
- Let's talk about the `who`, `what`, `where` and `how` of `programming`
+In this section we will discuss programming and programming languages. Let's start with the
+the `who`, `what`, `where` and `how` of `programming`.
 
 ## `What` is programming ?
 
@@ -315,17 +316,59 @@ What do you mean by building blocks? Let's think about the English language.
 
 ## How are programs created
 
-### `Compilers (Interpers)`
-- Compiler is a program. Its a program that translate `human readable code` into a `machine readable code` for the computer to execute.
-- Computers don't understand how to read `human readable code`. Computer understands 1's and 0's or binary code. Let's take a look at what binary looks like:
+### `What are Compilers (or Interpers)?`
+Compiler is a program that translate `human readable code` into a `machine readable code` for the computer to execute.
 
-[Demo via online example - [Pick up from here]]
+`machine readable code` is binary code. Lets look at an example of how text and numbers are translated in to binary code.
+- [DEMO: Convert To Binary Code (Python)](demos/convert_to_binary.py)
 
+Each programming language has its compiler that is designed to read its own source code and translate the source code into machine code. 
 
-- Computers “think” in binary — strings of 1s and 0s. 
+Some programming languages has more than one compiler.
+
+Most compilers are designed on different operating systems and different processor models such as Windows, Mac OS or Linux.
+
+There are some compilers that only work on specifically one or two operating systems such as XCode. **_XCode is a programming language used to create apps for Apple products._**
+
+Let's use the visualization below to walk through high level overview of how the compiler works:
+
+[<img src='images/CompilerWorkflow.png' width='600' height='400' />](/images/CompilerWorkflow.png)
+
+Lets say you're writing a python script to turn on the lights in your house.
+
+You write your code in your IDE (Intergrated Development Environment) or an editor, and then you save youyr changes using the apporiate file extension, in this case its `py`. 
+
+`Why would you have to save the file with the .py file extension?` Since we're writing a script using Python, the Python's compiler looks for files with that file extension. Once the compiler finds that file, then compiler begins compling process. Every programming languages has a similar process.
+
+Afte saving your changes, then you click the a run or `play` button within your IDE to start the compiler. 
+
+During this time the compiler is doing the following:
+    
+- Reads your code and tries to figure out the words within your source code.` 
+
+- Next, the compiler verifies the grammar (or syntax) in your source code by organizing your source code into `parse tree`.
+
+- Next, the compiler records all the variables, functions and classes (and other related items) that the computer needs to keep track in your program.
+
+- Then finally the compiler `traverses` the tree and figures identifies which machine code that would effectly do the same thing as your source code. This is the part where it translate your code into machine code. 
+    
+  - *Note - there's a little more that goes on before the source code is compiled into machine code.*
+
+- If the compiler reports no errors with your code, then the compiler completes the process by creating an executalbe program that you can run on your computer.
+
+- If errors are found, by the compiler, within your source code, meaning mispelling of words or the incorrect use of a keyword or other errors, then the compiler will stop and return the errors back to your IDE. 
+   
+
  
-   [<img src='./images/binarycode.jpeg' width='250' height='250' />](./images/binarycode.jpeg)
-- Programming languages allow us to translate the 1s and 0s into something that humans can understand and write. 
+Computers don't understand how to read `human readable code`. A computer understands 1's and 0's or binary code. Let's take a look at what binary looks like : 
+  
+
+## Lets Recap
+- We discuss what is programming. `Programming is ?` It's the mental process of thinking up instructions to give to a machine (like a computer).
+- We discussed who can program...Anyone all you need is a computer with an editor (IDE) and install the necessary software to code and compile in the programming language you select.
+- We discussed some concepts of programming such syntax, semantics, terms such as literals, expressions, variables, data types functions and classes, and then data structures, alogrithims and then compilers.
+- We discussed compilers, what they are and how they work from high level point of view.
+
 # TODO
 - Talk about how to execute your program on a computer.
 - Explain how source code is translated into binary
