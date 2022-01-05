@@ -2,6 +2,7 @@
 Communication with a computer involves 4 components that work togeather to provide you with a result, such sending emails, playing games and writing to a document.
 
 Here are the 4 components:
+
 [<img src='./images/ComputerProcessData.jpeg' height='300' width='600' />](./ComputerProcessData.jpeg)
 - Input:  Converts physical input to binary information (or binary code).
 - Memory: Stores information
