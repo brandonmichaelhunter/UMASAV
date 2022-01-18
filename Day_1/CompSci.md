@@ -16,6 +16,7 @@ Let's talk about Computers
 - An electronic device that manipulates information (or data) using a combination of hardware and software or 
 
 - Computers can be a `desktop computer`, `a laptop`, `a tablet`, `a cell phone`, `a smart watch` or a `game console` like `Playstation or Xbox`.
+
 [<img src="./images/Computers.jpg" height="200" width="300">](Computers.jpg)
 ## What can you do with computers? With computers you can....
 - Work on electronic documents, like create documents, presentations, spreadsheets and save them to a computer.

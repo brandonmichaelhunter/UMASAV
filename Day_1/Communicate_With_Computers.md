@@ -1,38 +1,67 @@
 # How do we communicate with computers
-Communication with a computer involves 4 components that work togeather to provide you with a result, such sending emails, playing games and writing to a document.
+There's a couple of ways we can communicate with computers:
+- Using a keyboard
+- Voice commands
+- Game Controllers
+- Live Streams
+- Touch pad
+- Drones
+- Sensors like motion detections    
 
-Here are the 4 components:
+We can call keyboards, voice commands, game controllers, live streams and sensors, `INPUTS`.
+
+Each of these `INPUTS` produces a `command` for a machine (computer, tablet, game console, smart phone or smar watch) to `execute`. 
+
+So this `command` is genreated by the input into a language or code called `Binary`. Binary code can be represented by any two symbols such as 1s and 0s. You can think of binary is a collection of off and on switches. For example:
+
+This is `Brandon` spelled out in binary code
+
+`01100010011100100110000101101110011001000110111101101110`  
+
+
+
+Binary code or binary language or machine language or machine code, is basically code\language that machines understands. We'll talk more about binary later in the next section, but the point that I want you get here is that Inputs products commands in the form of `binary` code.  
+
+Using the diagram below let's take a look at how `commands` from an input are communicated or processed to a machine for execution. 
 
 [<img src='./images/ComputerProcessData.jpeg' height='300' width='600' />](./ComputerProcessData.jpeg)
-- Input:  Converts physical input to binary information (or binary code).
-- Memory: Stores information
-- CPU: Center Processing Unit calculates information.
-- Ouput: Converts information to physical output.
+- **Input**:  Converts physical input to binary information (or binary code).
+- **Memory**: Stores information
+- **CPU**: Center Processing Unit calculates information.
+- **Ouput**: Converts information to physical output.
 
-Let's see how the four componets work togeather
-
-## Example
-- Computers can take many different types of inputs, such as a keyboard, touch pad of a laptop, power button, cameras, microphone, GPS (Global Positional Systems), touch pad of a phone, sensors on a car, thermostat, or a drone.
-- When a key is pressed on a keyboard, let's say the letter B, then the keyboard converts the letter B into a number.
-- That number is sent as binary, ones and zeros, into a computer.
+## Example - What happens when I press keys on a keyboard
+- Let's say I'd pressed key letter B on a keyboard. 
+- Next the keyboard converts the letter B into a number or scan code (each key has one).
+- Then from the input, the number is sent as binary, ones and zeros (101100111110), into a computer.
 - Then the CPU calculcates how to display the 'B' pixel by pixel. 
 - The CPU requests step by step instructions from memory on how draw the letter B.
 - CPU execute these instructions and stores the results into memory.
 - Finally the pixel information is sent in binary to the screen.
-- The screen is a output device, like a computer monitor,converts the binary data into the tiny lights and colors that you see on a screen.
+- The screen is output device, like a monitor. The monitor converts the binary data into the tiny lights and colors that you see on a screen. This is also true for Facetime, playing video games or sending texts.
 
-Now we know how computers works, like talk about tools that we can use to process your inputs that produces a desire output.
+There's one thing thats missing from this picture that works with a machine to gather data from inputs and helps processes data. That one thing is....**Programs**
+
 
 ## Programs
 A program (or software program) is commonly defined as a set of instructions, or a set of modules or procedures, that allow for a certain type of computer operation. The term is also often used interchangeably with terms like “software application” and “software product.”
 
-Here are some examples of a program:
+In the diagram above, its assume you know that the Operating System assists in processing input and producing output.
+
+What's an operating system? 
+- Its software, its a program thats installed on a computer and its job is to manage your computer and all the software that runs on the computer. 
+- An opearting system uses other software to protect the computer from malware and virous.
+- An operating system also monitors programs to make sure they don't consume to much of your primary resources like memory, cpu and\or hard drive spaces.
+- Windows 10, MacOS, IOS are operating systems.
+
+Operating systems is example of one program, but they're many more like:
 1. A command console
-2. We can use third party software like RemoteDesktop or Putty which are used to connect to different computer than yours.
+2. Microsoft Paint
+3. Solitaire
+4. Many more..... 
 
-Let's look at command consoles
-
-### Command Consoles
+Let's take a look at `command consoles` which is a program that is used by system adminstrators to help troubleshoot issues with computer like networking\internet issues.
+### Command Consoles [PICK UP FROM HERE]
 
 A command console is pre-installed application that can be run on your computer to execute commands.
 
