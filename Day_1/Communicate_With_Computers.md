@@ -60,36 +60,70 @@ Operating systems is example of one program, but they're many more like:
 3. Solitaire
 4. Many more..... 
 
-Let's take a look at `command consoles` which is a program that is used by system adminstrators to help troubleshoot issues with computer like networking\internet issues.
-### Command Consoles [PICK UP FROM HERE]
+Let's take a look at `command consoles` which is a program that is used by system adminstrators to manage machines, apply updates and assist in troubleshooting issues such as fixing internet issues or apply software updates.
+### Command Consoles\Prompts 
 
-A command console is pre-installed application that can be run on your computer to execute commands.
+A command console is a command based application that is used to run and execute commands that you give it through the command prompt.
 
-A command consoles are used perform specific tasks based on the command you provid.
+A command consoles are used perform specific tasks based on the commands you type in.
 
-What are command consoles used for?
 
-Command consoles are used for:
-- Creating or changing files or folders.
-- Gathering information about your computer such as OS info, gathering network information such as IP address or find out which Wifi your connected.
-- Identify what connections are currently running on your machine.
-- Running other programs
+You can use command consoles for
+- Manging files and folders like creating files, changing the name of a folder or file or deleting files and folders.
+- Gathering information about your computer such as OS info, which Wifi network you connected to and more..
+- See which devices are connected to your wifi network.
+- Start and stop programs.
 - Applying software updates.
 
-Command console process data just any other program or actvity such pressing a keyboard:
-- The command console takes input from a user.
-- The data from the input is stored in memory and then processed by CPU
-- Once cpu process is complete, the data is sent to the output for xthe end user to see the results.
+Command consoles works just like any application:
+- When you open a command window, the command console opens under your profile working directory, which looks like `C:\Users\<Profile Name>`
+- User types the commands into a keyboard and the commands appear in the console window.
+- Commands are processed and executed once your hit the enter key on the keyboard. 
+- Once the enter key is pressed, then the application begins processing your commands.
+- Once the console completes executing command, then in the window you will either see the results from your command or an error. 
+    - An error is simiply a message stating there was a problem processing your command.
 
-This is a picture of a command window.
+Provided below is a picture of a command console.
 
 [<img src='./images/ComputerCommand.png' width='600' height='400' />](./ComputerCommand.png)
 
-Here's how you can execute a command using the command console:
-- Click on the console screen.
-- Type in your command
-- Hit the enter key
-- Oberserved the results.
+Let's try running some commands using the console command on your machine.
+
+You use the link beloProvided below are instructions on how to bring up a command console using Windows.
+
+[How to Open Command Prompt (Windows 11, 10, 8, 7, etc.)](https://www.lifewire.com/how-to-open-command-prompt-2618089)
+
+## Excerise 1: Lets write some text to a screen and create some folders and files.
+Once you have your command window open let's display some text using `echo` command:
+
+- Type into the command window: `echo Hi my name is Clarence Ellis` and then hit the Enter Key. What do you see?
+    - Who is [Clarence Ellis](https://medium.com/@mayborn_unt/clarence-skip-ellis-the-first-black-ph-d-in-computer-science-6ccae49b148) ? 
+        -    This first African American to receive a PhD in computer science.
+        - At Palo Alto Research Center he headed a group that invented and developed Office talk - the first office system to use icons and Ethernet to allow people to collaborate from a distance. His work led to creation of software packages we use today, like `Google Docs`.
+        - He held teaching positions at Standford, University of Texas, MIT and Stevens Institute of Technology.
+- Next, type into the command window: `echo Why was Katherine Johnson called the HUMAN COMPUTER at NASA?`
+    -   Who is [Katherine Johnson](https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/who-was-katherine-johnson-k4)?
+        - An African American mathematician who calculated and analyzed the flight paths of many spacecraft missions for NASA.
+        - She help NASA put an astronaut into orbit around Earth and then help put a man on the Moon !!!
+
+Next let's create a folder and then a file
+
+- Type into the command window `cd Desktop`  and then hit the enter key. 
+    - This will change your working directory to the to your profile's **Desktop** directory. 
+    - Moving forward any files and folders you create will be exist under the Desktop folder.
+- Type into the command window `mkdir ComputerFiles` and then hit the enter key. 
+    - This will create a brand new directory called **ComputerFiles**
+- Next type into the command window `cd ComputerFiles` and then hit the enter key. 
+    - This will change your working directory to the **ComputerFiles** directory.
+    - Any files and folders you create moving forward will be created under this directory until you run the change directory command to another directory.
+- Type into the command window `dir` and hit the enter key.
+    - This will display all the files and folders within your current directory.
+- Type into the command window `echo My name is (enter your name) > sample.txt` and then hit the enter key.
+  - This will write the text **'My name is Brandon Hunter'** into a text file **sample.txt** file.   
+- Finally, type into the command window `dir` and hit the enter key.
+    - This will show you the file you just created in the current directory.
+
+
 ### Provided below are some comman commands that can execute using the command console.
 
 | Commands | Description | Example |
@@ -100,9 +134,7 @@ Here's how you can execute a command using the command console:
 | **title** | This command chnage the title of the command prompt window. | title New Title
 | **color** | This command changes the background color of the command prompt window. | color 1 9 |
 
-**Note:**
-
-Here are color codes that you can use with the **color** command
+**Note:** Here are color codes that you can use with the **color** command
 | Background Color Code | Foreground (text) Color Code| Example |
 |-----------------------|-----------------------------|---------|
 | 0 (Black) | 8 (Gray) | color 0 8 |
@@ -114,7 +146,29 @@ Here are color codes that you can use with the **color** command
 | 6 (Yellow) | E (Light Yellow)| color 6 E |
 | 7 (White) | F (Bright White)| color 7 F |
 
-## Lets Recap
+## Excrise 2: Network troubleshooting
+
+- Lets say you're on the phone with someone from IT support and they ask you `What is the hostname of your machine?`. What do you do?
+    - From a command window type in the following command: `hostname` and then hit the enter key. This will provide the hostname of your computer which is the unique name assigned to your computer.
+- Let's say IT support ask for your machine's IP address?
+    - What is an IP address? 
+        - You can think of it as a unique address that is assigned to your computer. 
+        - Every computer has an IP address and every website has an IP address. Pretty much any device on the internet has a unique IP address.
+    - Type into the command window `ipconfig` and hit the enter key. 
+        - You should see something similar to the image below:
+        
+            [<img src='./images/ipconfig.gif' width='550' height='175' />](./ComputerCommand.png)
+- You're having trouble reaching out to google.com using your browser on your computer, and you think google.com is down. How do you check if you can't get to it using the browser.
+    - We can use the `ping` command. The ping command sends a short message to a device or website (device) to see if it will respond.
+    - Type into the command window `ping google.com` and then hit the enter key.
+    - Provided below are the result: 
+        - The first ping responds with a request timeout which could mean that the website is down or you have a problem with your local network.
+        - The second ping shows a sucessful ping meaning that your computer can reach to the website, so maybe the problem might be with the software you're using to access the website.
+
+
+            [<img src='./images/ping-command.gif' width='650' height='475' />](./ComputerCommand.png)
+
+## Lets Recap [STOP HERE]
 - A computer processes information using 4 components togeather to produce an output. The components are Input, Memory, CPU and Output.
     - Inputs converts physical input to binary information. An example of an input are keybaords, cameras, drones or even a touch pad on a laptop.
     - Memory: Stores information
