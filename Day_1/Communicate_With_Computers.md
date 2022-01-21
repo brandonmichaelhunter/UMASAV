@@ -168,23 +168,28 @@ Next let's create a folder and then a file
 
             [<img src='./images/ping-command.gif' width='650' height='475' />](./ComputerCommand.png)
 
-## Lets Recap [STOP HERE]
-- A computer processes information using 4 components togeather to produce an output. The components are Input, Memory, CPU and Output.
-    - Inputs converts physical input to binary information. An example of an input are keybaords, cameras, drones or even a touch pad on a laptop.
-    - Memory: Stores information
-    - CPU: Center Processing Unit calculates information.
-    - Ouput: Converts information to physical output.
-- A program (or software program) is defined as a `set of instructions, or a set of modules or procedures, that allow for a certain type of computer operation`.
-    - An example of program is a Command console.
-    - A Command consoles is a pre-installed application that you can use to execute tasks on a computers.
-        -  Common commands that you can perform using a command console are:  
-            - Manage files and folders
-            - Run other programs
-            - Gather information about your computer. 
+## Lets Recap 
+- We communicate computeres using keyboards, voice commands, IoT devices, sensors, drones and live streams. 
+- Each of these ways of communication are called `Inputs`.
+- `Inputs` then takes the users actions (clicking keys on a keyboard or using voice commands), converts that information into binary code.
+    - Binary code (or machine language) is a language that computers understands. 
+    - Binary code contains information which the computer will process and provide results for the end user.
+- Once the binary code is captured from the Input, the binary code is sent to `Memory` and `CPU` to process the information.
+- Once the information has been processed, then the information is sent to an `Output` to display the results.
+    - What are Inputs? Inputs converts physical input to binary information. 
+    - Memory: Stores information captured from inputs.
+    - CPU: Center Processing Unit works on the information captured from the Input and completes thet task.
+    - Ouput: Converts information to physical output. This can be a cell phone scree, a monitor or a repsonse from a computer or cell phone.
+- Programs are a `set of instructions, or a set of modules or procedures, that allow for a certain type of computer operation`.
+    - Examples of programs are command consoles, video games, email clients,etc...
+    - Command consoles is an application used to manage computers.
+    - Command consoles can be used for:
+      - Troubleshooting network issues
+      - Creating files and folders
+      - Starting and stopping programs
+      - Gather metadata about your computer.
 
-
-Next we're going to look at programming languages. Programming languages are used to build programs, create mobile apps and websites. A programming language are the `set of instructions or modules or procedures that allow for a certain type of computer operation`. 
-
+Next we're going to look at programming languages. Programming languages are used to build programs that we use everyday. 
 ### Let's take a 10 minute break to stretch, go to the bathroom or to get something to each.
 
 [Next up...Programming Languages](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Programming_Languages.md)
