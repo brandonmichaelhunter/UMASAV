@@ -1,84 +1,107 @@
-# What are programming lanagues?
-[<img src='./images/top-programming-languages.jpeg' width='800' height='400' />](/images/top-programming-languages.jpeg)
+# Programming
 
-There's a bunch of programming languages to choose from. The one we're going to focus on this course is Python. 
+In this section we will discuss programming and programming languages. 
 
-In this section we will discuss programming and programming languages. Let's start with the
-the `who`, `what`, `where` and `how` of `programming`.
+We will begin with the `who`, `what`, `where` and `how` of `programming`.
 
 ## `What` is programming ?
 
- 
-`Programming` is the mental process of thinking up instructions to give to a machine (like a computer).
+`Programming` is the process of creating a set of instructions that tell the computer how to perform a task.
+
+The person who writes the instructions is known as the `Developer`, `Software Developer`, `Programmer` or `Coder`.
+
+The set of instructions to tell the computer how to perform a task is called `Source Code` or `Software Code`, or `Code`.
+
+`Code` is written using a `programming language`.
+
+`Programming` can be done using editor like Notepad or Microsoft Word or you can `IDE` or `Intergrade Development Environment`.
+
+`IDEs` are software application that provides basic tools required to write and test software code.
+
+`Software` is a collection of instructions packaged into a program for it to be executed by the end user.
+
+Programming can be done using a variety of computer programming languages such as C#, JavaScript, Python, C++, etc...
+
+
 
 We can think about programming like this....
 
-Who remembers getting a lego set as a gift? I'm talking about the big ones, with tons of lego pieces and multiple pages of instructions on how to build it.
+Who remembers getting a lego set for christmas? A huge lego set, one with a manual with tons instructions.
 
 [<img src='./images/LegoImage.jpeg' width='300' height='200' />](/images/LegoImage.jpeg)
 
-- If you’ve ever build a lego set using the build instructions, you can think of yourself as the computer and the manual are written by the author(or programmer). 
-- The author's manual provides you with a set of instructions which you (as the computer) read, and then build based on those instructions.. 
-- The more complex the instructions, the more complex the result!”
-
+- A lego set comes with legos, stickers and a manual.
+- The manual includes instructions on how to build the legoset.
+- The `Source Code` is the manual.
+- The `Programmer` is the author who created the manual.
+- The `Computer` is you. As the computer you:
+  - Read from the `Input`, which in this case is the `Source Code` or manual.
+  - You build the legoset using `Memory` and `CPU` as resources to produce an `Output` or the desire results.
+    - In human context, we're doing the same thing 
+      - Reading and understanding the instructions from the manual.
+      - Using our brain (as the `Memory` and `CPU`) to complete the task to our desire results.
 ### Why should we learning programming?
 
-- The reason why I enjoy programming because I like the idea of creating programs to control a computer and it helps support my family and provide my kids the opporutnties I never had.
+- I learned programming for the following reasons:
+  1. I found it interesting that I could convert my thoughts into something a machine can produce, like figuring out the higest prime number.
+  2. I knew it would take me from the couch that I slept on and the rat infested place that I was living in through high school and college and move me into my own place and then eventually to purchasing my first home.
 
-- **Programming can be used to solved problems.** 
-  - We can use programming to create applications to: 
-    - Automate sending reminders when to take medication.
-    - To create facial recongiztion software to find criminals going through public spaces.
-    - Automate sending out report cards to parents directly, instead of waiting them their kids. 
-
+- **Programming can be used to solved problems.**  
+  - - Programmers solve a problem by breaking it down into workable pieces to understand it better. When you start learning to program, you develop the habit of working your way out in a very structured format. You analyze the problem and start thinking logically and this gives rise to more creative solutions you’ve ever given. (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/
 - Programming develops creative thinking. (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe)
 - Programming Provides Life-Changing Experiences (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe)
-- Programmers solve a problem by breaking it down into workable pieces to understand it better. When you start learning to program, you develop the habit of working your way out in a very structured format. You analyze the problem and start thinking logically and this gives rise to more creative solutions you’ve ever given. (ref [Coding 101: Programming Language Building Blocks](https://hackernoon.com/coding-101-programming-language-building-blocks-1w513uwe))
+coding-101-programming-language-building-blocks-1w513uwe))
 - "Whether you want to uncover the secrets of the universe, or you just want to pursue a career in the 21st century, basic computer programming is an essential skill to learn." - Stephen Hawking
 - "Everybody in this country should learn how to program a computer… because it teaches you how to think." - Steve Jobs
 
-## `Who` can do programming?
+## `Who` can programming?
 ## Anyone......
-Really anyone can learn how to program. As long as you're curious, have the ability to 'think out of the box' and can solve problems, then you have the tools to program. 
 
-You probably are know some of the programming concepts because they were tought to you in your Math classes. 
+## **YOU DO NOT HAVE TO BE SMART TO LEARN PROGRAMMING**
+
+## **YOU DO NOT HAVE TO BE SMART TO WORK IN IT (OR INFORMATION TECHNOLOGY)**
+
+## **YOU DO NOT HAVE TO BE SMART TO WORK WITH COMPUTERS**
+
+Really anyone can learn how to program. 
+
+As long as you're curious, you like solving problems and you have the ability to 'think out of the box', then thats all you need to get started.
 
 ## `Where` can you do programming?
 
 Programming can be done on a computer, a tablet, or even your cell phones. Both the Apple and Google Play stores have apps you can install on your smart phone that will allow you to program on your phone.
 
-For larger size applications or software, like games, websites, mobile apps, you'll need a computer with larger size resources, than you typically would have on your tablet and cell phone.
 For example:
 
-- SoloLearn (avaliable in both Apple and Google Play stores.) and Pythonista 3 (avaliable only in the Apple store) are apps where you can start learning to program through your phone.
+SoloLearn (avaliable in both Apple and Google Play stores.) and Pythonista 3 (avaliable only in the Apple store) are apps where you can start learning to program through your phone.
 
-  [<img src='./images/SoloLearn.png' width='520' height='190' />](/images/SoloLearn.png)
+  [<img src='./images/SoloLearn.png' width='520' height='150' />](/images/SoloLearn.png)
 
-  [<img src='./images/sololearn_googleplay.png
-  ' width='550' height='190' />](/images/SoloLearn.png)
+  [<img src='./images/sololearn_googleplay.png' width='520' height='150' />](/images/SoloLearn.png)
 
-  [<img src='./images/Pythonista_3.png' width='520' height='190' />](/images/SoloLearn.png)
+  [<img src='./images/Pythonista_3.png' width='520' height='200' />](/images/SoloLearn.png)
 
-
+For bigger projects,  you'll need a computer and software that is designed for developing games, websits and mobile apps.
 
 
 ## `How` do we get started with programming ?
 
  To get started programming you will need the following items:
 
+ 1. A computer with a editor or an IDE..Notepad is an example of an editor.
 
- - A computer with a text editor application..
-   - A text editor is an application where you can type text into and save your work onto your computer. An example of a text editor is Notepad. Notepad is a text editor application that is installed when you install Windows onto your machine. 
 
       [<img src='./images/notepad.jpeg' width='100' height='100' />](./images/notepad.jpeg)
 
-      Notepad is not just the only text editor out there. There's other text editor applications that comes with more tools and features that makes programming much easier. These specific type of text editors are called IDE or Intergrated Development Environments. 
-      
-      We will talk more about IDE later on in this course, but just remember that you can use Notepad to start programming.
-- Then the last thing you need to choose is a `programming language`. Programming languages are installed through an executable a which includes tools and other programs that will allow you to start programming and create your own programs. Next lets discuss what is a programming language.
+2. Choose a `programming language`. 
+  - There's multiple programming languages that are designed for solve a specific problem or designed to solve multiple problems.
+  - Programming languages come in the form of a package or executable file, that includes tools and resources required to write source code and to create programs from that specific programming language.
 
-### What is a programming language ?
+## Next lets talk about **Programming Languages**
 
+
+### What is a programming language ? [Pick up from here]
+[<img src='./images/top-programming-languages.jpeg' width='600' height='300' />](/images/top-programming-languages.jpeg)
 - So we defined programming as the mental process of thinking up instructions to give to a machine to execute.
 
 - A 'programming language' (or coding) is the process of transforming those ideas into a written language that a computer can understand.

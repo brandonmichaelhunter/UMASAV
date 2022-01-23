@@ -49,10 +49,8 @@ A program (or software program) is commonly defined as a set of instructions, or
 In the diagram above, its assume you know that the Operating System assists in processing input and producing output.
 
 What's an operating system? 
-- Its software, its a program thats installed on a computer and its job is to manage your computer and all the software that runs on the computer. 
-- An opearting system uses other software to protect the computer from malware and virous.
-- An operating system also monitors programs to make sure they don't consume to much of your primary resources like memory, cpu and\or hard drive spaces.
-- Windows 10, MacOS, IOS are operating systems.
+- An operating system is a software program that serves as the interface between other applications and the hardware on a computer or mobile device. Special internet protocols are built into all major operating systems to allow computers to communicate over long distance networks. Without the OS or the protocols built into it, it wouldn’t be possible to access a web browser.
+- Some examples of operating systems are Windows 10, MacOS, IOS.
 
 Operating systems is example of one program, but they're many more like:
 1. A command console
@@ -189,7 +187,7 @@ Next let's create a folder and then a file
       - Starting and stopping programs
       - Gather metadata about your computer.
 
-Next we're going to look at programming languages. Programming languages are used to build programs that we use everyday. 
+Next we're going to look at programming and programming languages. Programming and programming languages are the concepts and tools we use to create apps, websites, video games and more.... 
 ### Let's take a 10 minute break to stretch, go to the bathroom or to get something to each.
 
-[Next up...Programming Languages](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Programming_Languages.md)
+[Next up...Programming and Programming Languages](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/Programming_Languages.md)

@@ -89,8 +89,12 @@ Provides power to your machine.
 
 
 ## What is software?
-### **`Software is a set of instructions, data or programs used to operate computers and execute specific tasks`**. 
+### **`Software tells a computer how to function`**. 
 Software is made up of source code (or **commands**\instructions), written using a **programming language**, and then compiled into a program for end users to consume.
+
+Software has other names like apps (or applications), scripts and programs.
+
+Software runs on PCs, cell phones, tablest and other smart devices.
 
 Here are some examples of common software\programs\apps (or software) that you will find on a computer:
 
