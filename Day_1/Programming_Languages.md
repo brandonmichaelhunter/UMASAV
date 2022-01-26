@@ -97,29 +97,33 @@ For bigger projects,  you'll need a computer and software that is designed for d
   - There's multiple programming languages that are designed for solve a specific problem or designed to solve multiple problems.
   - Programming languages come in the form of a package or executable file, that includes tools and resources required to write source code and to create programs from that specific programming language.
 
-## Next lets talk about **Programming Languages**
+### Next lets talk about **Programming Languages**
 
 
-### What is a programming language ? [Pick up from here]
+
+## What is a programming language ?
 [<img src='./images/top-programming-languages.jpeg' width='600' height='300' />](/images/top-programming-languages.jpeg)
-- So we defined programming as the mental process of thinking up instructions to give to a machine to execute.
+- Programming as the mental process of thinking up instructions to give to a machine to execute.
 
-- A 'programming language' (or coding) is the process of transforming those ideas into a written language that a computer can understand.
+- `Coding` is the process of transforming those ideas into a written language that a computer can understand.
 
-- Programming languages are written in English (or you can think of it as `human readable code`. I'll share later why this is important later).
+- Programming languages are human readable, meaning that humans can read code.
 
-- The actual instructions can be created using any document editor like notepad, Word, but when you save file, you must save using the proper file extension so you can execute your instructions. In software world, we call these instructions `source code`. We'll talk more about this later, just know the instructions that are written to a file is called source code. [Click here to read more about programming languages](https://www.codecademy.com/resources/blog/programming-languages/)
+- Applying your instructions to a file and saving it using the correct file extension is called `source code`.
+  - Why do we have the save the file using a specific file extension?
+    - In general each program language has unique file extension(s) that it uses to build a program. We'll talk about more about later.  [Click here to read more about programming languages](https://www.codecademy.com/resources/blog/programming-languages)
 
 - Not all programming languages are created the equal. 
-- A programming language has its own set of rules on how to code in that specific language, but all langauges uses a common set of arithmetic operators, control structures and data structures that probably has used in your math classes, such functions, tables, matrixes, '+', '-', '/', '<=', '>=' and more......
-- Most applications are built using one or more programming languages. Why?
-- Each programming language were designed to solve a particular problem(s) and they can also be used togeather to create biggera and better applications. Most of the websites you use today uses a multituide of languages, some are listed in the image below. 
+  - Some are designed to solve a small range or problems while others were designed to solve a large range of problems. Look at the image below
+    [<img src='./images/ProgramLanguageUses.png' width='500' height='425' />](./images/notepad.jpeg)
+  - Programming languages has their own set of rules on how to code in that language and how it builds programs. 
+  - You can think of each program language as a actual language.
+    - Each language has rules to define what are senteces, questions, conversations, or when and how to uses words in a sentence. We call these rules 'Parts of Speech'. The same is true for programming languages, which we will see in the next section.
+ 
 
-  [<img src='./images/ProgramLanguageUses.png' width='500' height='425' />](./images/notepad.jpeg)
+Let's discuss the building blocks (or Parts of Speech) of programming languages.
 
-Next let's discuss the building blocks of a programming language.
-
-## The `building blocks` of a programming languages ? 
+## The `building blocks` of a programming languages ? [PICK UP FROM HERE]
 
 [Start From Here - read the articles below and include them into this section.]
 
