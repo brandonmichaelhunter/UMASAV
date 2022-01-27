@@ -118,28 +118,32 @@ For bigger projects,  you'll need a computer and software that is designed for d
     [<img src='./images/ProgramLanguageUses.png' width='500' height='425' />](./images/notepad.jpeg)
   - Programming languages has their own set of rules on how to code in that language and how it builds programs. 
   - You can think of each program language as a actual language.
-    - Each language has rules to define what are senteces, questions, conversations, or when and how to uses words in a sentence. We call these rules 'Parts of Speech'. The same is true for programming languages, which we will see in the next section.
+    - Each language has rules that define how to form senteces, questions, conversations, or when and how to uses words in a sentence. We call these rules 'Parts of Speech'. The same is true for programming languages, which we will see in the next section.
  
 
 Let's discuss the building blocks (or Parts of Speech) of programming languages.
 
-## The `building blocks` of a programming languages ? [PICK UP FROM HERE]
+## The `building blocks` of a programming languages ? 
 
 [Start From Here - read the articles below and include them into this section.]
 
 https://betterprogramming.pub/building-blocks-programming-language-fundamentals-481ff296b477
 
 What do you mean by building blocks? Let's think about the English language.
-- The English language consists of nonus, verbs, adverbs, adjective, pronouns, prepositions, conjunctions and interjuctions. These are called 'Parts of Speech'. We use these elements in order to write a complete and comprehensive sentences.
-- Most programming languages has its own 'Parts of Speech' concept which we will call `building block elements`. 
-- These `building block elements` is a blueprint to building sucessfull programming languages. In addition we will also talk about object oriented programming concepts because Python is an object oriented programming language. 
-  - An object oriented programming is a programming model that organizes software design around data or objects rather than functions and logic. There's manu more programming models such as:
-    - `Functional programming` - used alot in the data science field.
-    - `Structured or module programming` - used for building web and mobile apps.
-    - `Imperative programming` - focuses on function rather than models. Used in IOT (internet of things), robotic projects.
-    - `Declarative programming` - involves statements on what the task or desired outcomes is. Used alot in automation and machine learning tasks.
-    - `Logical programming` - used in artifical intelligence projects.
-- Lets dive into the `building block elements`:
+- The English language consists of nonus, verbs, adverbs, adjective, pronouns, prepositions, conjunctions and interjuctions. 
+- These are called `Parts of Speech` which we use a a guide to write complete and comprehensive sentences.
+- Programming languages has its own `Parts of Speech` concept which I will call `building block elements`. 
+- These `building block elements` are a collection of rules that every language has that every developer follows in our to programs from their source code. 
+- In addition we will also talk about object oriented programming concepts because Python is an object oriented programming language. 
+- Alot of these rule are present in every programming language, but each language has adds their unique of creating things in thier owne specific language.
+
+- In addition to programming language's `building block elements`, there's also concept that each language supports which is called `Programming Model`'.
+- `Programming Models` is programming lanagues organize and designs how your write software. For example:
+    - `Object oriented programming` is a programming model that organizes software design around data or objects rather than functions and logic. 
+    - [`Functional programming`](https://www.infoworld.com/article/3613715/what-is-functional-programming-a-practical-guide.html) - using functions to the best effect for creating clean and maintainable software..
+    - [`Structured or module programming`](https://searchsoftwarequality.techtarget.com/definition/structured-programming-modular-programming) - is a programming paradigm that facilitates the creation of programs with readable code and reusable components. 
+ 
+Lets dive into the `building block elements`:[PICK UP FROM HERE]
   - `Syntax`: 
     - This tells us the rules of how to write code in a specific language. 
     - Similar to writing sentences in the English, we must have the following: 
