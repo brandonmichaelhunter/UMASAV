@@ -143,26 +143,68 @@ What do you mean by building blocks? Let's think about the English language.
     - [`Functional programming`](https://www.infoworld.com/article/3613715/what-is-functional-programming-a-practical-guide.html) - using functions to the best effect for creating clean and maintainable software..
     - [`Structured or module programming`](https://searchsoftwarequality.techtarget.com/definition/structured-programming-modular-programming) - is a programming paradigm that facilitates the creation of programs with readable code and reusable components. 
  
-Lets dive into the `building block elements`:[PICK UP FROM HERE]
+Lets dive into the `building block elements`:
+
+[<img src='./images/syntax_semantics.jpeg' width='600' height='225' />](./images/syntax_semantics.jpeg)
+
   - `Syntax`: 
     - This tells us the rules of how to write code in a specific language. 
-    - Similar to writing sentences in the English, we must have the following: 
-      - A sentence must begin with a captial letter and end with a punctuation mark.
-      - A sentence must contain a subject, a predicate and complete thought.
-    - The same is true for a programming language. The syntax for a programming language is part of the documentation that comes with any programming language. 
+    - Think about some of the rules of our English language:
+      - Every sentence ends with a punctuation mark like '.', '?' or '!'
+      - A sentence must begin with a captial letter.
+    - Same is true for programming languages, for example
+      - Variables are containers (or objects) we use to store a value that we can use within our source code.
+      - In Python we define variables like this: 
+      ```python
+        age = 4 # age is a variable that saves a numeric value.
+      ```
   - `Semantics`: 
     - Defines the effect\meaning the instructions have(logic). 
-    - This defines the understanding of your source code.  
+    - This defines the understanding of your source code.
+    - Why is this important? In order to create a program, the program language must understand your instructions and it does this by breaking down each `term` you use and analyze what you're trying to do and then execute it. In order to get that complete understanding you must use the programming language's correct syntax and write source code that the programming language understands how to execute your instructions. For example:
+    ``` python
+    # This will fail because the programming language does not understand how to process your instructions
+    age = 23/0*@ 
+
+    # This will fail, not becuase the programming language does not understand how to process your instructions, but if will fail because you cannot divided any number of by 0 
+    age = 20/0 
+
+    # This will pass because you're using the correct syntax and the programming language understands how to process your instructions.
+    age = 20/4
+    ```
+    *Note the `programming language` in this context represents a `compiler`. A compiler is a special program, that every programming language has, that converts your instructions (or source code) into machine code in order to create an executable program. We will talk about this later in this section.* 
+
+  [<img src='./images/DataTypes.jpg' width='500' height='250' />](./images/DataTypes.jpg)  
   - `Data Types`: 
-    - Defines the classification of data we want to store in memory.
+    - A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data. (By Rebus Community [PROGRAMMING FUNDAMENTALS](https://press.rebus.community/programmingfundamentals/chapter/data-types/))
     - We can think of data types as a way to define a number or text in a programming language. 
       - For example: 
         - We can define `1` as an integer data type because it represents a number. 
         - We can define `3.4` as a decimal data type because it represents a number with a decimal.
-        - We can define `test` as a string data type because it represents text.
-        - There's more data types outside of intergers, decimal and strings, which we will learn later on.
-        - Now there's one more data type we need to know  and its important to know...This special data type is called `object`. 
-        - An `object` data type is a 'catch all' for all data types. All data types inherit from an object data type. Intergers, Decimal, String are the children of an `object` data type, they inherit all the *qualities* or characteristics of an object data type.
+        - We can define `test` as a string data type because it represents text and so on...
+      - Data types are important every program, but choosing the correct data types in your program is extermely important especially in the banking, travel and scientific industries. Why?
+      
+      - Data types are declare on a variable and in most programming languages they are required, while other programming languages do not require you to declare a data type for your variables.
+      - `Object` is a special data type. 
+      - Why? `Object` is the 'catch all' for all data types. Everything created in your source code was created using the `Object` data type.
+        - You can think of `Objects` in the programming world as the parent for all data types used in your program.
+        - The data type objects are mainled used when we do not know the data type of the value we are receving from another program. For example:
+        ``` C#
+
+        int age = 23 // C# you are required to declare a data type for any variable you crated. In this case the C# compiler will recongize this variable as an interger data type.
+        var newAge = 24 // C# - the var data type tells the compiler to figure out the variable's data type. In this case its an interger.
+        ``` 
+        ``` python
+        age = 23 # Python  - will figure out the variables data type.
+        ```
+      - Data Types also takes up space in memory, meaning that each data type has a byte value associated. Provided below is a table of a data types with the bit/byte size value in memory and the ranges values.
+      
+        [<img src='./images/DataTypes.png' width='500' height='250' />](./images/DataTypes.png)  
+
+## Let's talk about bytes for a second......[PICK UP FROM HERE]
+
+https://www.geeksforgeeks.org/understanding-file-sizes-bytes-kb-mb-gb-tb-pb-eb-zb-yb/
+    
   - `Terms:`
     - These are commonly used buzzwords we use to describe a piece of code, such as Paramters, Keywords Variables, Expressions, Statements, Functions, Classes and many more. 
     - `Literals`:

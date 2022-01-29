@@ -37,7 +37,7 @@ Next let's talk about hardware and software...
 
 **`Memory`**: 
 
-[<img src="./images/Memory.jpg" height="200" width="600">](./Memory.jpg)
+[<img src="./images/Memory.jpg" height="200" width="400">](./Memory.jpg)
 
 Memory is a place where programs and CPUs can store data for use later on.
 
