@@ -39,7 +39,28 @@ Next let's talk about hardware and software...
 
 [<img src="./images/Memory.jpg" height="200" width="400">](./Memory.jpg)
 
-Memory is a place where programs and CPUs can store data for use later on.
+Memory is a device that has the space to store information.
+
+Memory is used by CPU (or Central Processing Unit) and by other programs to store information.
+
+A `unit of memory` is the amount of data that the memory can hold. We will talk about this later when we get to the discussion on `Data Types`.
+
+A memory's storage space is measure in terms of bytes.
+
+There's two parts of memory:
+
+- `Primary Memory`
+  - This represents the internal memory that stores the data and instructions for the CPU.
+  - Its volatile memory, meaning data is lost when the computer losses power.
+  - For example: internal hard drives...
+  - Primary memory has two types:
+    - RAM (Random Access Memory)
+      - We can read and write to data.
+    - ROM (Read Only Memory)
+      - We can only read data and cannot write to data.
+- `Secondary Memory`
+  - These are devices to store data permanently, like external data storages.
+  - For Example: External Hard Drives, CDs, DVDs, Thumbdrives,etc..
 
 
 **`CPU (Central Processing Unit)`**: 

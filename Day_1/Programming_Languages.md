@@ -201,54 +201,97 @@ Lets dive into the `building block elements`:
       
         [<img src='./images/DataTypes.png' width='500' height='250' />](./images/DataTypes.png)  
 
-## Let's talk about bytes for a second......[PICK UP FROM HERE]
+  - ## Let's talk about bytes for a second......
 
-https://www.geeksforgeeks.org/understanding-file-sizes-bytes-kb-mb-gb-tb-pb-eb-zb-yb/
-    
-  - `Terms:`
-    - These are commonly used buzzwords we use to describe a piece of code, such as Paramters, Keywords Variables, Expressions, Statements, Functions, Classes and many more. 
-    - `Literals`:
-      - Is a programming is a piece of text that represents a fixed value in source code. Examples of literals:
+    - Remember our conversation about `Units of Memory`???????
+
+    - `Units of Memory` is the amount of data that memory can hold. 
+
+    - Rembmer????
+
+    - Here are the different `Units of Memory` types:
+
+      - `Bit` - the smallest unit of representation in the binary language. 
+        - A `bit` can represented as a 1 or 0.
+      - `Nibble` - is a collection of 4 bits.
+        - Examples: 0000,0001,0010,0011,0100,0101,0110,0111,1000,1001,1010,1011,1100,1101,1110,1111
+      - `Byte` - is a representation of a group of 8 bits.
+        - This can represent any word, symbol or character.
+        - Computer memory is always in terms of multiple bytes.
+      - `Kilobyte`
+        - It is the most common unit of memory which is the smallest of all. But, it is greater than the byte.
+        - The abbreviation for kilobytes is ‘KB’.
+        - It contains 1000 bytes. Besides, it is synonyms to kibibytes which contain 1024 (2^10) bytes.
+        - Megabytes usually measures the size of text documents, graphics of websites, individual files, etc.
+      - `Megabyte`
+        - The abbreviation for megabyte is ‘MB’.
+        - It contains 1000,000 bytes. Besides, it is synonyms to mebibytes which contains 1048576 (2^20) bytes.
+        - Kilobytes usually measure the size of large files. For example high-resolution images, songs, storage of compact disks, etc.
+      - `Gigabyte`
+        - The abbreviation for the gigabyte is ‘GB’ or ‘gigs’.
+        - It contains 1000,000,000 bytes. Besides, it is synonyms to gibibytes which contain 1073741824 (2^30) bytes.
+        - Kilobytes usually measure the capacity of storage devices.
+      - `Terabyte`
+        - The abbreviation for terabytes is ‘TB’.
+        - It contains onetrillion bytes. Besides, it is synonyms to tebibytes which contains 2^40 bytes.
+        - Kilobytes usually measure the capacity of large storage devices, for example, HDDs (Hard Disk Drives).
+      - `Petabyte`
+        - The abbreviation for petabyte is ‘PB’.
+        - It contains 10^15 bytes. Besides, it is synonyms to pebibytes which contains 2^50 bytes.
+        - Petabytes usually measure the total data storage in large networks or server farms. For example, the data in Google or Facebook data servers is around more than 10 PBs.
+      - `Exabyte`
+        - The abbreviation for exabyte is ‘EB’.
+        - It contains 10^18 bytes. Besides, it is synonyms to exbibytes which contains 2^60 bytes.
+        - The exabyte unit is so large that it does not even measure the storage of large cloud servers. Rather, it can be used to measure the amount of data transfer over the internet for a certain time limit.
+      - `Zettabyte`
+        - The abbreviation for zettabyte is ‘ZB’.
+        - It contains 10^21 bytes. Besides, it is synonyms to zebibytes which contains 2^70 bytes.
+        - It can measure a huge amount of data. In fact, the whole data in the world is just a few zettabytes.
+      - `Yottabyte`
+        - The abbreviation for yottabyte is ‘YB’.
+        - It contains 10^24 zettabytes. Besides, it is synonyms to yobibytes which contains 2^80 bytes.
+        - It is a tremendously huge unit of measurement. Therefore, it has no practical use.
+      
+  - `Literals`:
+    - Its a piece of text that represents a fixed value in source code. Examples of literals:
+    ```python
+    123    # an interger literal
+    1.23   # a floating point literal
+    'test' # a string literal 
+    # a boolean literal - Boolean is a data type that defines two values: True or False
+    x = True  
+    a = { x: 1, y: 2} # an object literal.
+    ```
+  - `Operators`:
+    - Its a symbol that tells the compiler (or interpreter) to perform a mathematical, logical, relational or other operation as defined in the language specification.
+    - For example:
+      - Common operators: 
+        - arithmetic: +(plus), - (minus), *( multiply), / (divide)
+        - assignment: = (equals)
+        - logic: !(NOT), && (AND), || (OR)
+        - equality testing: ==, !=
+        - function call: ()
+        - increment / decrement: ++, --
+        - member selection: .
+        - order relations: <(less than), <= (less than or equal), > (greater than), >= (greater than or equal)
+      - An operator can also be a word. For example `sizeof` is an operator in the C language  which returns  the storage created for a given data type.
+      - An operator that takes one argument is called *unary operator*. For example: 
       ```python
-      123    # an interger literal
-      1.23   # a floating point literal
-      'test' # a string literal 
-      # a boolean literal - Boolean is a data type that defines two values: True or False
-      x = True  
-      a = { x: 1, y: 2} # an object literal.
+          a++ # unary operator or an operation with only one operand.
       ```
-    - `Operators`:
-      - Its a symbol that tells the compiler (or interpreter) to perform a mathematical, logical, relational or other operation as defined in the language specification.
-      - For example:
-        - Common operators: 
-          - arithmetic: +(plus), - (minus), *( multiply), / (divide)
-          - assignment: = (equals)
-          - logic: !(NOT), && (AND), || (OR)
-          - equality testing: ==, !=
-          - function call: ()
-          - increment / decrement: ++, --
-          - member selection: .
-          - order relations: <(less than), <= (less than or equal), > (greater than), >= (greater than or equal)
-        - An operator can also be a word. For example `sizeof` is an operator in the C language  which returns  the storage created for a given data type.
-        - An operator that takes one argument is called *unary operator*. For example: 
-        ```python
-            a++ # unary operator
-        ```
-        - An operator that takes two arguments is called a *binary operator*. For example: 
-        ```python
-          a+b # a binary operator
-        ```
-    - `Statements`:
-      - Is a unit of executable code that does not return a value. 
-      - Statements may contain a mixture of variables, operators, literals and other keywords (keywords are words that serve one specific purpose and cannot be used in any other way defined by the programming language).
-      - For example:
+      - An operator that takes two arguments is called a *binary operator*. For example: 
+      ```python
+        a+b # a binary operator or an operatin with two operands.
+      ```
+  - `Statements`:
+    - Is a unit of executable code that does not return a value. 
+    - Statements may contain a mixture of variables, operators, literals and other keywords (keywords are words that serve one specific purpose and cannot be used in any other way defined by the programming language).For example:
       ``` python
       # Simple statements
       a = 10 # variable a
-      b = 9 # variable b
-      a = b # We are assigning the value of variable b to the value of variable a. In case we are overridding the value. 
-      # Return statement
-      return a # returns the value of variable a.
+      b = a # We are assigning the value of variable a to varaible b.
+      
+      return a # returns the value of variable a to the caller.
       # if statements
       if(a < b) return c:
       # loop statements
@@ -273,75 +316,75 @@ https://www.geeksforgeeks.org/understanding-file-sizes-bytes-kb-mb-gb-tb-pb-eb-z
         1 + 2 # uses the binary operator to return the value 3
         a * b # uses the '*' operator and returning a multiplied by b
         !a    # uses the unary operator and returns a boolean value (false)
+
         # Expressions and statements can be combined
         a = b + c # this statement says take the binary operator '+' and add the value of variable 'b' and 'c' and then assign the value to variable 'a' 
         # b + c is an expression
         # a = b + c is a statement.
       ```
-    - `Operator Precedence and Associativity`:
-      - Is the set of rules that determines in what order operators are applied within a complex expression.
-      ``` python
-      (2 -1 ? 0 : 1) == 0 # this expression and statement says:
-      # 1. subtract '1' from 2'
-      # 2. '?/ represents the if statement. If 2-1 is equal to '0' (defined by '== 0).
-      # If 2-1 is equal to 0, then return '0' else return '1'
-      ```
-    - `Functions\Methods`:
-      - Its a reusable block of code that performs a specific task.
-      - Example:
-      ``` python
-        # AddTwoNumbers is a block of code that will add two numbers and return it to its caller.
-        # This is one of the ways how functions are defined in Python.
-        def AddTwoNumbers(A, B): 
-            return A+B
-        print(AddTwoNumbers(1,2)) # print() is also a function that display data to a screen.
-      ```
-    - `Properties or Attributes`:
-      - Represents the characteristics of an object. 
-      - An object can be car, person, house, etc.....The properties (or attributes) represents the color of the house or the model of the car or age of a person. These are details that describes the details about the object. 
-    - `Class`:
-      - Is a blueprint for that defines the properties and functions common to all objects of a certain kind.
-      - We can think a class like a Human
-      ``` python
-       class Human:
-         # These are properties of a car object or the characteristics of a car. 
-         name: str
-         email: str
-         address: str
-         age: int
-         def __init__(self, Name, Email, Address, Age): # this is called a constructor
-             # A constructor is a special function that prepares the object to be used within your code. Its called when you're ready to create object in your code.
-             self.name = Name
-             self.email = Email
-             self.address = Address
-             self.wheelSize = WheelSize
-             self.age = Age
+  - `Operator Precedence and Associativity` or `Order of Operations`:
+    - Is the set of rules that determines in what order operators are applied within a complex expression.
+    ``` python
+    (2 -1 ? 0 : 1) == 0 # this expression and statement says:
+    # 1. subtract '1' from 2'
+    # 2. '?/ represents the if statement. If 2-1 is equal to '0' (defined by '== 0').
+    # If 2-1 is equal to 0, then return '0' else return '1'
+    ```
+  - `Functions\Methods`:
+    - Its a reusable block of code that performs a specific task.
+    - Example:
+    ``` python
+      # AddTwoNumbers is a block of code that will add two numbers and return it to its caller.
+      # This is one of the ways how functions are defined in Python.
+      def AddTwoNumbers(A, B): 
+          return A+B
+      print(AddTwoNumbers(1,2)) # print() is also a function that display data to a screen.
+    ```
+  - `Properties or Attributes`:
+    - Represents the characteristics of an object. An object can be car, person or house and the properties represents the person's color, or the color of the car or the height of an house. These are details that describes the details about the object. 
+  - `Class`:
+    - Is a blueprint for that defines the properties and functions common of an object.
+    - We can think a class like a Human
+    ``` python
+      class Human:
+        # These are properties of a car object or the characteristics of a car. 
+        name: str
+        email: str
+        address: str
+        age: int
+        def __init__(self, Name, Email, Address, Age): # this is called a constructor
+            # A constructor is a special function that prepares the object to be used within your code. Its called when you're ready to create object in your code.
+            self.name = Name
+            self.email = Email
+            self.address = Address
+            self.wheelSize = WheelSize
+            self.age = Age
 
 
-         def VerifyIdentity(Name, Address, Age):
-             # This function verifies the identity of the person.
-             if(self.name == Name && self.address == Address && self.age == Age):
-                return True
-             else:
-                return False
-         
-         def SendEmail(Email):
-             # This function sends an email based on the email value provided.
-             SendEmailFromGoogle(Email)
-             return True
+        def VerifyIdentity(Name, Address, Age):
+            # This function verifies the identity of the person.
+            if(self.name == Name && self.address == Address && self.age == Age):
+              return True
+            else:
+              return False
+        
+        def SendEmail(Email):
+            # This function sends an email based on the email value provided.
+            SendEmailFromGoogle(Email)
+            return True
 
-        # Here is how to create a Human object in memory.
-        # When the Human object is created, the __init__() method is called to prepare the object to be used.
-        newHuman = Human('Brandon Hunter','bhunter@gmail.com', '5555 Apple Drive, Oil City, MA 29123', 40 ) 
-        IsSamePerson = newHuman.VerifyIdentity('Brandon Black','',34)
-        if(IsSamePerson == True):
-           print("Hi Brandon")
-        else:
-           print("You're not Brandon")
-             
-      ```
-
-  - `Data Structures:` 
+      # Here is how to create a Human object in memory.
+      # When the Human object is created, the __init__() method is called to prepare the object to be used.
+      newHuman = Human('Brandon Hunter','bhunter@gmail.com', '5555 Apple Drive, Oil City, MA 29123', 40 ) 
+      IsSamePerson = newHuman.VerifyIdentity('Brandon Black','',34)
+      if(IsSamePerson == True):
+          print("Hi Brandon")
+      else:
+          print("You're not Brandon")
+            
+    ```
+   [Code Example](https://colab.research.google.com/drive/1aAAyDfMa3VinTgD7r4SRzk8qBW-HJz8k?usp=sharing)
+  - `Data Structures:` [PICK UP FROM HERE]
     - Data structures are objects where we can store, organize and retrieve data. Examples are lists, arrays, matries, tables,etc....
     ``` python
     # this is an example of a list in Python
