@@ -41,33 +41,34 @@ Next let's talk about hardware and software...
 
 Memory is a device that has the space to store information.
 
-Memory is used by CPU (or Central Processing Unit) and by other programs to store information.
+Memory allows your computer to perform many of its everyday tasks, such as loading applications, browsing the internet, editing a spreadsheet, or experiencing the latest game.
 
-A `unit of memory` is the amount of data that the memory can hold. We will talk about this later when we get to the discussion on `Data Types`.
+CPU (or Central Processing Unit) uses memory to transfter data that needs to be worked on from secondary storage (or hard drives) into memory and then once the operation is completed, then the CPU will transmit the results back to the seconday storage.
 
-A memory's storage space is measure in terms of bytes.
+Memory consists of main memory and cache:
 
-There's two parts of memory:
-
-- `Primary Memory`
+- `Main  Memory`
   - This represents the internal memory that stores the data and instructions for the CPU.
-  - Its volatile memory, meaning data is lost when the computer losses power.
-  - For example: internal hard drives...
   - Primary memory has two types:
     - RAM (Random Access Memory)
       - We can read and write to data.
     - ROM (Read Only Memory)
       - We can only read data and cannot write to data.
-- `Secondary Memory`
-  - These are devices to store data permanently, like external data storages.
-  - For Example: External Hard Drives, CDs, DVDs, Thumbdrives,etc..
+
+A `unit of memory` is the amount of data that the memory can hold. This tells you how much capacity it can temporaily hold for processing.
+
+A memory's storage space is measure in terms of bytes.
+
+Most mondern day laptops and desktop computers support Gigabyte memory sticks. 
+
+We'll talk more about `unit of memory` in the section.
 
 
 **`CPU (Central Processing Unit)`**: 
 
 [<img src="./images/CPU.jpg" height="200" width="400">](./CPU.jpg)
 
-CPUs are the brain where it picks up commands or tasks from memory to work on and\or complete. 
+CPUs are the brain where it picks up commands or tasks from memory (or Secondary Storage) to work on and\or complete. 
 CPU and Memory work togeather to complete tasks given by users and\or applications.
 
 **`Motherboard`**: 
@@ -93,7 +94,13 @@ Provides internet to your computer. Every computer has one. Some have what's cal
 **`Hard Drives (HHD or SSD)`**:
 
 [<img src="./images/HardDrives.jpg" height="200" width="300">](./HardDrives.jpg)
+
 Stores files and programs for long term storage.
+
+Storage drives are used to stored documents, images , programs and more.
+
+They're sized is measured in the same unit of measurement as memory, but its used differently.
+
 
 **`Monitor`**: 
 

@@ -186,6 +186,7 @@ Lets dive into the `building block elements`:
       
       - Data types are declare on a variable and in most programming languages they are required, while other programming languages do not require you to declare a data type for your variables.
       - `Object` is a special data type. 
+      - `Objects` are nonuns.
       - Why? `Object` is the 'catch all' for all data types. Everything created in your source code was created using the `Object` data type.
         - You can think of `Objects` in the programming world as the parent for all data types used in your program.
         - The data type objects are mainled used when we do not know the data type of the value we are receving from another program. For example:
@@ -197,60 +198,56 @@ Lets dive into the `building block elements`:
         ``` python
         age = 23 # Python  - will figure out the variables data type.
         ```
-      - Data Types also takes up space in memory, meaning that each data type has a byte value associated. Provided below is a table of a data types with the bit/byte size value in memory and the ranges values.
+      - Data types also takes up space in memory. When you declare a type to variable or just create a variable, then that variable takes up space in memory.
+      - Each data type is associated with a size and range
+        - The size represents the 'unit of memory' or how much space it takes up in memory and 
+        - The range represents the min and max values that the data type can accept. 
+        - Using the table below you can see the Size (Bit/Bytes) and Range for each data types.
       
-        [<img src='./images/DataTypes.png' width='500' height='250' />](./images/DataTypes.png)  
+          [<img src='./images/DataTypes.png' width='500' height='250' />](./images/DataTypes.png)  
 
-  - ## Let's talk about bytes for a second......
+        - ## Let's talk about bytes for a second......
 
-    - Remember our conversation about `Units of Memory`???????
+          - Remember our conversation about `Units of Memory`???????
 
-    - `Units of Memory` is the amount of data that memory can hold. 
+          - `Units of Memory` is the amount of data that memory can hold. 
 
-    - Rembmer????
+          - Here are the different `Units of Memory` types:
 
-    - Here are the different `Units of Memory` types:
-
-      - `Bit` - the smallest unit of representation in the binary language. 
-        - A `bit` can represented as a 1 or 0.
-      - `Nibble` - is a collection of 4 bits.
-        - Examples: 0000,0001,0010,0011,0100,0101,0110,0111,1000,1001,1010,1011,1100,1101,1110,1111
-      - `Byte` - is a representation of a group of 8 bits.
-        - This can represent any word, symbol or character.
-        - Computer memory is always in terms of multiple bytes.
-      - `Kilobyte`
-        - It is the most common unit of memory which is the smallest of all. But, it is greater than the byte.
-        - The abbreviation for kilobytes is ‘KB’.
-        - It contains 1000 bytes. Besides, it is synonyms to kibibytes which contain 1024 (2^10) bytes.
-        - Megabytes usually measures the size of text documents, graphics of websites, individual files, etc.
-      - `Megabyte`
-        - The abbreviation for megabyte is ‘MB’.
-        - It contains 1000,000 bytes. Besides, it is synonyms to mebibytes which contains 1048576 (2^20) bytes.
-        - Kilobytes usually measure the size of large files. For example high-resolution images, songs, storage of compact disks, etc.
-      - `Gigabyte`
-        - The abbreviation for the gigabyte is ‘GB’ or ‘gigs’.
-        - It contains 1000,000,000 bytes. Besides, it is synonyms to gibibytes which contain 1073741824 (2^30) bytes.
-        - Kilobytes usually measure the capacity of storage devices.
-      - `Terabyte`
-        - The abbreviation for terabytes is ‘TB’.
-        - It contains onetrillion bytes. Besides, it is synonyms to tebibytes which contains 2^40 bytes.
-        - Kilobytes usually measure the capacity of large storage devices, for example, HDDs (Hard Disk Drives).
-      - `Petabyte`
-        - The abbreviation for petabyte is ‘PB’.
-        - It contains 10^15 bytes. Besides, it is synonyms to pebibytes which contains 2^50 bytes.
-        - Petabytes usually measure the total data storage in large networks or server farms. For example, the data in Google or Facebook data servers is around more than 10 PBs.
-      - `Exabyte`
-        - The abbreviation for exabyte is ‘EB’.
-        - It contains 10^18 bytes. Besides, it is synonyms to exbibytes which contains 2^60 bytes.
-        - The exabyte unit is so large that it does not even measure the storage of large cloud servers. Rather, it can be used to measure the amount of data transfer over the internet for a certain time limit.
-      - `Zettabyte`
-        - The abbreviation for zettabyte is ‘ZB’.
-        - It contains 10^21 bytes. Besides, it is synonyms to zebibytes which contains 2^70 bytes.
-        - It can measure a huge amount of data. In fact, the whole data in the world is just a few zettabytes.
-      - `Yottabyte`
-        - The abbreviation for yottabyte is ‘YB’.
-        - It contains 10^24 zettabytes. Besides, it is synonyms to yobibytes which contains 2^80 bytes.
-        - It is a tremendously huge unit of measurement. Therefore, it has no practical use.
+            - `Bit` - the smallest unit of representation in the binary language. 
+              - A `bit` can be represented as a 1 or 0.
+            - `Nibble` 
+              - Is a collection of 4 bits.
+              - Examples: 0000,0001,0010,0011,0100,0101,0110,0111,1000,1001,1010,1011,1100,1101,1110,1111
+            - `Byte`: 
+              - Is a group of 8 bits.
+              - This can represent any word, symbol or character.
+            - `Kilobyte (KB)`
+              - Represents 1024 bytes or 2^10 
+              - Megabytes usually measures the size of text documents, graphics of websites, individual files, etc.
+            - `Megabyte (MB)`
+              - Represents 1,048,576 bytes or 2^20.
+              - Some examples are high-resolution images, songs,etc..
+            - `Gigabyte (GB)`
+              - Represents 1,073,741,824 bytes or 2^30.
+              - Most mondern day memory sticks and storage drives supports GB sizes.
+            - `Terabyte (TB)`
+              - Represents 1,099,511,627,776 bytes or 2^40.
+            - `Petabyte (PB)`
+              - Represents 1,125,899,906,842,624 bytes or 2^50 
+              - Typically used in large computer networks or servers in large companies such as Google and Facebook.
+              - Google, Facebook, Microsoft and Amazon store at least 1200 petabytes of information.
+            - `Exabyte (EB)`
+              - Represents 1,152,921,504,606,846,976 bytes or 2^60.
+              - Exabytes are used to measure the sum of multiple storage networks or the amount of data transferred over the Internet in a certain amount of time.
+              - By 2025 463 exabytes of data will be generated each day by people (Source: Raconteur)
+            - `Zettabyte (ZB)`
+              - Represents 1,180,591,620,717,411,303,424 bytes or 2^70
+              - 2018 it was reported the total of all data created, catpured or replicated reached 18 ZB.
+              - By 2025 the world's data will group to 175 ZB
+            - `Yottabyte (YB)`
+              - Represents 1,208,925,819,614,629,174,706,176 bytes or 20^80
+              - It is a tremendously huge unit of measurement. Therefore, it has no practical use.
       
   - `Literals`:
     - Its a piece of text that represents a fixed value in source code. Examples of literals:
@@ -332,6 +329,7 @@ Lets dive into the `building block elements`:
     ```
   - `Functions\Methods`:
     - Its a reusable block of code that performs a specific task.
+    - They're Verbs or Actions
     - Example:
     ``` python
       # AddTwoNumbers is a block of code that will add two numbers and return it to its caller.
@@ -384,50 +382,75 @@ Lets dive into the `building block elements`:
             
     ```
    [Code Example](https://colab.research.google.com/drive/1aAAyDfMa3VinTgD7r4SRzk8qBW-HJz8k?usp=sharing)
-  - `Data Structures:` [PICK UP FROM HERE]
+  - `Data Structures:`
     - Data structures are objects where we can store, organize and retrieve data. Examples are lists, arrays, matries, tables,etc....
-    ``` python
-    # this is an example of a list in Python
-    fruits = ["apple", "banana", "cherry"]
-    print(fruits[0]) # prints 'apple'
+      ``` python
+      # this is an example of a list in Python
+      fruits = ["apple", "banana", "cherry"]
+      print(fruits[0]) # prints 'apple'
 
-    # this is an example of a dictionary. It stores data in a key:value paris.
-    car = { "brand": "Ford", "model": "Mustang", "year": 1964 }
-    print(car["brand"]) # prints 'Ford'
-    ```
+      # this is an example of a dictionary. It stores data in a key:value paris.
+      car = { "brand": "Ford", "model": "Mustang", "year": 1964 }
+      print(car["brand"]) # prints 'Ford'
+      ```
    
   - `Algorithms:` 
-    - An algorithm is a step-by-step procedure to solve any computational problem. For example Fibonacci Sequence is a sequence of numbers and the next number is found by adding the two numbers before it. 
-    ``` python
-    # Program to display the Fibonacci sequence up to n-th term
-    nterms = int(input("How many terms? "))
+    - A set of instructions for solving a problem or accomplishing a task.
+    - For example Fibonacci Sequence, an alogrithm, is a sequence of numbers and the next number is found by adding the two numbers before it. 
+      ``` python
+      # Program to display the Fibonacci sequence up to n-th term
+      nterms = int(input("How many terms? "))
 
-    # first two terms
-    n1, n2 = 0, 1
-    count = 0
+      # first two terms
+      n1, n2 = 0, 1
+      count = 0
 
-    # check if the number of terms is valid
-    if nterms <= 0:
-       print("Please enter a positive integer")
-    # if there is only one term, return n1
-    elif nterms == 1:
-         print("Fibonacci sequence upto",nterms,":")
-         print(n1)
-    # generate fibonacci sequence
-    else:
-        print("Fibonacci sequence:")
-        while count < nterms:
-              print(n1)
-              nth = n1 + n2
-              # update values
-              n1 = n2
-              n2 = nth
-              count += 1
-    ```
+      # check if the number of terms is valid
+      if nterms <= 0:
+        print("Please enter a positive integer")
+      # if there is only one term, return n1
+      elif nterms == 1:
+          print("Fibonacci sequence upto",nterms,":")
+          print(n1)
+      # generate fibonacci sequence
+      else:
+          print("Fibonacci sequence:")
+          while count < nterms:
+                print(n1)
+                nth = n1 + n2
+                # update values
+                n1 = n2
+                n2 = nth
+                count += 1
+      ```
+  - `Errors`
+    - Errors are issues in your code that causes your program crash or causes your program to output an incorrect result. Errors are broken out into 3 different areas:
+      - Syntax Errors - these errors are caused by using incorrect syntax in your code base.
+      ``` python
+        # This code won't run at all because its missing ':' after the 'y' within the if statement.
+        x = 206
+        y = 42
+        if x < y
+          print(str(x) + ' is greater than ' + str(y))
+      ```
+      - Runtime Errors - these errors occur when the program identiifes an issue that it doesn't know how to handle or solve the issue, like losing a database connection or accessing a deleted file or user does not have enough permission.
+      - Logical Errors - these errors occur when the logic is faulty in your code meaning:
+      ``` python
+      # This code won't run at all because x will never be less than y.
+      x = 206
+      y = 42
+      if x < y:
+         print(str(x) + ' is greater than ' + str(y))
+      ```
+    - We'll talk more about `Errors` once we start programming.
+  - `Debugging`:
+   - Is the process of locating and removing computer program bugs, errors or abnormalitites, which is methodically handled by deverlopers using debugging tools.
   - `Compilers`:
      - A compiler is a computer program that translate your source code into a machine-readable language for the computer to execute.
      - Basically its a translator.
-     - Remember in the previous section computers speak in 1's and 0's or binrary. In order for you to run your code on your computer, we need a translator to translate your instructions (or source code) into a language that a computer understands in order for the computer to execute your instructions (or source code). After our break we will look into how programs are created and how can they run on computers.
+     - Remember in the previous section computers speak in 1's and 0's or binrary. 
+     - In order for you to run your code on your computer, we need a translator to translate your instructions (or source code) into a language that a computer understands in order for the computer to execute your instructions (or source code). 
+     - After our break we will look into how programs are created and how can they run on computers.
 ## Lets take a 10 minute break
 
 ## How are programs created
