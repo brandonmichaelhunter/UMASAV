@@ -444,30 +444,34 @@ Lets dive into the `building block elements`:
       ```
     - We'll talk more about `Errors` once we start programming.
   - `Debugging`:
-   - Is the process of locating and removing computer program bugs, errors or abnormalitites, which is methodically handled by deverlopers using debugging tools.
+    - Is the process of locating and removing **bugs** from your program.
+      - What are **bugs** ? Bugs are errors in your code that makes your program fail or do unexpected things.
+      - Example of bugs: a glitch in a computer game, or a program consistently returning incorrect values,etc...
   - `Compilers`:
+     - Are translators that takes your source code and translate your code into binary code for the computer to execute.
      - A compiler is a computer program that translate your source code into a machine-readable language for the computer to execute.
-     - Basically its a translator.
-     - Remember in the previous section computers speak in 1's and 0's or binrary. 
-     - In order for you to run your code on your computer, we need a translator to translate your instructions (or source code) into a language that a computer understands in order for the computer to execute your instructions (or source code). 
+     - The action that takes your source code, inspect your source code and if there are no issues, produces a program or reports back errors, is called `compile`. 
+     - `Compile` checks for syntax errors mainly....We'll talk more about this topic once we started with programming.
+     - Basically its a translator that takes your source code and translate your code into binary code for the computer to execute.
      - After our break we will look into how programs are created and how can they run on computers.
 ## Lets take a 10 minute break
 
 ## How are programs created
 
-### `What are Compilers (or Interpers)?`
+### `What are Compilers (or Interpreter)?`
 Compiler is a program that translate `human readable code` into a `machine readable code` for the computer to execute.
+
+Interpreters are a little different than compilers where the source is translated into `bytecode` by the interpreter and the interpreter translate the `bytecode` into `machine code`.
 
 `machine readable code` is binary code. Lets look at an example of how text and numbers are translated in to binary code.
 - [DEMO: Convert To Binary Code (Python)](demos/convert_to_binary.py)
 
-Each programming language has its compiler that is designed to read its own source code and translate the source code into machine code. 
+Every programming language is equiped with its own compiler or interpreter that is designed to compile source code, to produce a program.
 
-Some programming languages has more than one compiler.
 
-Most compilers are designed on different operating systems and different processor models such as Windows, Mac OS or Linux.
+Most compilers are designed to be used on different operating systems and different processor models such as Windows, Mac OS or Linux.
 
-There are some compilers that only work on specifically one or two operating systems such as XCode. **_XCode is a programming language used to create apps for Apple products._**
+There are some compilers only work on specifically one or two operating systems such as XCode. **_XCode is a programming language used to create apps for Apple products._**
 
 Let's use the visualization below to walk through high level overview of how the compiler works:
 
@@ -475,9 +479,9 @@ Let's use the visualization below to walk through high level overview of how the
 
 Lets say you're writing a python script to turn on the lights in your house.
 
-You write your code in your IDE (Intergrated Development Environment) or an editor, and then you save youyr changes using the apporiate file extension, in this case its `py`. 
+You write your code in your IDE (Intergrated Development Environment) or an editor, and then you save your changes using the `.py` file extension. 
 
-`Why would you have to save the file with the .py file extension?` Since we're writing a script using Python, the Python's compiler looks for files with that file extension. Once the compiler finds that file, then compiler begins compling process. Every programming languages has a similar process.
+`Why would you have to save the file with the .py file extension?` Since we're writing a script using Python, the Python's compiler looks for files with that file extension. Once the compiler finds that file, then the compiler begins  the compling process. Every programming languages has a similar process.
 
 Afte saving your changes, then you click the a run or `play` button within your IDE to start the compiler. 
 
@@ -485,37 +489,27 @@ During this time the compiler is doing the following:
     
 - Reads your code and tries to figure out the words within your source code.` 
 
-- Next, the compiler verifies the grammar (or syntax) in your source code by organizing your source code into `parse tree`.
+- Next, the compiler verifies the grammar (or syntax) in your source code by organizing your source code into a `parse tree`.
 
 - Next, the compiler records all the variables, functions and classes (and other related items) that the computer needs to keep track in your program.
 
-- Then finally the compiler `traverses` the tree and figures identifies which machine code that would effectly do the same thing as your source code. This is the part where it translate your code into machine code. 
+- Then finally the compiler `traverses` the tree and identifies which machine code that would effectly do the same thing as your source code. This is the part where it translate your code into machine code. 
     
   - *Note - there's a little more that goes on before the source code is compiled into machine code.*
 
-- If the compiler reports no errors with your code, then the compiler completes the process by creating an executalbe program that you can run on your computer.
+- If the compiler does not identify any errors with your code, then the compiler completes the process by either 
+  - Creating an executalbe program that you can run on your computer or 
+  - Running your program automatically.
 
 - If errors are found, by the compiler, within your source code, meaning mispelling of words or the incorrect use of a keyword or other errors, then the compiler will stop and return the errors back to your IDE. 
    
-One more thing we need to discuss before we end this section. Compilers vs Interpreters.
-
-Programming languages are also divided into compiler languages vs interpreter languages.
-
-Here's the difference:
-
-- Compilers take the entire source code, translate the source code into binary code (or object code) then the code can be directly executed by the computer.
-
-- Interpreters translate your souce code line by line when you run the program. Python is consider and interpreter language because it uses an interpreter to run your source code.
-
-- `Which one do you think runs slower?` The compiler or the interpreter.
-  
-
 ## Lets Recap
-- We discuss what is programming. `Programming is ?` It's the mental process of thinking up instructions to give to a machine (like a computer).
-- We discussed who can program...Anyone all you need is a computer with an editor (IDE) and install the necessary software to code and compile in the programming language you select.
-- We discussed some concepts of programming such syntax, semantics, terms such as literals, expressions, variables, data types functions and classes, and then data structures, alogrithims and then compilers.
-- We discussed compilers, what they are and how they work from high level point of view.
-
+- We discussed 
+  - What is programming..... `Programming is` the mental process of thinking up instructions to give to a machine (like a computer).
+  - Who can programm.....Anyone....
+  - How can we get started with programming.....An editor like notepad or development editor like visual code and select a program language you want to learn and get started.
+  - `Building Blocks` of programming which include topics such as syntax, semantics, literals, expressions, varaibles, data types, errors, debugging, compilers and more...
+  - Finished with compilers and interpreters and how they work.....
 
 For those that are curious provided below are some resources that goes over what we reviewed today in further details. Check them out when you get a chance.
 
@@ -523,6 +517,8 @@ For those that are curious provided below are some resources that goes over what
 - [How do computers read code ?](https://www.youtube.com/watch?v=QXjU9qTsYCc)
 
 - [Computer Science 101 - YouTube Series](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
+- [What Is an IDE?](https://www.codecademy.com/article/what-is-an-ide)
+- [Difference between Byte Code and Machine Code](https://www.geeksforgeeks.org/difference-between-byte-code-and-machine-code/)
 
 ## In next class we will start learning about Python and this guy.
 
