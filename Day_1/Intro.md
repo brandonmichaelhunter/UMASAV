@@ -5,11 +5,11 @@ Welcome students to the Introduction of Python. My name is Brandon Hunter and I 
 This class will occur on the 2nd and 4th Friday of every month until the end of April.
 
 In this class you will learn the following:
-- An introduction to computer science, which will consists of
-  - What are computers and how they work 
-  - A general understanding of hardware and software.
-  - How we communicate with computers through commands
-  - What are programming languages and we'll into some programming concepts.
+- An introduction to computer science, which we will go over the following:
+  - What is computer science?
+  - What are computers, how do they work and what do we use them for....
+  - How we can communicate computers....
+  - What are programming languages and review some programming concepts.
 - Python programming language
   - What is Python
   - Install and configure Python onto a computer.
@@ -19,12 +19,16 @@ In this class you will learn the following:
   - Learn how to develop single player and multiplayer console games.
 ## Who am I???
 
-### I'm Digital Lead Consultant at NTT Data.
+### I'm Digital Lead Consultant at NTT Data where I write software for a living.
 
 ![NTT Data](https://iconape.com/wp-content/files/xv/81087/svg/ntt-data-1.svg)
 
-### I've been in IT world for the past 17 years where I've developed desktop, web and mobile based solutions for various industries and institutions such as Education, Local, State and Federal government agencies, Healthcare, Financial and Law Firms.  
-
+### I've been in IT world for the past 17 years where developing software (desktop, web and mobile based) solutions for various industries and sectors and non-profit organizations. I've worked in the following sectors:
+- Education
+- Goverment (At the local, state and federal levels), 
+- Healthcare 
+- Financial and Legal inistituions.  
+- IT Services
 
 ### I earned my bachlors degree from Indiana University of Pennsylvania in 2005 where I major in Applied Computer Science and minor in Applied Mathematics.
 
