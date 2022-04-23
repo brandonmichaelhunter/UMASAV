@@ -9,7 +9,7 @@ TBD
 TBD
 
 ## Introduction Python - 201
-[Introduction to Python](https://github.com/brandonmichaelhunter/UMASAV/edit/gh-pages/201) will provide students with a basic knowledege to create simple programs using Python. Python is a general-purpose programming language that can be used to a create a variety of different programs such as websites, games, and used in multiple other applications such as robitcs, automation, automous cars and more. Click [here](https://github.com/brandonmichaelhunter/UMASAV/edit/gh-pages/201) to see the course overview.
+[Introduction to Python](https://github.com/brandonmichaelhunter/UMASAV/blob/gh-pages/201.md) will provide students with a basic knowledege to create simple programs using Python. Python is a general-purpose programming language that can be used to a create a variety of different programs such as websites, games, and used in multiple other applications such as robitcs, automation, automous cars and more. Click [here](https://github.com/brandonmichaelhunter/UMASAV/blob/gh-pages/201.md) to see the course overview.
 
 ## Python Development - 202
 TBD
