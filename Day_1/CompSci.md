@@ -77,7 +77,33 @@ Ref: [techopedia](https://www.techopedia.com/definition/4607/computer)
 ### Binary & Data
 <a href="https://www.youtube.com/watch?v=USCBCmwMCDA" target="_blank"><img src="https://i.ytimg.com/vi/USCBCmwMCDA/hqdefault.jpg" 
 alt="How Computers Work: Binary & Data"  /></a>
-
+FIX NOTES
+Binary and Data
+- Computers work on 1's and 0's play a big role into how computers work.
+- Inside a computer are electric wires and circuits that carray all the information in a computer. How is information stored using electricity?
+  - Using wires. One wire can represents a yes, or no, true or false, or 1 or 0 or anything with two options. This on or off state is called a bit.
+  - using more wires you can use more bits, which can results represent more complex informaiton and the largest numbers you can store.
+- What is a Bit - smallest piece of information you can store. With more bits you can represents more complex information.
+- The Binary Number System
+ - Decimal System we have 10 digits 0 - 9
+ - Binary System we only two digits zero and one, which we can use to count up to any number.
+ - Decimal System we use the positions to represent the number, 123 - 3 represents the 1 positions, 2 represents the 10s position and 1 represent the 100s position. In the decimal system we multiply by 10 for each position.
+ - In the Binary System, the same is true.
+ - In the binary system we multiple each position by 2. For example: 
+   8s|4s|2s|1s
+   1  0  1  0
+   1010 - represents the number 10. Here is how: 1 (1x8) - 0 (0x4) - 1(1x2) - 0(1x1)
+ - Now we don't have to do this math. What is important that any number can be represented by ones and zeros.
+ - With 8 wires you can store numbrs between 0 and 255 or 8 1s (11111111)
+   1-1-1-1-1-1-1-1
+   (1*128)+(1*64)+(1*32)+(1*16)+(1*8)+(1*4)+(1*2)+(1*1) = 255    
+ - 32 wires we can store from 0 to 4 billion           
+ - Text, Images, Sound and more can be represented using numbers.
+ - Every word you see on a web page or your phone is represented using a system like this, a sequence of binary numbers to represent text, images and sound.
+ - For each pixel can represent a number and a number can be represented by binary.
+ - Sound - any sound can be broken down in a series of numbers.
+ - Binary are the backbone of how all computers input, store, process and output information.
+ - 
 ### Crcuits and Logic
 <a href="https://www.youtube.com/watch?v=ZoqMiFKspAA" target="_blank"><img src="https://i.ytimg.com/vi/ZoqMiFKspAA/hqdefault.jpg" 
 alt="How Computers Work: Circuits & Logic"  /></a>
