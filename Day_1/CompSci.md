@@ -79,6 +79,23 @@ Ref: [techopedia](https://www.techopedia.com/definition/4607/computer)
 alt="How Computers Work: Binary & Data"  /></a>
 FIX NOTES
 Binary and Data
+- Computers understands binary data, 1's and 0's. 
+- Any human or software related actions is translated into 1s and 0s for the computer to execute.
+- Electric wires and circuts play an important role on how data is managed within a computer.
+  - Electricity moving throug wires can represent a yes or no, true or false or 1 or 0. This on and off state is called a bit.
+- Binary Number System uses 1s and 0s.
+  - 1s and 0s are used by computers.
+  - Its used to stored data for computers to read and process.
+  - How do we count using the Decimal Number System? We use positions, right. For example: 319 - 3 represents the hundreds place, 1 represents the tenth place and 9 represents the ones place.
+  - The Binary Number System also uses positions to count numbers. Let's take the binary code 
+  - Each position is goes by the multiplying the previous place number by it self. So in binary placement system it goes, 1, 2, 4, 8, 16, 32, 64, 128, 256,etc....
+  
+
+  |16s pace |8s place   |4s place  |2s place   |1s place   |
+  |---------|-----------|----------|-----------|-----------|
+  |     1   |    1      |    1     |  1        |  1        |
+  
+  PICK UP FROM HERE
 - Computers work on 1's and 0's play a big role into how computers work.
 - Inside a computer are electric wires and circuits that carray all the information in a computer. How is information stored using electricity?
   - Using wires. One wire can represents a yes, or no, true or false, or 1 or 0 or anything with two options. This on or off state is called a bit.
