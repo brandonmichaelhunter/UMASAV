@@ -1,6 +1,6 @@
 ## Introduction into Python
 
-
+Welcome to **Introduction into Python** course. Python is a programming language which is used to create websites, desktop applications, automation tasks, machine learning tasks and build robitc applications.
 
 You can use the [editor on GitHub](https://github.com/brandonmichaelhunter/UMASAV/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
