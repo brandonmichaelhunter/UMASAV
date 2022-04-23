@@ -1,38 +1,10 @@
-## Introduction into Python
+## Wecome to UMASAV - Computer Science Courses
 
-Welcome to **Introduction into Python** course. Python is a programming language which is used to create websites, desktop applications, automation tasks, machine learning tasks and build robitc applications.
+Welcome to Urban Mentoring Academy of Savannah (UMASAV) Hub. This hub provides resources and information relating to all computer sicence courses taught at UMASAV. Provided below is a list of classes we teach and additional information relating to the field of computer science.
 
-You can use the [editor on GitHub](https://github.com/brandonmichaelhunter/UMASAV/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/brandonmichaelhunter/UMASAV/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Introduction to Python 
+[Introduction to Python](https://github.com/brandonmichaelhunter/UMASAV/edit/gh-pages/index.md) will provide students with a basic knowledege to create simple programs using Python. Python is a general-purpose programming language that can be used to a create a variety of different programs such as websites, games, and used in multiple other applications such as robitcs, automation, automous cars and more. Click [here](https://github.com/brandonmichaelhunter/UMASAV/edit/gh-pages/index.md) to see the course overview.
 
 ### Support or Contact
 
