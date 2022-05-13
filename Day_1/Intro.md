@@ -1,10 +1,37 @@
-# Day 1 - Introduction to Python
+# Welcome to Introduction to Python
+[<img src="https://ourcodeworld.com/public-media/articles/articleocw-5c65fbda1ea05.jpg" height="250" width="400">](python3-e1624386861238.jpg)
+## My name is Brandon Hunter
 
-Welcome students to the Introduction of Python. My name is Brandon Hunter and I will be your teacher for the next 4 months.
+# Class Schedule
+- This class will meet every 2nd and 4th Friday of each month until August.
+- We will meet for at most 2 hours each class.
+- Class hours are from 5:00 pm until 7:00 pm.
 
-This class will occur on the 2nd and 4th Friday of every month until the end of April.
+# Class Description
+- Introduction to Python is a class that will teach you basic programming concepts using the program language Python.
+- Python is commonly used for developing websites and software, task automation, data analysis, and data visualization. 
+![Guido van Rossum](https://gvanrossum.github.io/images/IMG_2192.jpg)
 
-In this class you will learn the following:
+- Created by [Guido van Rossum](https://gvanrossum.github.io/)
+
+- Python first released on February 20, 1991.
+
+- Python can be used for all kind of applications, industries such as:
+  - Robitics
+  - Drones
+  - Mobile Apps
+  - IOT Devices 
+  - Education
+  - Manufacturing
+  - Social Media apps like instagram
+  - And more...
+# Course Overview
+We will learn the following:
+- What is Computer Science?
+  - Computers
+  - Internet
+  - Programming
+- Python
 - An introduction to computer science, which we will go over the following:
   - What is computer science?
   - What are computers, how do they work and what do we use them for....
