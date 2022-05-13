@@ -97,4 +97,4 @@ We will learn the following:
 
 ## Any Questions?
 
-[**Let's start talking about computer science**](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day1/CompSci.md)
+[**Let's start talking about computer science**](https://github.com/brandonmichaelhunter/UMASAV/blob/beetle/Day_1/CompSci.md)
