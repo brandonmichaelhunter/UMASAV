@@ -1,0 +1,22 @@
+.categoryHeader{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    text-align: center  !important;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    background-image: linear-gradient(180deg,#0068b3 0%,rgba(0,18,135,0.86) 100%)!important;
+}
+.ValuesRows{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    text-align: center  !important;
+    background-image: linear-gradient(180deg,#0068b3 0%,rgba(0,18,135,0.86) 100%)!important;
+}
+.ValueBtn{
+    color:#FFCB2E !important;
+    font-weight: bold !important;
+    font-style:normal;
+    font-size: 25px !important;
+    text-decoration: none;
+}

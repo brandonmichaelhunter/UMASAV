@@ -1,0 +1,83 @@
+data='[
+  {
+    "category": "Question 1",
+    "QuestionAnswer": [
+      {
+        "Question": "Question: 1",
+        "Value": "$529",
+        "Answer": "Answer 1"
+      },
+      {
+        "Question": "Question: 2",
+        "Value": "$563",
+        "Answer": "Answer 2"
+      },
+      {
+        "Question": "Question: 3",
+        "Value": "$773",
+        "Answer": "Answer 3"
+      }
+    ]
+  },
+  {
+    "category": "Question 2",
+    "QuestionAnswer": [
+      {
+        "Question": "Question: 1",
+        "Value": "$906",
+        "Answer": "Answer 1"
+      },
+      {
+        "Question": "Question: 2",
+        "Value": "$531",
+        "Answer": "Answer 2"
+      },
+      {
+        "Question": "Question: 3",
+        "Value": "$502",
+        "Answer": "Answer 3"
+      }
+    ]
+  },
+  {
+    "category": "Question 3",
+    "QuestionAnswer": [
+      {
+        "Question": "Question: 1",
+        "Value": "$982",
+        "Answer": "Answer 1"
+      },
+      {
+        "Question": "Question: 2",
+        "Value": "$275",
+        "Answer": "Answer 2"
+      },
+      {
+        "Question": "Question: 3",
+        "Value": "$945",
+        "Answer": "Answer 3"
+      }
+    ]
+  },
+  {
+    "category": "Question 4",
+    "QuestionAnswer": [
+      {
+        "Question": "Question: 1",
+        "Value": "$938",
+        "Answer": "Answer 1"
+      },
+      {
+        "Question": "Question: 2",
+        "Value": "$314",
+        "Answer": "Answer 2"
+      },
+      {
+        "Question": "Question: 3",
+        "Value": "$797",
+        "Answer": "Answer 3"
+      }
+    ]
+  },
+  {"category": "Question 5","QuestionAnswer": [{"Question": "Question: 1","Value": "$243","Answer": "Answer 1"},{"Question": "Question: 2","Value": "$352","Answer": "Answer 2"},{"Question": "Question: 3","Value": "$314", "Answer": "Answer 3"}]}
+]'
