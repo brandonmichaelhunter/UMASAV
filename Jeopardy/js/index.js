@@ -76,7 +76,7 @@ function LoadGame(){
         htmlTable+= '<td class="categoryHeader">'+mydata[a].category+'</td>'
     }
     htmlTable +='</tr>';
-    let counter = 3;
+    let counter = 4;
     for(let a = 0; a < counter; a++){
         htmlTable +='<tr>'
         for(let b = 0; b < mydata.length; b++){
@@ -161,7 +161,7 @@ $(document).ready(function(){
                 $("#Answer").show();
                 let controlID = $("#QuestionID").val();
                 $("#"+controlID+"").hide();
-                setTimeout(() => {  $( this ).dialog( "close" ); }, 2000);
+                setTimeout(() => {  $( this ).dialog( "close" ); }, 5000);
             },
             "Team B - Incorrect": function(){
                 var teamValue = parseInt($("#Team2Score").text())

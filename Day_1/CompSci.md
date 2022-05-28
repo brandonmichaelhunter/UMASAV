@@ -101,8 +101,11 @@ alt="How Computers Work: CPU, Memory, Input & Output"  /></a>
 
 (4:16 minutes)
 
+### CPU, Memory, Input & Output
+<a href="https://www.youtube.com/watch?v=EGQh5SZctaE" target="_blank"><img src="https://i.ytimg.com/vi/EGQh5SZctaE/hqdefault.jpg" 
+alt="What is a programming language?"  /></a>
 
-
+(3:21 minutes)
 
 
 <a href="https://youtu.be/M4d3FXu9-3I" target="_blank"><img src="https://i.ytimg.com/vi/M4d3FXu9-3I/hqdefault.jpg" 
