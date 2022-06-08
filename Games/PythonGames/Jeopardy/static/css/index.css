@@ -1,0 +1,83 @@
+.categoryHeader{
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+    text-align: center  !important;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    background-image: linear-gradient(180deg,#0068b3 0%,rgba(0,18,135,0.86) 100%)!important;
+    width:400px !important;
+}
+.ValuesRows{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    text-align: center  !important;
+    background-image: linear-gradient(180deg,#0068b3 0%,rgba(0,18,135,0.86) 100%)!important;
+}
+.ValueBtn{
+    color:#FFCB2E !important;
+    font-weight: bold !important;
+    font-style:normal;
+    font-size: 25px !important;
+    text-decoration: none;
+}
+.TeamHeader{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.ScoreValue{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.PositiveValue{
+    color:green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.NegativeValue{
+    color:red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.QuestionDialog{
+    background-image: linear-gradient(180deg,#0068b3 0%,rgba(0,18,135,0.86) 100%)!important;
+    color:white !important;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+progress::-moz-progress-bar { background: green; }
+progress::-webkit-progress-value { background: green; }
+progress { color: green; }
+
+progress.HalfWay::-moz-progress-bar { background: yellow; }
+progress.HalfWay::-webkit-progress-value { background: yellow; }
+progress.HalfWay { color: yellow; }
+
+progress.GettingCloseDone::-moz-progress-bar { background: orange; }
+progress.GettingCloseDone::-webkit-progress-value { background: orange; }
+progress.GettingCloseDone { color: orange; }
+
+progress.Done::-moz-progress-bar { background: red; }
+progress.Done::-webkit-progress-value { background: red; }
+progress.Done { color: red; }
+
+.Started {
+    background: green;
+}
+.HalfWay{
+    background:yellow !important;
+}
+.GettingCloseDone{
+    background: orange !important;
+}
+.Done{
+    background:red !important;
+}
+.GoldText {
+    color:gold !important
+}
