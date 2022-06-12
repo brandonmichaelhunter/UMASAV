@@ -15,7 +15,7 @@
         <link href="{% static 'css/jquery-ui.css' %}"  rel="stylesheet" >
 
     </head>
-    <body>
+    <body id="bodyHome" >
         <!-- Responsive navbar-->
         <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
@@ -38,36 +38,30 @@
                 </div>
             </div>
         </nav> -->
+        
         <!-- Page content-->
-        <div class="container">
+        <div class="container" id="GameCenter">
+           
+            <div id="GameConsole" >
             <div class="text-center mt-5">
-                <h1>UMA Jeopardy!</h1>
-            </div>
-            <div id="ScoreCenter">
-                <table class="table table-bordered text-center">
-                    <tr class="thead-dark"><td class="TeamHeader" style="background-color: green;">Team 1</td><td class="TeamHeader" style="background-color: orange;">Team 2</td></tr>
-                    <tr><td><div class="ScoreValue">$<label id="Team1Score" class="ScoreValue text-center">0</label></div></td><td><div class="ScoreValue">$<label id="Team2Score" class="ScoreValue text-center">0</label></div></td></tr>
-                </table>
+                <h1>Welcome UMA Jeopardy!</h1>
+                <img src="{% static 'images/jeopardy.jpeg' %}" width="800" height="400" /><br />
+                <audio controls id="linkAudio">
                 
+                    <source src="https://www.televisiontunes.com/uploads/audio/Jeopardy%20-%202008-2015.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+                 <div> <a href="/games" class="btn btn-success btn-lg">Start Game</a></div>
             </div>
-            <div>
-                <div id="GameTable"></div>
-            </div>
-        </div>
-        <div id="dialog" title="Jeopardy!!" class="QuestionDialog">
-            <!-- <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4"><div class="center-block"><progress style="display:none" value="0" max="10" id="progressBar"></progress></div></div>
-                <div class="col-sm-4"></div>
-            </div> -->
-            <div id="Question" class="text-center "></div> 
-           <div id="Answer" style="display:none"  class="text-center GoldText"></div>
-           <div id="Value" style="display:none"></div>
-           <input type="hidden" id="QuestionID" value="" />
+            
+         
+            
+            
+            
            
-            <!-- https://www.pythonstacks.com/blog/post/create-single-page-application/ -->
         </div>
-           
+        
+    </div>
           <button id="opener" style="display:none">Open Dialog</button>
         <!-- Bootstrap core JS-->
         <script type="text/javascript"  src="{% static 'js/bootstrap.bundle.min.js' %}"></script>

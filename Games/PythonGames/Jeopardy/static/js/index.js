@@ -22,16 +22,11 @@ function ShowQuestion(QuestionID){
             break;
         }
     }
-    $( "#dialog" ).addClass("QuestionDialog")
-    // questionAnswers.forEach(element => {
-    //     if(element.ID == QuestionID){
-            
-    //     }
-    // });
+    //$( "#dialog" ).addClass("QuestionDialog")
     $("#Question").text(question);
     $("#Answer").text(answer);
     $("#Value").text(value);
-    //RunTimer();
+
 }
 function RunTimer(){
     $("#progressBar").show();
@@ -69,33 +64,48 @@ function RunTimer(){
     }, 1000);
     //$("#progressBar").hide();
 }
-function LoadGame(){
-    htmlTable += '<table class="table table-bordered"><tr>';//'
-    for(let a = 0; a < mydata.length; a++){
-        console.log(mydata[a].category)
-        htmlTable+= '<td class="categoryHeader">'+mydata[a].category+'</td>'
+function LoadGame(GameData){
+
+    htmlTable += '<table class="table table-bordered"><tr>';    
+    for(let a = 0; a < GameData.DataSet.length; a++){
+        console.log(GameData.DataSet[a].category)
+        htmlTable+= '<td class="categoryHeader">'+GameData.DataSet[a].category+'</td>'
     }
+    
     htmlTable +='</tr>';
     let counter = 4;
     for(let a = 0; a < counter; a++){
         htmlTable +='<tr>'
-        for(let b = 0; b < mydata.length; b++){
+        for(let b = 0; b < GameData.DataSet.length; b++){
             const qa = new Object();
-            qa.ID       = mydata[b].QuestionAnswer[a].ID;
-            qa.Question = mydata[b].QuestionAnswer[a].Question;
-            qa.Value    = mydata[b].QuestionAnswer[a].Value;
-            qa.Answer   = mydata[b].QuestionAnswer[a].Answer;
+            qa.ID       = GameData.DataSet[b].QuestionAnswer[a].ID;
+            qa.Question = GameData.DataSet[b].QuestionAnswer[a].Question;
+            qa.Value    = GameData.DataSet[b].QuestionAnswer[a].Value;
+            qa.Answer   = GameData.DataSet[b].QuestionAnswer[a].Answer;
             questionAnswers.push(qa);
-            htmlTable+= '<td class="ValuesRows"><button type = "button" id="'+mydata[b].QuestionAnswer[a].ID+'"  onclick="ShowQuestion(this.id);" class = "btn btn-link ValueBtn">'+mydata[b].QuestionAnswer[a].Value+'</button></td>' 
+            htmlTable+= '<td class="ValuesRows"><button type = "button" id="'+GameData.DataSet[b].QuestionAnswer[a].ID+'"  onclick="ShowQuestion(this.id);" class = "btn btn-link ValueBtn">'+GameData.DataSet[b].QuestionAnswer[a].Value+'</button></td>' 
         }
         htmlTable+='</tr>';
     }
+
     //collect all the question answers into a dictionary.
     htmlTable +='</table>'
     $("#GameTable").append(htmlTable)
+    $( ".ValueBtn" ).on( "click", function() {
+        console.log('here')
+        $( "#dialog" ).dialog( "open" );
+      });
+}
+
+function GetJeopardyGameData() {   
+    fetch('/gamedatas')
+    .then(response => response.json())
+    .then(data => {  LoadGame(data);  });
 }
 $(document).ready(function(){
-    LoadGame();
+ 
+    GetJeopardyGameData();
+    //LoadGame();
     console.log(questionAnswers);
     $( "#dialog" ).dialog({
         autoOpen: false,
@@ -132,7 +142,7 @@ $(document).ready(function(){
                     $("#Team1Score").removeClass("PositiveValue");
                 }
                 numberOfIncorrectAnswers = numberOfIncorrectAnswers +  1;
-                if(numberOfIncorrectAnswers == 2){
+                if(numberOfIncorrectAnswers == 3){
                     timeleft = 0;
                     console.log("Incorrect Team A")
                     $("#Answer").show();
@@ -176,9 +186,52 @@ $(document).ready(function(){
                     $("#Team2Score").removeClass("PositiveValue");
                 }
                 numberOfIncorrectAnswers = numberOfIncorrectAnswers +  1;
-                if(numberOfIncorrectAnswers == 2){
+                if(numberOfIncorrectAnswers == 3){
                     timeleft = 0;
                     console.log("Incorrect Team B")
+                    $("#Answer").show();
+                    let controlID = $("#QuestionID").val();
+                    $("#"+controlID+"").hide();
+                    setTimeout(() => {  $( this ).dialog( "close" ); }, 5000);
+                }else {
+                    RunTimer();
+                }
+
+                console.log("Number of incorrect answers:" + numberOfIncorrectAnswers);
+            },
+            "Team C - Correct": function(){
+                var teamValue = parseInt($("#Team3Score").text())
+                teamValue += parseInt($("#Value").text());
+                $("#Team3Score").text(teamValue);
+                if(teamValue > 0){
+                    $("#Team3Score").addClass("PositiveValue");
+                    $("#Team3Score").removeClass("NegativeValue");
+                }
+                else {
+                    $("#Team3Score").addClass("NegativeValue");
+                    $("#Team3Score").removeClass("PositiveValue");
+                }
+                $("#Answer").show();
+                let controlID = $("#QuestionID").val();
+                $("#"+controlID+"").hide();
+                setTimeout(() => {  $( this ).dialog( "close" ); }, 5000);
+            },
+            "Team C - Incorrect": function(){
+                var teamValue = parseInt($("#Team3Score").text())
+                teamValue -= parseInt($("#Value").text());
+                $("#Team3Score").text(teamValue);
+                if(teamValue > 0){
+                    $("#Team3Score").addClass("PositiveValue");
+                    $("#Team3Score").removeClass("NegativeValue");
+                }
+                else {
+                    $("#Team3Score").addClass("NegativeValue");
+                    $("#Team3Score").removeClass("PositiveValue");
+                }
+                numberOfIncorrectAnswers = numberOfIncorrectAnswers +  1;
+                if(numberOfIncorrectAnswers == 3){
+                    timeleft = 0;
+                    console.log("Incorrect Team C")
                     $("#Answer").show();
                     let controlID = $("#QuestionID").val();
                     $("#"+controlID+"").hide();
@@ -194,13 +247,11 @@ $(document).ready(function(){
                 let controlID = $("#QuestionID").val();
                 $("#"+controlID+"").hide();
                 setTimeout(() => {  $( this ).dialog( "close" ); }, 10000);
-            },
+            }
             
         },
         show: { effect: "blind", duration: 1000 },
         hide: { effect: "blind", duration: 1000 }
       });
-      $( ".ValueBtn" ).on( "click", function() {
-        $( "#dialog" ).dialog( "open" );
-      });
+ 
 })

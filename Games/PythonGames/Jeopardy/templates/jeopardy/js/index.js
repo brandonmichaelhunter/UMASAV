@@ -69,7 +69,16 @@ function RunTimer(){
     }, 1000);
     //$("#progressBar").hide();
 }
+function showSection() {   
+    fetch('/gamedatas')
+    .then(response => response.text())
+    .then(text => { console.log("Data"+text);  });
+}
+
+
+
 function LoadGame(){
+    showSection()
     htmlTable += '<table class="table table-bordered"><tr>';//'
     for(let a = 0; a < mydata.length; a++){
         console.log(mydata[a].category)
@@ -94,12 +103,22 @@ function LoadGame(){
     htmlTable +='</table>'
     $("#GameTable").append(htmlTable)
 }
+function splash(param) {
+    var time = param;
+    setTimeout(function () {
+      $('#splashscreen').hide();
+    }, time);
+   }
 $(document).ready(function(){
+   document.getElementById("link_id").addEventListener("click", function () {
+        document.getElementById("linkAudio").play();
+      }); 
+      
     LoadGame();
     console.log(questionAnswers);
     $( "#dialog" ).dialog({
         autoOpen: false,
-        width: 750,
+        width: 800,
         height: 400,
         buttons: {
             "Team A - Correct": function(){
@@ -163,7 +182,7 @@ $(document).ready(function(){
                 $("#"+controlID+"").hide();
                 setTimeout(() => {  $( this ).dialog( "close" ); }, 5000);
             },
-            "Team B - Incorrect": function(){
+            "Team Bt - Incorrect": function(){
                 var teamValue = parseInt($("#Team2Score").text())
                 teamValue -= parseInt($("#Value").text());
                 $("#Team2Score").text(teamValue);
@@ -179,6 +198,49 @@ $(document).ready(function(){
                 if(numberOfIncorrectAnswers == 2){
                     timeleft = 0;
                     console.log("Incorrect Team B")
+                    $("#Answer").show();
+                    let controlID = $("#QuestionID").val();
+                    $("#"+controlID+"").hide();
+                    setTimeout(() => {  $( this ).dialog( "close" ); }, 5000);
+                }else {
+                    RunTimer();
+                }
+
+                console.log("Number of incorrect answers:" + numberOfIncorrectAnswers);
+            },
+            "Team C - Correct": function(){
+                var teamValue = parseInt($("#Team3Score").text())
+                teamValue += parseInt($("#Value").text());
+                $("#Team3Score").text(teamValue);
+                if(teamValue > 0){
+                    $("#Team3Score").addClass("PositiveValue");
+                    $("#Team3Score").removeClass("NegativeValue");
+                }
+                else {
+                    $("#Team3Score").addClass("NegativeValue");
+                    $("#Team3Score").removeClass("PositiveValue");
+                }
+                $("#Answer").show();
+                let controlID = $("#QuestionID").val();
+                $("#"+controlID+"").hide();
+                setTimeout(() => {  $( this ).dialog( "close" ); }, 5000);
+            },
+            "Team C - Incorrect": function(){
+                var teamValue = parseInt($("#Team3Score").text())
+                teamValue -= parseInt($("#Value").text());
+                $("#Team3Score").text(teamValue);
+                if(teamValue > 0){
+                    $("#Team3Score").addClass("PositiveValue");
+                    $("#Team3Score").removeClass("NegativeValue");
+                }
+                else {
+                    $("#Team3Score").addClass("NegativeValue");
+                    $("#Team3Score").removeClass("PositiveValue");
+                }
+                numberOfIncorrectAnswers = numberOfIncorrectAnswers +  1;
+                if(numberOfIncorrectAnswers == 2){
+                    timeleft = 0;
+                    console.log("Incorrect Team C")
                     $("#Answer").show();
                     let controlID = $("#QuestionID").val();
                     $("#"+controlID+"").hide();
